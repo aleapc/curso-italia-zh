@@ -1,0 +1,92 @@
+{
+  "id": "q-i02",
+  "nivel": "intermediario",
+  "titulo": "测验 — 柜台前的先后顺序",
+  "subtitulo": "没有排队，却也不混乱",
+  "introAudioKey": "it-i02-q-i",
+  "introPt": "一位旅行者按到达的先后顺序被招呼到。",
+  "cenario": "早餐时段一家繁忙的酒吧。",
+  "dialogo": [
+    {
+      "audioKey": "it-i02-q01",
+      "voz": "target_it_m",
+      "es": "Prego? A chi tocca?",
+      "pt": "请说？轮到谁了？"
+    },
+    {
+      "audioKey": "it-i02-q02",
+      "voz": "target_it_f",
+      "es": "A me, grazie. Un caffè e un cornetto.",
+      "pt": "轮到我，谢谢。一杯咖啡和一个牛角包。"
+    },
+    {
+      "audioKey": "it-i02-q03",
+      "voz": "target_it_f",
+      "es": "Si paga prima alla cassa?",
+      "pt": "要先在收银台付款吗？"
+    },
+    {
+      "audioKey": "it-i02-q04",
+      "voz": "target_it_m",
+      "es": "Sì, poi porta lo scontrino qui al banco.",
+      "pt": "是的，然后把小票拿到这边柜台。"
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "A chi tocca? —— 你怎么回答？",
+      "opcoes": [
+        "什么都不说，等着",
+        "A me, grazie，然后立刻说出你要点的东西",
+        "抱歉",
+        "重复那个问题"
+      ],
+      "correta": 1,
+      "explica": "沉默会把你的位置让给别人。"
+    },
+    {
+      "pergunta": "为什么后到的人反而先被招呼？",
+      "opcoes": [
+        "无礼",
+        "招呼靠的是距离和眼神接触，而不是排队",
+        "他们是常客",
+        "他们付得更多"
+      ],
+      "correta": 1,
+      "explica": "往后站会被读作还没准备好。"
+    },
+    {
+      "pergunta": "是先付还是后付？",
+      "opcoes": [
+        "总是先付",
+        "总是后付",
+        "视情况而定——问一句，或看看你前面的人怎么做",
+        "只有付现金时"
+      ],
+      "correta": 2,
+      "explica": "站在门口是没法看出来的。"
+    },
+    {
+      "pergunta": "十一点后不喝卡布奇诺这条规矩：",
+      "opcoes": [
+        "被严格执行",
+        "是一个真实存在的习惯，但没有规定、拒绝或惩罚",
+        "完全是无稽之谈",
+        "只适用于罗马"
+      ],
+      "correta": 1,
+      "explica": "知道有这个习惯，和遵守它是两回事。"
+    },
+    {
+      "pergunta": "这种不排队的做法在哪里不适用？",
+      "opcoes": [
+        "在所有适用的地方",
+        "有叫号机的地方——药店、熟食店、邮局",
+        "只在南方",
+        "在酒店"
+      ],
+      "correta": 1,
+      "explica": "无视一个有号码的队伍是真的无礼。"
+    }
+  ]
+}

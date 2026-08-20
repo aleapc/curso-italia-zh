@@ -1,0 +1,261 @@
+{
+  "id": "i03",
+  "nivel": "intermediario",
+  "numero": 21,
+  "parte": "I03",
+  "titulo": "那道你本来永远不会点的菜",
+  "subtitulo": "Cosa mi consiglia 是通往厨房真正引以为豪那道菜的最短路径",
+  "cena": "菜单上有四十道菜，你认得六道，而你正打算连着第四晚点那第六道。",
+  "moldura": "ganha",
+  "frasePiso": "别再看菜单了。去问那个知道今早进了什么货的人。",
+  "decisao": "点这家店推荐的菜，而不是你已经认得的那道，这就是“在意大利吃饭”和“吃你在家也会吃的东西”之间的差别",
+  "moldes": [],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "it-i03-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "pt": "连着四晚吃你早就认识的那道菜，是在一个极其会吃的国家里吃得糟糕的最常见方式。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "it-i03-n02",
+      "bloco": "corpo",
+      "pt": "一句话就能解决。Cosa mi consiglia——你推荐什么。在你看任何东西之前先问它。"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_it_f",
+      "audioKey": "it-i03-t01",
+      "es": "Cosa mi consiglia?",
+      "pinyin": "KO-za mee kon-SEE-lya",
+      "pt": "你推荐什么？",
+      "tts": "Cosa mi consiglia?"
+    },
+    {
+      "consulta": [
+        "comer/escolher",
+        "comer/pedido"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "it-i03-p01",
+      "promptPt": "把菜单放下，问出来。现在说。",
+      "audioKey": "it-i03-t01",
+      "es": "Cosa mi consiglia?",
+      "pinyin": "KO-za mee kon-SEE-lya",
+      "pt": "你推荐什么？"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_it_m",
+      "audioKey": "it-i03-r01",
+      "receptivo": true,
+      "acao": "选他们说出的第一样。那就是厨房今天引以为豪的那道。",
+      "es": "Oggi abbiamo i carciofi. Li facciamo alla giudia.",
+      "pt": "今天我们有洋蓟。我们做犹太式的。",
+      "tts": "Oggi abbiamo i carciofi. Li facciamo alla giudia."
+    },
+    {
+      "consulta": [
+        "comer/escolher"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "it-i03-p02",
+      "promptPt": "接受推荐，别再追问三个问题。现在说。",
+      "audioKey": "it-i03-t02",
+      "es": "Allora prendo quello, mi fido.",
+      "pinyin": "al-LO-ra PREN-do KWEL-lo, mee FEE-do",
+      "pt": "那我就要那个，我信你。",
+      "tts": "Allora prendo quello, mi fido."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "it-i03-n03",
+      "pt": "Mi fido——我信你——就是这两个字，改变了你这顿饭接下来得到的答案。"
+    },
+    {
+      "consulta": [
+        "comer/escolher"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "molde": "C-E",
+      "encaixe": "un piatto tipico di qui",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "it-i03-p03",
+      "promptPt": "用 B08 的句型，专门问本地菜。现在说。",
+      "audioKey": "it-i03-t03",
+      "es": "C'è un piatto tipico di qui?",
+      "pinyin": "cheh oon pee-AT-to TEE-pee-ko dee kwee",
+      "pt": "有没有这里的特色菜？",
+      "tts": "C'è un piatto tipico di qui?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "it-i03-n04",
+      "bloco": "capsula",
+      "pt": "菜单是按道分的：前菜、第一道、第二道、配菜、甜点。你不用全部都点，而且几乎没人全点。"
+    },
+    {
+      "consulta": [
+        "comer/pedido"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "it-i03-p04",
+      "promptPt": "点两道菜并说明白，这样别的就不会上来。现在说。",
+      "audioKey": "it-i03-t04",
+      "es": "Solo un primo e un contorno, grazie.",
+      "pinyin": "SO-lo oon PREE-mo eh oon kon-TOR-no, GRA-tsee-eh",
+      "pt": "只要一道第一道菜和一份配菜，谢谢。",
+      "tts": "Solo un primo e un contorno, grazie."
+    },
+    {
+      "consulta": [
+        "comer/escolher",
+        "comer/pedido"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "it-i03-p05",
+      "promptPt": "问问今日菜是什么——那道没印在菜单上的。现在说。",
+      "audioKey": "it-i03-t05",
+      "es": "Qual è il piatto del giorno?",
+      "pinyin": "kwal eh eel pee-AT-to del JOR-no",
+      "pt": "今日菜是什么？",
+      "tts": "Qual è il piatto del giorno?"
+    },
+    {
+      "consulta": [
+        "comer/escolher"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "it-i03-p06",
+      "promptPt": "你不认识菜单上的一个词。别道歉，问出来。现在说。",
+      "audioKey": "it-i03-t06",
+      "es": "Scusi, cos'è questo?",
+      "pinyin": "SKOO-zee, ko-ZEH KWES-to",
+      "pt": "不好意思，这是什么？",
+      "tts": "Scusi, cos'è questo?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_it_m",
+      "audioKey": "it-i03-r02",
+      "receptivo": true,
+      "acao": "如果是内脏或不熟悉的东西，那是信息，不是警告。做决定，别退缩。",
+      "es": "È la trippa. Piatto povero, ma buonissimo.",
+      "pt": "是牛肚。穷人的菜，但特别好吃。",
+      "tts": "È la trippa. Piatto povero, ma buonissimo."
+    },
+    {
+      "consulta": [
+        "comer/bebida"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "it-i03-p07",
+      "promptPt": "让他们连酒也帮你挑。要那款店里的酒。现在说。",
+      "audioKey": "it-i03-t07",
+      "es": "Un quarto di vino della casa, rosso.",
+      "pinyin": "oon KWAR-to dee VEE-no DEL-la KA-za, ROS-so",
+      "pt": "四分之一升店里的红葡萄酒。",
+      "tts": "Un quarto di vino della casa, rosso."
+    },
+    {
+      "consulta": [
+        "comer/pedido"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "it-i03-p08",
+      "promptPt": "他们问起甜点。问问哪些是店里自制的。现在说。",
+      "audioKey": "it-i03-t08",
+      "es": "Il dolce lo fate voi?",
+      "pinyin": "eel DOL-che lo FA-te voy",
+      "pt": "甜点是你们自己做的吗？",
+      "tts": "Il dolce lo fate voi?"
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_it_f",
+      "audioKey": "it-i03-s01",
+      "es": "Cosa mi consiglia? Allora prendo quello, mi fido. Un quarto di vino della casa, rosso.",
+      "pinyin": "KO-za mee kon-SEE-lya. al-LO-ra PREN-do KWEL-lo mee FEE-do. oon KWAR-to dee VEE-no DEL-la KA-za ROS-so",
+      "pt": "跟读这次交接：问、接受，然后让他们挑酒。",
+      "tts": "Cosa mi consiglia? Allora prendo quello, mi fido. Un quarto di vino della casa, rosso.",
+      "molde": "C-E"
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_en_us_f",
+      "audioKey": "it-i03-n05",
+      "bloco": "recap",
+      "pt": "I03 完成。Cosa mi consiglia、mi fido，还有店里的酒——三招把这顿饭交给一个懂行的人。"
+    }
+  ],
+  "aprofundar": {
+    "titulo": "把决定权交出去",
+    "secoes": [
+      {
+        "titulo": "先 Cosa mi consiglia，再 mi fido",
+        "corpo": "第一句得到一个推荐；第二句得到那个好的。不讨价还价地接受，传递出你不会是个难缠的客人，而端上来的东西的品质会反映这一点。",
+        "exemplos": [
+          {
+            "es": "Cosa mi consiglia?",
+            "pt": "你推荐什么？"
+          },
+          {
+            "es": "Allora prendo quello, mi fido.",
+            "pt": "那我就要那个，我信你。"
+          }
+        ]
+      },
+      {
+        "titulo": "你不用每道都点",
+        "corpo": "前菜、第一道、第二道、配菜、甜点是完整结构，不是期望的点单顺序。一道第一道菜加一份配菜是完全正常的一顿饭，而事先说清你要哪几道，就能阻止其余的端上来。"
+      },
+      {
+        "titulo": "旅游菜单在传递什么信号",
+        "corpo": "一份固定的多语言配照片菜单、从披萨到意面到寿司到汉堡一应俱全的品类、以及有人在人行道上招揽你进店，这些都是一家“围绕再也不见你而建”的店的记录在案的标志。注意，menù del giorno（今日套餐）是完全不同的东西，是好兆头。正面的反向信号是：一份用意大利语写的菜单，有时带方言词，列的是地方菜而不是全国名菜精选。"
+      },
+      {
+        "titulo": "Vino della casa",
+        "corpo": "按四分之一升、半升或一升卖的店家酒很正常，通常就是这家店自己在喝的本地酒。点它不是降格——在普通的小餐馆里，它往往比酒单上最便宜的那瓶更明智。"
+      }
+    ]
+  },
+  "slot": "I03",
+  "permissao": "你有权承认你不知道菜单上某样东西是什么。Scusi, cos'è questo 几乎每次都能换来一个热情的解答——那道没人给你解释的菜，正是你回家后从没吃到的那道。",
+  "permissaoAudioKey": "it-i03-n02",
+  "espelho": "任何人只要在外国菜单上连着四晚点那唯一认得的一样，就完全懂跳过这部分的代价。这不是对食物的谨慎——而是开口去问的那点小力气，高过了指着你认得的东西的力气。",
+  "fichasCulturais": [
+    {
+      "sinal": "你请对方推荐，服务员立刻说出一道菜，没给任何别的选择。",
+      "suaLeitura": "他们在推销今晚需要卖掉的东西。",
+      "oQueEAli": "一个自信的答案通常意味着今天有个正确答案——某样新鲜进货的东西，或这家厨房出名的那道菜。给你一长串选项才是更商业化的回应，而不是更短的那个。",
+      "oQueVoceFaz": "接受它，说 mi fido。如果你确实吃不了，说出理由，而不是要那份清单。",
+      "oQueMelhora": "你在到店那晚吃到这家店做得最好的东西，而那是任何价位都无法从菜单上得知的。",
+      "ondeNaoVale": "在那种用四种语言给每桌都推荐同样一道菜的店里不适用——那里的自信是一套台词，而印刷菜单反倒是更诚实的文件。",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "it-i03-n03"
+      ]
+    }
+  ]
+}

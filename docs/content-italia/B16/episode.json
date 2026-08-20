@@ -1,0 +1,279 @@
+{
+  "id": "b16",
+  "nivel": "basico",
+  "numero": 16,
+  "parte": "6A",
+  "titulo": "入住：趁开口还不要钱的时候，问那些能让房间更好的事",
+  "subtitulo": "更高的楼层、更安静的房间、更晚的退房——在前台问，趁答案还不用付代价",
+  "cena": "你站在前台，钥匙已在手里，还有三十秒，这段对话就要在接下来一整周里画上句号。",
+  "moldura": "ganha",
+  "frasePiso": "让房间更好的最佳时机，是在你还没看到它之前。过了这个点，你就是在投诉，而不是在请求。",
+  "moldes": [],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "it-b16-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "pt": "入住是三十秒，一切都还能调整。把这三十秒用来请求，而不是确认你已经订好的东西。"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_it_m",
+      "audioKey": "it-b16-r01",
+      "es": "Buonasera, ha una prenotazione?",
+      "pt": "晚上好，您有预订吗？",
+      "tts": "Buonasera, ha una prenotazione?"
+    },
+    {
+      "consulta": [
+        "dormir/checkin",
+        "antes/reserva"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "it-b16-p01",
+      "promptPt": "简短地确认预订，报上名字。现在开口。",
+      "audioKey": "it-b16-t01",
+      "es": "Sì, ho una prenotazione a nome Rossi.",
+      "pinyin": "see, oh OO-na pre-no-ta-tsee-O-ne a NO-me ROS-see",
+      "pt": "是的，我有一个预订，名字是罗西。",
+      "tts": "Sì, ho una prenotazione a nome Rossi."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "it-b16-n02",
+      "bloco": "corpo",
+      "pt": "现在开口问。如果有空房，安静一点的房间对酒店毫无成本；而你要是不问，代价就是一周的睡眠。"
+    },
+    {
+      "consulta": [
+        "dormir/quarto"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "molde": "C-E",
+      "encaixe": "una camera più tranquilla",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "it-b16-p02",
+      "promptPt": "外面的街道很吵。用 B08 的句型问一下。现在开口。",
+      "audioKey": "it-b16-t02",
+      "es": "C'è una camera più tranquilla?",
+      "pinyin": "cheh OO-na KA-me-ra pyoo tran-KWEEL-la",
+      "pt": "有安静一点的房间吗？",
+      "tts": "C'è una camera più tranquilla?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_it_m",
+      "audioKey": "it-b16-r02",
+      "es": "Le do una all'ultimo piano, sul cortile.",
+      "pt": "我给您安排一间顶层的，朝内院。",
+      "tts": "Le do una all'ultimo piano, sul cortile.",
+      "receptivo": true,
+      "acao": "别犹豫，对朝内院的那侧说好。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "it-b16-n03",
+      "pt": "Camera 指的是房间，不是相机。Sul cortile 意思是朝内院，那几乎是任何意大利建筑里安静的一侧。"
+    },
+    {
+      "consulta": [
+        "dormir/checkout"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "molde": "POSSO",
+      "encaixe": "fare il check-out più tardi",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "it-b16-p03",
+      "promptPt": "你的航班在晚上。现在就问晚一点退房，别等到最后一天早上。现在开口。",
+      "audioKey": "it-b16-t03",
+      "es": "Posso fare il check-out più tardi?",
+      "pinyin": "POS-so FA-re eel chek-AUT pyoo TAR-dee",
+      "pt": "我可以晚一点退房吗？",
+      "tts": "Posso fare il check-out più tardi?"
+    },
+    {
+      "consulta": [
+        "dormir/cafe"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "it-b16-p04",
+      "promptPt": "问问早餐几点，免得第一天就错过。现在开口。",
+      "audioKey": "it-b16-t04",
+      "es": "A che ora è la colazione?",
+      "pinyin": "a keh O-ra eh la ko-la-tsee-O-ne",
+      "pt": "早餐几点？",
+      "tts": "A che ora è la colazione?",
+      "molde": "A-CHE-ORA",
+      "encaixe": "è la colazione"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "it-b16-n04",
+      "bloco": "capsula",
+      "pt": "现在才轮到投诉。说出坏掉的那样东西，然后停住——不加形容词、不道歉、不讲来龙去脉。"
+    },
+    {
+      "consulta": [
+        "dormir/problema"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "it-b16-p05",
+      "promptPt": "空调彻底不动了。直接说出来。现在开口。",
+      "audioKey": "it-b16-t05",
+      "es": "L'aria condizionata non funziona.",
+      "pinyin": "LA-rya kon-dee-tsyo-NA-ta non foon-tsee-O-na",
+      "pt": "空调坏了。",
+      "tts": "L'aria condizionata non funziona."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "it-b16-n05",
+      "pt": "Non funziona 就是完整的投诉。换掉前面的名词，它就能覆盖淋浴、wifi、电梯、钥匙。"
+    },
+    {
+      "consulta": [
+        "dormir/problema",
+        "chegar/conexao"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "it-b16-p06",
+      "promptPt": "同一个句子，换个名词：wifi。现在开口。",
+      "audioKey": "it-b16-t06",
+      "es": "Il wifi non funziona.",
+      "pinyin": "eel WEE-fee non foon-tsee-O-na",
+      "pt": "wifi 用不了。",
+      "tts": "Il wifi non funziona."
+    },
+    {
+      "consulta": [
+        "dormir/problema"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "molde": "MI-PORTA",
+      "encaixe": "un'altra coperta",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "it-b16-p07",
+      "promptPt": "房间很冷。用 B14 的句型再要一条毯子。现在开口。",
+      "audioKey": "it-b16-t07",
+      "es": "Mi porta un'altra coperta, per favore?",
+      "pinyin": "mee POR-ta oo-NAL-tra ko-PER-ta per fa-VO-re",
+      "pt": "请再给我拿一条毯子，好吗？",
+      "tts": "Mi porta un'altra coperta, per favore?"
+    },
+    {
+      "consulta": [
+        "dormir/bagagem",
+        "reparo/permissao"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "molde": "POSSO",
+      "encaixe": "lasciare le valigie",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "it-b16-p08",
+      "promptPt": "你到得比房间准备好还早。问问行李的事。现在开口。",
+      "audioKey": "it-b16-t08",
+      "es": "Posso lasciare le valigie qui?",
+      "pinyin": "POS-so la-SHA-re le va-LEE-je kwee",
+      "pt": "我可以把行李寄放在这里吗？",
+      "tts": "Posso lasciare le valigie qui?"
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_it_f",
+      "audioKey": "it-b16-s01",
+      "es": "C'è una camera più tranquilla? Posso fare il check-out più tardi? L'aria condizionata non funziona.",
+      "pinyin": "cheh OO-na KA-me-ra pyoo tran-KWEEL-la. POS-so FA-re eel chek-AUT pyoo TAR-dee. LA-rya kon-dee-tsyo-NA-ta non foon-tsee-O-na",
+      "pt": "按顺序跟读：请求、请求，然后报告。",
+      "tts": "C'è una camera più tranquilla? Posso fare il check-out più tardi? L'aria condizionata non funziona.",
+      "molde": "POSSO"
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_en_us_f",
+      "audioKey": "it-b16-n06",
+      "bloco": "recap",
+      "pt": "B16 完成。先要安静一点的房间和晚一点的退房。Non funziona 能应付之后一切坏掉的东西。"
+    }
+  ],
+  "aprofundar": {
+    "titulo": "早点开口，平实报告",
+    "secoes": [
+      {
+        "titulo": "为什么前台就是那个时机",
+        "corpo": "入住时，工作人员正在分配房间，手上有选择余地。一个小时后，同样的请求意味着推翻他们已经做出的决定，那是另一场对话，答应的概率也更低。"
+      },
+      {
+        "titulo": "Non funziona 加上名词",
+        "corpo": "淋浴、电梯、钥匙、电视。一个结构就覆盖了楼里所有坏掉的东西，而且完全不需要你知道“哪里出了问题”的那个动词。",
+        "exemplos": [
+          {
+            "es": "La doccia non funziona.",
+            "pt": "淋浴坏了。"
+          },
+          {
+            "es": "L'ascensore non funziona.",
+            "pt": "电梯坏了。"
+          }
+        ]
+      },
+      {
+        "titulo": "Sul cortile 是安静的一侧",
+        "corpo": "意大利城市的建筑通常围绕一个内院而建，朝内院的房间比临街的要安静得多。要“朝内院那侧”比要“安静”更精准。"
+      },
+      {
+        "titulo": "旅游税是另算的",
+        "corpo": "大多数意大利城市按每人每晚收取 tassa di soggiorno，在住宿处收取，常常是现金，通常不包含在你网上付的钱里。这不是账单出错——税率和减免由每个 comune（市镇）自行规定。"
+      }
+    ]
+  },
+  "slot": "B16",
+  "permissao": "你有权在入住时要一间更好的房间。问有没有更安静的、更高层的，或者能不能晚点退房，都是再正常不过的前台对话——而且远比第三天才去换房尴尬得多。",
+  "permissaoAudioKey": "it-b16-n01",
+  "espelho": "凡是曾在一间朝着卸货区的房间里住过一周、每天早上都在想“第一晚就该说点什么”的人，都已经懂了这一课。开口的窗口到处都很短，不只是在意大利。",
+  "fichasCulturais": [
+    {
+      "sinal": "退房时，除了你网上已经付过的一切，还被要求按每人每晚交几欧元的现金。",
+      "suaLeitura": "他们在最后一刻加收一笔费用，趁我没法轻易争辩。",
+      "oQueEAli": "大多数意大利城市征收 tassa di soggiorno，一种由住宿处代 comune（市镇）收取的市政旅游税。预订平台常常把它排除在预付总额之外，所以它确实不在你付过的钱里。",
+      "oQueVoceFaz": "留些现金付它，并在入住时问 quanto è la tassa di soggiorno？，让这个数字在第一天就清楚，而不是第七天。",
+      "oQueMelhora": "最后一天早上不会再有意外，你也不用在出租车等着时到处找取款机。",
+      "ondeNaoVale": "并非到处都有——有些 comune 不征收，税率因城市和酒店档次而异，低于当地规定年龄的儿童通常免征。别想当然，直接问金额。",
+      "evidencia": "FATO",
+      "audioKeys": [
+        "it-b16-n01"
+      ]
+    }
+  ],
+  "fatosDatados": [
+    {
+      "id": "it-tassa-soggiorno",
+      "afirmacao": "大多数意大利市镇征收 tassa di soggiorno，一种由住宿处代 comune（市镇）收取的每人每晚旅游税。它由地方设定，因城市和住宿档次而异，常被排除在预订平台的预付总额之外，且往往在住宿处以现金收取。低于 comune 规定年龄的儿童通常适用地方性减免。",
+      "fonte": "Ministero dell'Economia e delle Finanze — imposta di soggiorno, quadro normativo; regolamenti comunali (Roma, Firenze, Venezia)",
+      "ano": 2026,
+      "revisarAte": "2027-08-04",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": [
+        "it-b16-n01"
+      ]
+    }
+  ]
+}

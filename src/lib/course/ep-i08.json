@@ -1,0 +1,295 @@
+{
+  "id": "i08",
+  "nivel": "intermediario",
+  "numero": 26,
+  "parte": "I08",
+  "titulo": "被请到别人家里",
+  "subtitulo": "带什么、坐哪里、那句固定格式的祝酒词，以及离开不再失礼的那个时辰",
+  "cena": "一个你三天前才认识的人请你周日去吃午饭，而你对这其中的任何一部分都毫无头绪。",
+  "moldura": "ganha",
+  "frasePiso": "带点东西给餐桌，等着被安排座位，用固定格式举杯，咖啡喝完就离开。",
+  "decisao": "接受邀请、手里带着对的东西前往，而不是因为不懂意大利人家的规矩而推辞",
+  "moldes": [],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "it-i08-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "pt": "被请到家里是这趟旅行能发生的最好的事，而推辞的唯一理由就是不懂它怎么运作。"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_it_m",
+      "audioKey": "it-i08-r01",
+      "receptivo": true,
+      "acao": "现在就说好。细节之后再弄清楚。",
+      "es": "Domenica venite a pranzo da noi. Alle una.",
+      "pt": "周日来我们家吃午饭。一点。",
+      "tts": "Domenica venite a pranzo da noi. Alle una."
+    },
+    {
+      "consulta": [
+        "conversa/convite"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "it-i08-p01",
+      "promptPt": "热情而立刻地接受。现在说。",
+      "audioKey": "it-i08-t01",
+      "es": "Con molto piacere, grazie dell'invito.",
+      "pinyin": "kon MOL-to pya-CHE-re, GRA-tsee-eh del-leen-VEE-to",
+      "pt": "非常乐意，谢谢您的邀请。",
+      "tts": "Con molto piacere, grazie dell'invito."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "it-i08-n02",
+      "bloco": "corpo",
+      "pt": "然后问该带什么。答案通常是“什么都不用”，而你还是带点东西——这一来一往本身就是礼数的一部分。"
+    },
+    {
+      "consulta": [
+        "conversa/convite"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "it-i08-p02",
+      "promptPt": "问你可以带什么。现在说。",
+      "audioKey": "it-i08-t02",
+      "es": "Cosa posso portare?",
+      "pinyin": "KO-za POS-so por-TA-re",
+      "pt": "我可以带什么？",
+      "tts": "Cosa posso portare?",
+      "molde": "POSSO",
+      "encaixe": "portare"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_it_m",
+      "audioKey": "it-i08-r02",
+      "es": "Ma niente, che dice! Portate solo voi stessi.",
+      "pt": "什么都不用，说什么呢！你们人来就好。",
+      "tts": "Ma niente, che dice! Portate solo voi stessi."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "it-i08-n03",
+      "pt": "那不是一句指示。从一家好糕点店带甜点，或带花，或带酒——带点给餐桌的东西。"
+    },
+    {
+      "consulta": [
+        "conversa/convite",
+        "comprar/presente"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "it-i08-p03",
+      "promptPt": "你到了，手里拿着东西。递过去。现在说。",
+      "audioKey": "it-i08-t03",
+      "es": "Ho portato il dolce, spero vada bene.",
+      "pinyin": "oh por-TA-to eel DOL-che, SPE-ro VA-da BEH-ne",
+      "pt": "我带了甜点，希望合适。",
+      "tts": "Ho portato il dolce, spero vada bene.",
+      "molde": "HO-FATTO",
+      "encaixe": "ho portato il dolce"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "it-i08-n04",
+      "bloco": "capsula",
+      "pt": "到了餐桌，等着被安排座位。意大利家庭餐桌上的座位不是随意的，会有人告诉你该坐哪儿。"
+    },
+    {
+      "consulta": [
+        "conversa/convite"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "it-i08-p04",
+      "promptPt": "问你该坐哪儿，而不是自己挑。现在说。",
+      "audioKey": "it-i08-t04",
+      "es": "Dove mi metto?",
+      "pinyin": "DO-ve mee MET-to",
+      "pt": "我该坐哪儿？",
+      "tts": "Dove mi metto?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "it-i08-n05",
+      "pt": "祝酒是一句固定格式，不是一段演讲。举杯，看着每个人的眼睛，cin cin 或 salute。就这么简单。"
+    },
+    {
+      "consulta": [
+        "conversa/brinde"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "it-i08-p05",
+      "promptPt": "举起你的杯子，说出那句格式。现在说。",
+      "audioKey": "it-i08-t05",
+      "es": "Cin cin! Alla salute!",
+      "pinyin": "cheen cheen! AL-la sa-LOO-te",
+      "pt": "干杯！祝健康！",
+      "tts": "Cin cin! Alla salute!"
+    },
+    {
+      "consulta": [
+        "comer/pedido",
+        "conversa/elogiar"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "it-i08-p06",
+      "promptPt": "点着菜名向掌勺的人赞美这食物。现在说。",
+      "audioKey": "it-i08-t06",
+      "es": "Questo sugo è una meraviglia.",
+      "pinyin": "KWES-to SOO-go eh OO-na me-ra-VEE-lya",
+      "pt": "这个酱汁简直是奇迹。",
+      "tts": "Questo sugo è una meraviglia."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_it_m",
+      "audioKey": "it-i08-r03",
+      "receptivo": true,
+      "acao": "再添一份就是赞美。取一小份，而不是断然拒绝。",
+      "es": "Ne prenda ancora un po', su. Ce n'è tanto.",
+      "pt": "再来一点吧，来嘛。还有很多。",
+      "tts": "Ne prenda ancora un po', su. Ce n'è tanto."
+    },
+    {
+      "consulta": [
+        "comer/pedido"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "it-i08-p07",
+      "promptPt": "接受一小份，并对你的极限诚实。现在说。",
+      "audioKey": "it-i08-t07",
+      "es": "Solo un pochino, grazie. È troppo buono.",
+      "pinyin": "SO-lo oon po-KEE-no, GRA-tsee-eh. eh TROP-po BWO-no",
+      "pt": "就一点点，谢谢。太好吃了。",
+      "tts": "Solo un pochino, grazie. È troppo buono."
+    },
+    {
+      "consulta": [
+        "conversa/despedir"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "it-i08-p08",
+      "promptPt": "咖啡喝完了，时候到了。好好地离开。现在说。",
+      "audioKey": "it-i08-t08",
+      "es": "Vi ringraziamo di cuore, è stato bellissimo.",
+      "pinyin": "vee reen-gra-TSYA-mo dee KWO-re, eh STA-to bel-LEES-see-mo",
+      "pt": "我们由衷地感谢你们，今天太美好了。",
+      "tts": "Vi ringraziamo di cuore, è stato bellissimo."
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_it_f",
+      "audioKey": "it-i08-s01",
+      "es": "Ho portato il dolce, spero vada bene. Dove mi metto? Cin cin! Vi ringraziamo di cuore.",
+      "pinyin": "oh por-TA-to eel DOL-che SPE-ro VA-da BEH-ne. DO-ve mee MET-to. cheen cheen. vee reen-gra-TSYA-mo dee KWO-re",
+      "pt": "跟读这条弧线：到达、就座、祝酒、离开。",
+      "tts": "Ho portato il dolce, spero vada bene. Dove mi metto? Cin cin! Vi ringraziamo di cuore.",
+      "molde": "POSSO"
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_en_us_f",
+      "audioKey": "it-i08-n06",
+      "bloco": "recap",
+      "pt": "I08 完成。说好、带点东西、等着被安排座位、举杯，咖啡喝完就走。"
+    }
+  ],
+  "aprofundar": {
+    "titulo": "一顿周日午餐的样子",
+    "secoes": [
+      {
+        "titulo": "Niente 的意思是带点东西",
+        "corpo": "对你提议的回绝是这来一往的一部分，而不是它的答案。酒适合任何场合，甜点是标配。花是唯一的陷阱：礼节说要提前送去，而不是在门口递上一束，因为主人得撇下迎宾去找花瓶。",
+        "exemplos": [
+          {
+            "es": "Cosa posso portare?",
+            "pt": "我可以带什么？"
+          },
+          {
+            "es": "Ho portato il dolce.",
+            "pt": "我带了甜点。"
+          }
+        ]
+      },
+      {
+        "titulo": "Cin cin，以及实际上有据可查的部分",
+        "corpo": "Cin cin 是你到处、从每个人口中都会听到的；它经由水手从汉语的“请请”进入意大利语。奇怪的是，这恰恰是礼仪学院不喜欢的那句格式——他们偏爱 alla salute——所以如果你听到有人纠正它，那是一种纯粹主义立场，而非规矩。有一条真正的民俗：用水碰杯被认为会带来霉运，那是水手的迷信。你也许读到过绝不能交叉手臂、必须始终对上每个人的眼睛；那些到处流传却无出处，所以本课程不教它们。"
+      },
+      {
+        "titulo": "午餐本就很长",
+        "corpo": "一顿周日午餐可以历经好几道菜、咖啡、以及往往还有饭后的东西，持续三四个小时。带着一个两小时后的硬性截止时间前往，意味着你会在这场活动的中途而不是结尾离开。"
+      },
+      {
+        "titulo": "咖啡就是那个信号",
+        "corpo": "一旦咖啡上过并喝完，离开就从“太早”变成了正常。礼仪指南把一顿工作日的非正式晚餐的结束时间定在十一点左右——但那是北方、工作日中段的框定，撑不过一顿九点半才开始的南方晚餐。咖啡是比时钟更通用的信号。"
+      }
+    ]
+  },
+  "slot": "I08",
+  "permissao": "你有权接受一个几乎不认识的人的邀请。被请上餐桌正是意大利式好客真正运作的方式，说好是意料之中的回答，而这趟旅行里“因为拿不准礼节而推辞”的那个版本，要逊色一大截。",
+  "permissaoAudioKey": "it-i08-n01",
+  "espelho": "任何人只要因为接受邻居的邀请感觉像强加于人而推辞过，就懂这个反射。这份犹豫与意大利无关——而是关乎于你是否相信那份邀请是出于礼貌，还是因为他们真心实意。",
+  "fichasCulturais": [
+    {
+      "sinal": "你吃饱了，对再添一份说了“不”，可食物还是不断被递上来——又三四次，很坚持。",
+      "suaLeitura": "他们没在听我说，而我为了礼貌只好吃下去。",
+      "oQueEAli": "在许多意大利家庭里，反复的劝食是好客本身在上演，而第一次的拒绝被读作客套而非决定。这份坚持是情谊，不是压力。",
+      "oQueVoceFaz": "取一点点象征性的量——solo un pochino——并把拒绝和赞美搭在一起。接受一点点，能以一个断然的“不”所不能的方式收住这来一往。",
+      "oQueMelhora": "你不再每隔十分钟就进行同样的拉锯，而主人得到了那份劝食真正在索求的认可。",
+      "ondeNaoVale": "当涉及过敏或真正的饮食限制时不适用——那种情况下，B13 的重锤句才管用，取一点点恰恰是错的做法。",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "it-i08-n05"
+      ]
+    }
+  ],
+  "fatosDatados": [
+    {
+      "id": "it-brindisi",
+      "afirmacao": "Cin cin 是近乎通用的非正式祝酒词，源自汉语的“请请”，由水手带入欧洲各港口。对它有争议的是规范性权威而非用法：意大利礼仪学院（Accademia Italiana di Galateo）建议不用它，偏爱「Alla salute!」。“用水碰杯会带来霉运”的说法是有据可查的水手迷信。未经证实：广为流传的“祝酒时绝不交叉手臂、始终保持眼神接触”的规矩——两者都找不到意大利来源，本课程不教它们。",
+      "fonte": "Callmewine — «Brindisi Cin Cin: significato ed etimologia»; Accademia Italiana di Galateo via Cookist — «Galateo del brindisi»; Il Post — «Alla salute!», 31 dicembre 2023",
+      "ano": 2026,
+      "revisarAte": "2028-08-05",
+      "evidencia": "CONSENSO",
+      "risco": "baixo",
+      "audioKeys": [
+        "it-i08-n05"
+      ]
+    },
+    {
+      "id": "it-cosa-portare",
+      "afirmacao": "意大利礼仪认为客人绝不空手到访。酒适合任何场合，包括正式晚宴；甜点是标配。花带有一条注意事项：礼节建议提前送去——午餐则上午中段，晚餐则下午——而不是在门口递上一束，因为主人随后就得停下迎客去找花瓶。对于非正式的工作日晚餐，礼节把离开时间定在十一点左右；那个框定是北方、工作日中段的，撑不过一顿九点半才开始的南方晚餐。",
+      "fonte": "Accademia Italiana Galateo — «Cosa portare quando sono invitato?»; Donna Moderna — «Galateo degli inviti a cena»; Elisa Motterle — «Il Bon Ton delle cene informali»",
+      "ano": 2026,
+      "revisarAte": "2028-08-05",
+      "evidencia": "CONSENSO",
+      "risco": "baixo",
+      "audioKeys": [
+        "it-i08-n03"
+      ]
+    }
+  ]
+}

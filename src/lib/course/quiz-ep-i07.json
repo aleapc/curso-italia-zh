@@ -1,0 +1,92 @@
+{
+  "id": "q-i07",
+  "nivel": "intermediario",
+  "titulo": "测验 — 能传到厨房的赞美",
+  "subtitulo": "两句话都需要一个名词",
+  "introAudioKey": "it-i07-q-i",
+  "introPt": "一位旅行者把赞美送进了厨房，还让一道凉了的菜被换掉了。",
+  "cenario": "在一家家庭经营的小餐馆吃到一半。",
+  "dialogo": [
+    {
+      "audioKey": "it-i07-q01",
+      "voz": "target_it_f",
+      "es": "La pasta era buonissima, complimenti al cuoco.",
+      "pt": "这意面太好吃了，向厨师致意。"
+    },
+    {
+      "audioKey": "it-i07-q02",
+      "voz": "target_it_m",
+      "es": "Glielo dico subito. È mia madre che cucina.",
+      "pt": "我马上告诉她。是我母亲掌勺。"
+    },
+    {
+      "audioKey": "it-i07-q03",
+      "voz": "target_it_f",
+      "es": "Scusi, questo è freddo.",
+      "pt": "不好意思，这个是凉的。"
+    },
+    {
+      "audioKey": "it-i07-q04",
+      "voz": "target_it_m",
+      "es": "Mi dispiace tantissimo, glielo cambio subito.",
+      "pt": "非常抱歉，我马上给您换。"
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "是什么让一句赞美能传到厨房？",
+      "opcoes": [
+        "音量",
+        "点出那道菜的名字",
+        "小费",
+        "用英语说"
+      ],
+      "correta": 1,
+      "explica": "Tutto buono 只是客套的噪音。"
+    },
+    {
+      "pergunta": "一句抱怨应该怎么组织？",
+      "opcoes": [
+        "先道歉，再说问题，再道一次歉",
+        "Scusi 加上事实，然后打住",
+        "长篇解释",
+        "写下来"
+      ],
+      "correta": 1,
+      "explica": "句子越短，解决得越快。"
+    },
+    {
+      "pergunta": "为什么过度道歉会适得其反？",
+      "opcoes": [
+        "它无礼",
+        "它把事实埋掉了，还透露出你预期会被为难",
+        "意大利人不喜欢道歉",
+        "它太正式"
+      ],
+      "correta": 1,
+      "explica": "一句平实、温和、就事论事的话会被读作正常。"
+    },
+    {
+      "pergunta": "Buonissimo、ottimo、squisito 是：",
+      "opcoes": [
+        "过头的说法",
+        "普通的词，都比“很好”更有分量",
+        "只用于正式场合",
+        "地方性说法"
+      ],
+      "correta": 1,
+      "explica": "这三个里任何一个都胜过“很好”。"
+    },
+    {
+      "pergunta": "最有力的赞美是：",
+      "opcoes": [
+        "Squisito",
+        "小费",
+        "说你还会再来",
+        "一条评价"
+      ],
+      "correta": 2,
+      "explica": "那些每周喂着同一批人的地方，是用回头客来衡量自己的手艺的。"
+    }
+  ]
+}

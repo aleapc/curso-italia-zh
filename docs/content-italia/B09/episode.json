@@ -1,0 +1,287 @@
+{
+  "id": "b09",
+  "nivel": "basico",
+  "numero": 9,
+  "parte": "3B",
+  "titulo": "会自己验票的车票，和不会的那种",
+  "subtitulo": "如今数字化的地区车票会自己激活——纸质票仍然需要机器，而人人挂在嘴边的那条建议已经有一半过时了",
+  "cena": "站台的显示屏说你的火车六分钟后发车，墙上有一台小小的绿色机器，你不确定它跟你有没有关系。",
+  "moldura": "ganha",
+  "frasePiso": "数字票会自己验票。纸质票需要机器。知道你手里拿的是哪一种，就是全部的本领。",
+  "moldes": [],
+  "fatosDatados": [
+    {
+      "id": "it-validazione-digitale",
+      "afirmacao": "数字地区车票（Biglietto Digitale Regionale）会在所选列车的预定发车时间自动激活——无需手动检票。一旦自动激活，就不能再改到别的日期或时间。检票时必须能在设备上出示二维码；出示不了的乘客可能被当作无有效车票乘车处理。",
+      "fonte": "Rail Europe Help — «Italian Regional Train Digital Tickets & QR Codes»; ItalyPlanner — «Italy Regional Trains Guide 2026»",
+      "ano": 2026,
+      "revisarAte": "2027-02-04",
+      "evidencia": "FATO",
+      "risco": "medio",
+      "audioKeys": [
+        "it-b09-n03"
+      ]
+    },
+    {
+      "id": "it-validazione-carta-multa",
+      "afirmacao": "纸质地区车票在上车前仍需在站台机器上打戳验证。持未验证的纸质票乘车会招致一张异议罚单（verbale di contestazione），最低罚款 50 欧元外加票价，若在五天内到 Trenitalia 办公室缴纳可减免。",
+      "fonte": "ItaliaRail — «What does it mean to validate a rail ticket»; ItalyPlanner — «Italy Regional Trains Guide 2026»",
+      "ano": 2026,
+      "revisarAte": "2027-02-04",
+      "evidencia": "CONSENSO",
+      "risco": "medio",
+      "audioKeys": [
+        "it-b09-n04"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "it-b09-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "pt": "每一本旅游指南都说，在意大利要给车票打戳。这条建议如今只对了一半，而知道是哪一半能帮你省下五十欧元。"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_it_m",
+      "audioKey": "it-b09-r01",
+      "es": "Il regionale per Firenze parte dal binario sette.",
+      "pt": "开往佛罗伦萨的地区列车从七号站台发车。",
+      "tts": "Il regionale per Firenze parte dal binario sette.",
+      "receptivo": true,
+      "acao": "去排任何队之前，先在显示屏上确认站台。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "it-b09-n02",
+      "bloco": "corpo",
+      "pt": "首先，按目的地买票。句型是 Un biglietto per，然后加城市名——这就是整笔交易。"
+    },
+    {
+      "consulta": [
+        "transporte/boleto",
+        "pagar/comprar"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "it-b09-p01",
+      "promptPt": "在售票窗口，买一张去佛罗伦萨的票。现在请说。",
+      "audioKey": "it-b09-t01",
+      "es": "Un biglietto per Firenze, per favore.",
+      "pinyin": "oon bee-LYET-to per fee-REN-tse per fa-VO-re",
+      "pt": "请给我一张去佛罗伦萨的票。",
+      "tts": "Un biglietto per Firenze, per favore."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "it-b09-n03",
+      "bloco": "capsula",
+      "pt": "如果是数字票，它会在你所选的发车时间自己验票。不用机器，不用打戳——但二维码必须能出示。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "it-b09-n04",
+      "pt": "如果是纸质票，老规矩依旧：上车前打戳。没打戳的纸质票要罚五十欧元外加票价。"
+    },
+    {
+      "consulta": [
+        "transporte/validar"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "it-b09-p02",
+      "promptPt": "你手里拿着一张纸质票，拿不准。问问需不需要打戳。现在请说。",
+      "audioKey": "it-b09-t02",
+      "es": "Devo convalidare il biglietto?",
+      "pinyin": "DEH-vo kon-va-lee-DA-re eel bee-LYET-to",
+      "pt": "我需要给车票打戳吗？",
+      "tts": "Devo convalidare il biglietto?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_it_m",
+      "audioKey": "it-b09-r02",
+      "es": "Sì, quello di carta sì. Alla macchinetta verde.",
+      "pt": "要，纸质的要。在那台绿色的小机器上。",
+      "tts": "Sì, quello di carta sì. Alla macchinetta verde."
+    },
+    {
+      "consulta": [
+        "transporte/validar",
+        "transporte/direcao"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "molde": "DOV-E",
+      "encaixe": "la macchinetta",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "it-b09-p03",
+      "promptPt": "现在去找那台机器。用 B07 里的句式。现在请说。",
+      "audioKey": "it-b09-t03",
+      "es": "Dov'è la macchinetta?",
+      "pinyin": "do-VEH la mak-kee-NET-ta",
+      "pt": "打戳机在哪里？",
+      "tts": "Dov'è la macchinetta?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "it-b09-n05",
+      "pt": "然后是站台。Binario 就是那个词，号码在显示屏上——你不必凭记忆说出来。"
+    },
+    {
+      "consulta": [
+        "transporte/anden",
+        "transporte/direcao"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "molde": "DOV-E",
+      "encaixe": "il binario sette",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "it-b09-p04",
+      "promptPt": "问一问七号站台在哪里。现在请说。",
+      "audioKey": "it-b09-t04",
+      "es": "Dov'è il binario sette?",
+      "pinyin": "do-VEH eel bee-NA-ryo SET-te",
+      "pt": "七号站台在哪里？",
+      "tts": "Dov'è il binario sette?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_it_m",
+      "audioKey": "it-b09-r03",
+      "es": "In fondo, a sinistra.",
+      "pt": "在最里头，左手边。",
+      "tts": "In fondo, a sinistra."
+    },
+    {
+      "consulta": [
+        "transporte/confirmar",
+        "transporte/destino"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "it-b09-p05",
+      "promptPt": "火车已经停在站台。上车前，确认一下它开往你以为的地方。现在请说。",
+      "audioKey": "it-b09-t05",
+      "es": "Questo treno va a Firenze?",
+      "pinyin": "KWES-to TREH-no va a fee-REN-tse",
+      "pt": "这趟火车去佛罗伦萨吗？",
+      "tts": "Questo treno va a Firenze?"
+    },
+    {
+      "consulta": [
+        "transporte/horario"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "it-b09-p06",
+      "promptPt": "问问它几点发车，好和你的票核对一下。现在请说。",
+      "audioKey": "it-b09-t06",
+      "es": "A che ora parte?",
+      "pinyin": "a keh O-ra PAR-te",
+      "pt": "它几点发车？",
+      "tts": "A che ora parte?",
+      "molde": "A-CHE-ORA",
+      "encaixe": "parte"
+    },
+    {
+      "consulta": [
+        "transporte/troca"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "it-b09-p07",
+      "promptPt": "问一问路上需不需要换乘。现在请说。",
+      "audioKey": "it-b09-t07",
+      "es": "Devo cambiare treno?",
+      "pinyin": "DEH-vo kam-bee-A-re TREH-no",
+      "pt": "我需要换乘火车吗？",
+      "tts": "Devo cambiare treno?"
+    },
+    {
+      "consulta": [
+        "transporte/boleto"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "it-b09-p08",
+      "promptPt": "检票员来了，你的手机却休眠了。说票在你手机上。现在请说。",
+      "audioKey": "it-b09-t08",
+      "es": "Il biglietto è sul telefono, un momento.",
+      "pinyin": "eel bee-LYET-to eh sool te-LE-fo-no, oon mo-MEN-to",
+      "pt": "票在我手机上，稍等一下。",
+      "tts": "Il biglietto è sul telefono, un momento."
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_it_f",
+      "audioKey": "it-b09-s01",
+      "es": "Un biglietto per Firenze, per favore. Devo convalidare il biglietto? Dov'è il binario sette?",
+      "pinyin": "oon bee-LYET-to per fee-REN-tse per fa-VO-re. DEH-vo kon-va-lee-DA-re eel bee-LYET-to. do-VEH eel bee-NA-ryo SET-te",
+      "pt": "跟读这个顺序：买票、确认规则、找站台。",
+      "tts": "Un biglietto per Firenze, per favore. Devo convalidare il biglietto? Dov'è il binario sette?",
+      "molde": "DOV-E"
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_en_us_f",
+      "audioKey": "it-b09-n06",
+      "bloco": "recap",
+      "pt": "B09 完成。数字票自己验票，纸质票需要那台绿色机器，binario 是站台，而二维码必须能出示。"
+    }
+  ],
+  "aprofundar": {
+    "titulo": "一条在建议底下悄悄变了的规则",
+    "secoes": [
+      {
+        "titulo": "为什么那条旧建议到处都是",
+        "corpo": "几十年来每一本指南都说同一句话：给票打戳，否则罚款。它曾是对的，对纸质票如今也仍然是对的。数字地区车票现在会在你所选的发车时间自己激活，这悄无声息地让那条建议有一半过了时，却没人去更新那些指南。"
+      },
+      {
+        "titulo": "数字化的取舍",
+        "corpo": "自动验票消除了忘记打戳的风险，作为交换，也消除了灵活性：车票一旦在预定时间自动激活，就再也不能改到另一班车。改动必须在那一刻之前完成。"
+      },
+      {
+        "titulo": "二维码就是车票",
+        "corpo": "检票时你必须能出示那个码。手机没电，或者你解不开锁，都会让你落到和没票的人同样的处境——这正是本部分要教那句能替你争取十秒的句子的原因。"
+      },
+      {
+        "titulo": "这一条的复查期很短",
+        "corpo": "意大利地区票务正处在向数字化过渡的中途，规则近期刚刚变动过。本课程用一个较短的复查日期来标记这一事实，而不是把它当作已成定局——出行前请在运营商自己的页面上核对当前的说法。"
+      }
+    ]
+  },
+  "slot": "B09",
+  "permissao": "你有权问需不需要打戳，哪怕手里拿着的是手机。规则确实变了，也确实取决于你拿的是哪种票——问，不是无知，而是唯一能弄清今天这两条规则中哪一条适用于你的办法。",
+  "permissaoAudioKey": "it-b09-n01",
+  "espelho": "任何在自己城市里把一张陌生的交通卡在错的读卡器上刷过的人，都懂这种确切的不确定感。意大利在纸质和数字之间的这道分野，并不是这个问题的更难版本——它是同一个问题，只多了一个转折：给你的那条建议，是在规则变动之前写下的。",
+  "fichasCulturais": [
+    {
+      "sinal": "你拿着一张数字票登上地区列车，看见其他人都在往站台上一台绿色的小机器里塞纸票。",
+      "suaLeitura": "我漏了一步，马上就要被罚款了。",
+      "oQueEAli": "数字地区车票会在预定发车时间自己激活；那台机器是给纸质票用的，纸质票仍然需要打戳。两套系统并行运转，你看到的是另一套。",
+      "oQueVoceFaz": "确认一下你实际拿的是哪种票。如果是数字票，确保二维码能打开、手机有电——那就是你的验票。",
+      "oQueMelhora": "你不再去找一台你的票根本用不上的机器，而是把那两分钟花在检票时真正要紧的事情上。",
+      "ondeNaoVale": "对纸质票就不然，那里旧规矩完全有效，罚款是真的——而且这也不是完全跳过确认的理由，因为规则正在过渡，各运营商不尽相同。",
+      "evidencia": "FATO",
+      "audioKeys": [
+        "it-b09-n03",
+        "it-b09-n04"
+      ]
+    }
+  ]
+}

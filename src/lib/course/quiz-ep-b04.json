@@ -1,0 +1,92 @@
+{
+  "id": "q-b04",
+  "nivel": "basico",
+  "titulo": "测验 —— 与你同行的四份文件",
+  "subtitulo": "今晚就核对，趁纠错还便宜",
+  "introAudioKey": "it-b04-q-i",
+  "introPt": "一位旅行者在出发前一晚给酒店打电话，把每个缺口都补上。",
+  "cenario": "飞行前的一通电话。",
+  "dialogo": [
+    {
+      "audioKey": "it-b04-q01",
+      "voz": "target_it_m",
+      "es": "Buonasera, come posso aiutarla?",
+      "pt": "晚上好，我能为您做什么？"
+    },
+    {
+      "audioKey": "it-b04-q02",
+      "voz": "target_it_f",
+      "es": "Vorrei confermare la mia prenotazione.",
+      "pt": "我想确认一下我的预订。"
+    },
+    {
+      "audioKey": "it-b04-q03",
+      "voz": "target_it_f",
+      "es": "Qual è l’indirizzo completo?",
+      "pt": "完整地址是什么？"
+    },
+    {
+      "audioKey": "it-b04-q04",
+      "voz": "target_it_m",
+      "es": "Via Garibaldi quarantadue, secondo piano.",
+      "pt": "加里波第街42号，二楼。"
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "为什么要在起飞前问清完整地址？",
+      "opcoes": [
+        "司机或离线地图无法凭酒店名字导航",
+        "这样比较礼貌",
+        "法律要求",
+        "为了比价"
+      ],
+      "correta": 0,
+      "explica": "街道名和门牌号才是地图和司机能据以行动的信息。"
+    },
+    {
+      "pergunta": "意大利地址把门牌号放在哪里？",
+      "opcoes": [
+        "街道名之前",
+        "街道名之后",
+        "从不写出",
+        "只写在信封上"
+      ],
+      "correta": 1,
+      "explica": "是 Via Garibaldi 42，而不是 42 Via Garibaldi。"
+    },
+    {
+      "pergunta": "为什么应用里的绿色对勾还不够？",
+      "opcoes": [
+        "它会过期",
+        "没有信号或账户被锁时它就失效了",
+        "它不是法律证据",
+        "它总是错的"
+      ],
+      "correta": 1,
+      "explica": "离线可用是旅行必备的功能。"
+    },
+    {
+      "pergunta": "哪个框架用来请别人替你做某件事？",
+      "opcoes": [
+        "Mi può 加上动作",
+        "Vorrei 加上一个名词",
+        "Dov’è 加上一个地点",
+        "Posso 加上动作"
+      ],
+      "correta": 0,
+      "explica": "Mi può mandare、mi può scrivere、mi può tenere。"
+    },
+    {
+      "pergunta": "应该随身带几种经过测试的付款方式？",
+      "opcoes": [
+        "一种就够了",
+        "两种，都由你亲自测试过",
+        "至少三种",
+        "一种都不用，只带现金"
+      ],
+      "correta": 1,
+      "explica": "银行卡在国外会因为没人在柜台说得清的原因而被拒付。"
+    }
+  ]
+}

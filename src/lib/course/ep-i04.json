@@ -1,0 +1,282 @@
+{
+  "id": "i04",
+  "nivel": "intermediario",
+  "numero": 22,
+  "parte": "I04",
+  "titulo": "夜晚：餐前酒、请客的那一轮，以及如何离席",
+  "subtitulo": "餐前酒既不是晚餐也不是欢乐时光——弄清它是哪一种，决定了你会不会九点还得吃",
+  "cena": "一杯酒端上来了，旁边配了一盘东西，而你分不清这是点心还是正餐。",
+  "moldura": "ganha",
+  "frasePiso": "问问都配什么，判断它是否顶得上晚餐，然后用一句话而不是挥挥手来离席。",
+  "decisao": "在点第二轮之前，先判断餐前酒是这顿晚餐还是它的开场，因为这决定了这一晚剩下的时间",
+  "moldes": [],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "it-i04-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "pt": "意大利的夜晚在晚餐前有一步。一杯酒、配着吃的东西，以及一个判断：这是不是整顿饭。"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_it_m",
+      "audioKey": "it-i04-r01",
+      "receptivo": true,
+      "acao": "在点第二杯之前，先问都配什么。",
+      "es": "Facciamo l'aperitivo? Qui viene con il buffet.",
+      "pt": "我们来杯餐前酒吧？这里配自助餐。",
+      "tts": "Facciamo l'aperitivo? Qui viene con il buffet."
+    },
+    {
+      "consulta": [
+        "conversa/planos",
+        "comer/bebida"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "it-i04-p01",
+      "promptPt": "说好，并问问这杯酒配什么。现在说。",
+      "audioKey": "it-i04-t01",
+      "es": "Volentieri. Cosa c'è compreso?",
+      "pinyin": "vo-len-TYE-ri. KO-za cheh kom-PRE-zo",
+      "pt": "很乐意。都包含什么？",
+      "tts": "Volentieri. Cosa c'è compreso?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "it-i04-n02",
+      "bloco": "corpo",
+      "pt": "那个问题决定了这一晚。如果配的是自助餐，这就是晚餐。如果只是橄榄和薯片，晚餐九点还得吃。"
+    },
+    {
+      "consulta": [
+        "pagar/preco",
+        "comer/bebida"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "molde": "QUANTO-COSTA",
+      "encaixe": "l'aperitivo",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "it-i04-p02",
+      "promptPt": "用 B11 的句型，问餐前酒多少钱。现在说。",
+      "audioKey": "it-i04-t02",
+      "es": "Quanto costa l'aperitivo?",
+      "pinyin": "KWAN-to KOS-ta la-pe-ree-TEE-vo",
+      "pt": "餐前酒多少钱？",
+      "tts": "Quanto costa l'aperitivo?"
+    },
+    {
+      "consulta": [
+        "comer/bebida"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "it-i04-p03",
+      "promptPt": "点那款经典的，让他们决定具体是哪种。现在说。",
+      "audioKey": "it-i04-t03",
+      "es": "Un Aperol spritz, per favore.",
+      "pinyin": "oon A-pe-rol spreets per fa-VO-re",
+      "pt": "一杯 Aperol spritz，谢谢。",
+      "tts": "Un Aperol spritz, per favore."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "it-i04-n03",
+      "pt": "在这个时间点一杯不含酒精的东西完全正常。Analcolico 就是那个词，没人会皱眉头。"
+    },
+    {
+      "consulta": [
+        "comer/bebida"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "molde": "C-E",
+      "encaixe": "qualcosa di analcolico",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "it-i04-p04",
+      "promptPt": "用 B08 的句型，问有没有不含酒精的东西。现在说。",
+      "audioKey": "it-i04-t04",
+      "es": "C'è qualcosa di analcolico?",
+      "pinyin": "cheh kwal-KO-za dee a-nal-KO-lee-ko",
+      "pt": "有没有不含酒精的东西？",
+      "tts": "C'è qualcosa di analcolico?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "it-i04-n04",
+      "bloco": "capsula",
+      "pt": "现在说请客那一轮。主动请大家喝很正常，第一次被坚决回绝也很正常。"
+    },
+    {
+      "consulta": [
+        "pagar/conta"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "it-i04-p05",
+      "promptPt": "主动说这一轮你请。现在说。",
+      "audioKey": "it-i04-t05",
+      "es": "Questo giro lo offro io.",
+      "pinyin": "KWES-to JEE-ro lo OF-fro EE-o",
+      "pt": "这一轮我请。",
+      "tts": "Questo giro lo offro io."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_it_m",
+      "audioKey": "it-i04-r02",
+      "receptivo": true,
+      "acao": "坚持一次，然后就作罢。坚持两次算大方，三次就是争执了。",
+      "es": "Ma no, ci mancherebbe. Offro io, siete ospiti.",
+      "pt": "绝对不行。我来请，你们是客人。",
+      "tts": "Ma no, ci mancherebbe. Offro io, siete ospiti."
+    },
+    {
+      "consulta": [
+        "pagar/conta"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "it-i04-p06",
+      "promptPt": "体面地让步，把下一轮认领下来。现在说。",
+      "audioKey": "it-i04-t06",
+      "es": "Va bene, ma il prossimo lo offro io.",
+      "pinyin": "va BEH-ne, ma eel PROS-see-mo lo OF-fro EE-o",
+      "pt": "好吧，但下一轮我请。",
+      "tts": "Va bene, ma il prossimo lo offro io."
+    },
+    {
+      "consulta": [
+        "conversa/planos",
+        "comer/pedido"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "it-i04-p07",
+      "promptPt": "问问之后大家去哪里吃——那正是你真正想要的推荐。现在说。",
+      "audioKey": "it-i04-t07",
+      "es": "Dopo, dove si va a mangiare?",
+      "pinyin": "DO-po, DO-ve see va a man-JA-re",
+      "pt": "之后大家去哪里吃？",
+      "tts": "Dopo, dove si va a mangiare?"
+    },
+    {
+      "consulta": [
+        "conversa/despedir"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "it-i04-p08",
+      "promptPt": "该走了。好好地离席，别悄悄溜走。现在说。",
+      "audioKey": "it-i04-t08",
+      "es": "Noi andiamo, grazie della compagnia.",
+      "pinyin": "noy an-DYA-mo, GRA-tsee-eh DEL-la kom-pa-NYEE-a",
+      "pt": "我们先走了，谢谢陪伴。",
+      "tts": "Noi andiamo, grazie della compagnia."
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_it_f",
+      "audioKey": "it-i04-s01",
+      "es": "Volentieri. Cosa c'è compreso? Questo giro lo offro io. Noi andiamo, grazie della compagnia.",
+      "pinyin": "vo-len-TYE-ri. KO-za cheh kom-PRE-zo. KWES-to JEE-ro lo OF-fro EE-o. noy an-DYA-mo GRA-tsee-eh DEL-la kom-pa-NYEE-a",
+      "pt": "跟读这一晚：接受、确认、请客、离席。",
+      "tts": "Volentieri. Cosa c'è compreso? Questo giro lo offro io. Noi andiamo, grazie della compagnia.",
+      "molde": "QUANTO-COSTA"
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_en_us_f",
+      "audioKey": "it-i04-n05",
+      "bloco": "recap",
+      "pt": "I04 完成。Cosa c'è compreso 决定你要不要再吃，而 grazie della compagnia 是离席的方式。"
+    }
+  ],
+  "aprofundar": {
+    "titulo": "晚餐前的那一步",
+    "secoes": [
+      {
+        "titulo": "Aperitivo 是一个时段，不是一份菜单",
+        "corpo": "大致从六七点到晚餐时间。酒是固定价，而配它的东西因城市、因店而天差地别——从一碗薯片到能凑成一顿饭的自助餐。",
+        "exemplos": [
+          {
+            "es": "Cosa c'è compreso?",
+            "pt": "都包含什么？"
+          },
+          {
+            "es": "Quanto costa l'aperitivo?",
+            "pt": "餐前酒多少钱？"
+          }
+        ]
+      },
+      {
+        "titulo": "自助餐版本是米兰的习惯",
+        "corpo": "那种丰盛的摆盘正式叫 apericena——Treccani 词典将其定义为一份配菜多到能顶替晚餐的餐前酒。它是九十年代末北方造出的词，在米兰最盛行。它在南方规模较小，这是人人都说但没有调查测量过的，所以把它当作一种倾向而非一条界线。"
+      },
+      {
+        "titulo": "请客的轮次与回绝",
+        "corpo": "主动请客是意料之中的；第一次被回绝也是意料之中的。坚持一次，如果再次被拒，就改请下一轮。在酒吧里一样一样地分账很少见，而且略显冷淡。"
+      },
+      {
+        "titulo": "用一句话离席",
+        "corpo": "从意大利餐桌悄悄溜走会被读作出了什么岔子。Noi andiamo, grazie della compagnia 只要两秒，就为还坐着的每个人干净利落地收了尾。"
+      }
+    ]
+  },
+  "slot": "I04",
+  "permissao": "你有权在餐前酒时间点一杯不含酒精的东西，也有权就着一杯酒在桌前坐两个小时。这两者都不是没在参与——这个时段的重点就是坐下来，而酒吧不会数你喝了几杯。",
+  "permissaoAudioKey": "it-i04-n03",
+  "espelho": "任何人只要因为觉得离开太突兀而多喝了一杯并不想喝的酒，就懂这部分的后半段。那句告别语的存在，正是为了让早点回家不再需要一个借口。",
+  "fichasCulturais": [
+    {
+      "sinal": "你点了一杯餐前酒，然后开始有你没点、也没人告诉你的食物端上来。",
+      "suaLeitura": "他们在给我上我要被收费的东西。",
+      "oQueEAli": "在餐前酒时段，配酒的食物已经含在酒价里。这杯酒比中午同样一杯贵，正是因为旁边端上来的东西。",
+      "oQueVoceFaz": "点单时问一句 cosa c'è compreso?，好弄清这是点心还是正餐，据此安排晚餐。",
+      "oQueMelhora": "你要么不用九点再去找餐厅，要么不会在晚餐前一小时被自助餐填饱——而这全由一个问题决定。",
+      "ondeNaoVale": "这不是“柜台上的一切都免费”的规矩——有些地方自助餐是单独收费项目，而所含内容的多少在南北之间差别很大。",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "it-i04-n02"
+      ]
+    }
+  ],
+  "fatosDatados": [
+    {
+      "id": "it-aperitivo-mercato",
+      "afirmacao": "餐前酒是一个庞大且经过测量的市场：FIPE-Confcommercio 依据 TradeLab 数据统计出 1400 万意大利人、每年 5.07 亿次晚间餐前酒、约 40 亿欧元的消费，2024 到 2025 年下降了 3.2%；餐前酒占所有咖啡吧到访量的 14%。价格因城市而天差地别——2025 年一项 Aperol Spritz 调查发现米兰为 10.33 欧元，而那不勒斯为 2.00 欧元，罗马 7.00 欧元、威尼斯 4.50 欧元。",
+      "fonte": "FIPE-Confcommercio / TradeLab — «Come sta cambiando l'aperitivo», 12 maggio 2026; idealo — rilevazione prezzi Aperol Spritz 2025",
+      "ano": 2026,
+      "revisarAte": "2027-08-05",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": [
+        "it-i04-n02"
+      ]
+    },
+    {
+      "id": "it-apericena",
+      "afirmacao": "Apericena 是一种独特的形式，而不是 aperitivo 的同义词：Treccani 词典将其定义为配着丰富的一系列咸甜点心和小尝的餐前酒，“可以用来代替晚餐”。它是北方、米兰在 1990 年代末造出的词，这个词本身仍被视为新造词。“这种形式在南方规模较小”的说法被广泛断言，但在所找到的任何调查中都未被量化。",
+      "fonte": "Vocabolario Treccani — «apericena»; Libreriamo — «origine della parola macedonia»",
+      "ano": 2026,
+      "revisarAte": "2028-08-05",
+      "evidencia": "CONSENSO",
+      "risco": "baixo",
+      "audioKeys": [
+        "it-i04-n02"
+      ]
+    }
+  ]
+}

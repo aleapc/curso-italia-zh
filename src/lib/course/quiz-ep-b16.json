@@ -1,0 +1,92 @@
+{
+  "id": "q-b16",
+  "nivel": "basico",
+  "titulo": "测验 — 办理入住：趁问还免费的时候问",
+  "subtitulo": "先问清楚，再平实地反映问题",
+  "introAudioKey": "it-b16-q-i",
+  "introPt": "一位旅行者把在前台的那三十秒，花在那些还能调整的事情上。",
+  "cenario": "抵达时的酒店前台。",
+  "dialogo": [
+    {
+      "audioKey": "it-b16-q01",
+      "voz": "target_it_f",
+      "es": "C'è una camera più tranquilla?",
+      "pt": "有更安静一点的房间吗？"
+    },
+    {
+      "audioKey": "it-b16-q02",
+      "voz": "target_it_m",
+      "es": "Le do una all'ultimo piano, sul cortile.",
+      "pt": "我给您一间顶层的，朝向内院。"
+    },
+    {
+      "audioKey": "it-b16-q03",
+      "voz": "target_it_f",
+      "es": "Posso fare il check-out più tardi?",
+      "pt": "我可以晚一点退房吗？"
+    },
+    {
+      "audioKey": "it-b16-q04",
+      "voz": "target_it_f",
+      "es": "L'aria condizionata non funziona.",
+      "pt": "空调坏了。"
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "为什么要在入住时、而不是之后再要更好的房间？",
+      "opcoes": [
+        "那时候更便宜",
+        "工作人员正在分配房间、手上有选择余地；之后再要就意味着推翻一个已定的决定",
+        "那是他们唯一会说英语的时候",
+        "酒店之后就不许了"
+      ],
+      "correta": 1,
+      "explica": "可以开口要的窗口很短。"
+    },
+    {
+      "pergunta": "Sul cortile 的意思是：",
+      "opcoes": [
+        "临街",
+        "朝向内院——安静的那一侧",
+        "在一楼",
+        "带阳台"
+      ],
+      "correta": 1,
+      "explica": "比笼统地要求“安静”更精确。"
+    },
+    {
+      "pergunta": "东西坏了该怎么反映？",
+      "opcoes": [
+        "先来一长串道歉",
+        "名词加上 non funziona",
+        "打电话给经理",
+        "用英语"
+      ],
+      "correta": 1,
+      "explica": "淋浴、电梯、钥匙、wifi——同一个结构。"
+    },
+    {
+      "pergunta": "tassa di soggiorno 是：",
+      "opcoes": [
+        "账单上的一处错误",
+        "市政旅游税，通常不含在预付的总额里",
+        "小费",
+        "清洁费"
+      ],
+      "correta": 1,
+      "explica": "由当地设定，由住宿方代收。"
+    },
+    {
+      "pergunta": "在酒店里，camera 的意思是：",
+      "opcoes": [
+        "一台相机",
+        "一个房间",
+        "一个保险箱",
+        "一把钥匙"
+      ],
+      "correta": 1,
+      "explica": "B10 里的假朋友之一。"
+    }
+  ]
+}

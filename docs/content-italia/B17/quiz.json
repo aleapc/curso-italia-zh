@@ -1,0 +1,92 @@
+{
+  "id": "q-b17",
+  "nivel": "basico",
+  "titulo": "测验 — 药房、疼痛、紧急情况",
+  "subtitulo": "绿十字、值班名单、112",
+  "introAudioKey": "it-b17-q-i",
+  "introPt": "一位旅行者去解决一个难熬的夜晚，而不是硬扛过去。",
+  "cenario": "周日傍晚，站在一家关门的药房前。",
+  "dialogo": [
+    {
+      "audioKey": "it-b17-q01",
+      "voz": "target_it_f",
+      "es": "Ho mal di testa da ieri.",
+      "pt": "我从昨天开始就头疼。"
+    },
+    {
+      "audioKey": "it-b17-q02",
+      "voz": "target_it_m",
+      "es": "Prende altri farmaci? È allergico a qualcosa?",
+      "pt": "您在服用其他药物吗？对什么东西过敏吗？"
+    },
+    {
+      "audioKey": "it-b17-q03",
+      "voz": "target_it_f",
+      "es": "C'è qualcosa senza aspirina?",
+      "pt": "有不含阿司匹林的药吗？"
+    },
+    {
+      "audioKey": "it-b17-q04",
+      "voz": "target_it_m",
+      "es": "Farmacie di turno: via Garibaldi dodici, aperta fino alle otto.",
+      "pt": "值班药房：加里波第街十二号，营业到八点。"
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "说出哪里疼的句型是什么？",
+      "opcoes": [
+        "Mal di 加上身体部位",
+        "Dolore che 加上一个动词",
+        "Sto male di 加上器官",
+        "Ho il problema del"
+      ],
+      "correta": 0,
+      "explica": "Testa、gola、stomaco、denti、schiena。"
+    },
+    {
+      "pergunta": "一家药房关门了。玻璃门里贴着什么？",
+      "opcoes": [
+        "一句道歉",
+        "farmacie di turno（值班药房）名单——附近哪家在值班、开到几点",
+        "一份价目表",
+        "没什么有用的"
+      ],
+      "correta": 1,
+      "explica": "关着的门本身也是信息。"
+    },
+    {
+      "pergunta": "112 是什么？",
+      "opcoes": [
+        "只是警察",
+        "统一的欧洲紧急电话，任何手机都能拨通",
+        "一条出租车专线",
+        "查号台"
+      ],
+      "correta": 1,
+      "explica": "它在没有话费、多数情况下没有 SIM 卡时也能用。"
+    },
+    {
+      "pergunta": "你该说出药名还是症状？",
+      "opcoes": [
+        "你在家用的药品牌子",
+        "症状——由药剂师来选药",
+        "都别说，直接指",
+        "剂量"
+      ],
+      "correta": 1,
+      "explica": "你惯用的牌子在这里可能没有。"
+    },
+    {
+      "pergunta": "什么时候，跑去城另一头的值班药房是错误的答案？",
+      "opcoes": [
+        "从不",
+        "头疼时",
+        "胸痛、呼吸困难或严重过敏反应时——那要打 112",
+        "工作日"
+      ],
+      "correta": 2,
+      "explica": "升级求助，而不是走过去。"
+    }
+  ]
+}

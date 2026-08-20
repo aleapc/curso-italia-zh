@@ -1,0 +1,292 @@
+{
+  "id": "b10",
+  "nivel": "basico",
+  "numero": 10,
+  "parte": "4A",
+  "titulo": "你能看懂的标识，恰恰是骗你的那些",
+  "subtitulo": "意大利语看着好像能读懂，正因如此，少数几个词会把你带到你没打算去的地方——chiuso、riservato、guasto",
+  "cena": "你站在一扇贴着告示的门前，街上其他人都已经明白了某件你还没明白的事。",
+  "moldura": "ganha",
+  "frasePiso": "你不需要读完整张告示。你需要知道它的意思是进去、待会儿再来，还是走另一扇门。",
+  "moldes": [],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "it-b10-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "pt": "意大利语的标识看着好像能读懂，这就是陷阱。有些词的意思正如你所想。有几个则不是，而那几个正是代价高昂的。"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_it_m",
+      "audioKey": "it-b10-r01",
+      "receptivo": true,
+      "es": "Chiuso per ferie. Riapriamo il ventidue agosto.",
+      "pt": "假期歇业。我们八月二十二日重新开门。",
+      "tts": "Chiuso per ferie. Riapriamo il ventidue agosto.",
+      "acao": "读重新开门的日期，别读那个词。二十二日再来。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "it-b10-n02",
+      "bloco": "corpo",
+      "pt": "Aperto 和 chiuso 就是全部关键。开和关，写在这个国家的每一扇门上。"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_it_f",
+      "audioKey": "it-b10-r02",
+      "receptivo": true,
+      "es": "Orario continuato. Aperto tutti i giorni.",
+      "pt": "全天营业。每天都开。",
+      "tts": "Orario continuato. Aperto tutti i giorni.",
+      "acao": "别再围着午休时间安排了。这家是全天不间断营业的。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "it-b10-n03",
+      "pt": "现在说说假朋友词。Camera 是房间，不是相机。Fattoria 是农场，不是工厂。Morbido 是柔软，不是病态。"
+    },
+    {
+      "consulta": [
+        "ler/placa"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "it-b10-p01",
+      "promptPt": "告示很长，而你只需要一件事。问这个地方开不开门。现在开口。",
+      "audioKey": "it-b10-t01",
+      "es": "Scusi, è aperto?",
+      "pinyin": "SKOO-zee, eh a-PER-to",
+      "pt": "打扰一下，开门吗？",
+      "tts": "Scusi, è aperto?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_it_m",
+      "audioKey": "it-b10-r03",
+      "receptivo": true,
+      "es": "Riservato ai clienti. Guasto — fuori servizio.",
+      "pt": "仅限顾客使用。故障——停止使用。",
+      "tts": "Riservato ai clienti. Guasto, fuori servizio.",
+      "acao": "买点东西，或者出去，再找另一台机器。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "it-b10-n04",
+      "pt": "Guasto 是坏了。Fuori servizio 是停止服务。对你来说两者意思一样：去找另一台机器。"
+    },
+    {
+      "consulta": [
+        "ler/placa",
+        "reparo/traduzir"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "it-b10-p02",
+      "promptPt": "你正看着一个你不认识的词。问它是什么意思。现在开口。",
+      "audioKey": "it-b10-t02",
+      "es": "Cosa vuol dire questo?",
+      "pinyin": "KO-za vwol DEE-re KWES-to",
+      "pt": "这是什么意思？",
+      "tts": "Cosa vuol dire questo?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "it-b10-n05",
+      "bloco": "capsula",
+      "pt": "门：spingere 是推，tirare 是拉。Entrata 是入口，uscita 是出口。Vietato 意思是禁止，而且总是很严肃的。"
+    },
+    {
+      "consulta": [
+        "ler/horario"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "it-b10-p03",
+      "promptPt": "营业时间是手写的，看不清。问他们几点开门。现在开口。",
+      "audioKey": "it-b10-t03",
+      "es": "A che ora aprite?",
+      "pinyin": "a keh O-ra a-PREE-te",
+      "pt": "你们几点开门？",
+      "tts": "A che ora aprite?",
+      "molde": "A-CHE-ORA",
+      "encaixe": "aprite"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_it_m",
+      "audioKey": "it-b10-r04",
+      "receptivo": true,
+      "es": "Alle sedici. Ora facciamo la pausa.",
+      "pt": "四点。我们现在在午休。",
+      "tts": "Alle sedici. Ora facciamo la pausa.",
+      "acao": "别在外面等。四点再回来，把这两个小时用起来。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "it-b10-n06",
+      "pt": "Sedici 是十六——二十四小时制。写出来的时间几乎总是用它，口头说的也常常如此。"
+    },
+    {
+      "consulta": [
+        "ler/horario"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "molde": "C-E",
+      "encaixe": "la pausa",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "it-b10-p04",
+      "promptPt": "用 B08 学过的框架，问下午有没有午休。现在开口。",
+      "audioKey": "it-b10-t04",
+      "es": "C'è la pausa il pomeriggio?",
+      "pinyin": "cheh la PAU-za eel po-me-REE-jo",
+      "pt": "下午有午休吗？",
+      "tts": "C'è la pausa il pomeriggio?"
+    },
+    {
+      "consulta": [
+        "ler/placa",
+        "chegar/entrada"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "molde": "DOV-E",
+      "encaixe": "l'entrata",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "it-b10-p05",
+      "promptPt": "这扇门写着 uscita。问入口在哪里。现在开口。",
+      "audioKey": "it-b10-t05",
+      "es": "Dov'è l'entrata?",
+      "pinyin": "do-VEH len-TRA-ta",
+      "pt": "入口在哪里？",
+      "tts": "Dov'è l'entrata?"
+    },
+    {
+      "consulta": [
+        "ler/placa",
+        "reparo/permissao"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "molde": "POSSO",
+      "encaixe": "entrare",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "it-b10-p06",
+      "promptPt": "告示写着 riservato，你不确定是否适用于你。问一下。现在开口。",
+      "audioKey": "it-b10-t06",
+      "es": "Posso entrare?",
+      "pinyin": "POS-so en-TRA-re",
+      "pt": "我可以进去吗？",
+      "tts": "Posso entrare?"
+    },
+    {
+      "consulta": [
+        "reparo/repetir"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "it-b10-p07",
+      "promptPt": "他们把告示念得太快了。请他们把时间写下来。现在开口。",
+      "audioKey": "it-b10-t07",
+      "es": "Me lo può scrivere?",
+      "pinyin": "meh lo pwoh skree-VE-re",
+      "pt": "您能帮我写下来吗？",
+      "tts": "Me lo può scrivere?",
+      "molde": "MI-PUO",
+      "encaixe": "scrivere"
+    },
+    {
+      "consulta": [
+        "ler/placa"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "it-b10-p08",
+      "promptPt": "确认一下歇业的那天，免得白跑一趟。现在开口。",
+      "audioKey": "it-b10-t08",
+      "es": "Siete chiusi il lunedì?",
+      "pinyin": "see-EH-te kee-OO-zee eel loo-ne-DEE",
+      "pt": "你们周一歇业吗？",
+      "tts": "Siete chiusi il lunedì?"
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_it_f",
+      "audioKey": "it-b10-s01",
+      "es": "Scusi, è aperto? Cosa vuol dire questo? A che ora aprite?",
+      "pinyin": "SKOO-zee eh a-PER-to. KO-za vwol DEE-re KWES-to. a keh O-ra a-PREE-te",
+      "pt": "跟读这三个能打开任何门的问题。",
+      "tts": "Scusi, è aperto? Cosa vuol dire questo? A che ora aprite?"
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_en_us_f",
+      "audioKey": "it-b10-n07",
+      "bloco": "recap",
+      "pt": "B10 完成。Aperto 和 chiuso、guasto 和 vietato、spingere 和 tirare——其余一切就用 cosa vuol dire questo。"
+    }
+  ],
+  "aprofundar": {
+    "titulo": "标识是接收型的，而且很短",
+    "secoes": [
+      {
+        "titulo": "决定这扇门的五个词",
+        "corpo": "Aperto、chiuso、entrata、uscita、vietato。认出这几个词，你就能应付意大利大多数的门，一整句话都不用读。"
+      },
+      {
+        "titulo": "让你花钱或耗时的假朋友词",
+        "corpo": "Camera 是酒店房间。Fattoria 是农场。Morbido 是柔软。Pretendere 是要求，不是假装。Attualmente 意思是目前，不是实际上。这些都不冷僻——它们恰恰是看起来最安全的那些。",
+        "exemplos": [
+          {
+            "es": "Camera doppia",
+            "pt": "双人间"
+          },
+          {
+            "es": "Guasto — fuori servizio",
+            "pt": "故障——停止使用"
+          }
+        ]
+      },
+      {
+        "titulo": "Chiuso per ferie",
+        "corpo": "假期歇业，在八月最为明显，整条街的小店都会关上两三个星期。告示通常会写出重新开门的日期，所以有用的做法是读日期，而不是读那个词。"
+      },
+      {
+        "titulo": "午休是真实存在的",
+        "corpo": "大城市中心以外的许多店铺仍然会在下午早些时候关门，四点左右重新开门。门上写着 orario continuato 则意思相反：全天不间断营业。"
+      }
+    ]
+  },
+  "slot": "B10",
+  "permissao": "你完全可以站在写着某个词的告示前，问它是什么意思。指着印出来的一个词，问 cosa vuol dire questo，是件很正常的事——这比查手机快，而且并不等于承认你本该知道。",
+  "permissaoAudioKey": "it-b10-n03",
+  "espelho": "任何在自己国家站在自助洗衣店的告示前，琢磨它今天是否适用的人，都懂这种感觉。意大利语让情况更糟，只因为那些词看起来像你早就掌握的。",
+  "fichasCulturais": [
+    {
+      "sinal": "你在工作日下午两点半到了一家小店，店里黑着，卷帘门拉着，门上没有任何说明。",
+      "suaLeitura": "他们倒闭了，或者网上写的营业时间是错的。",
+      "oQueEAli": "在大城市中心以外，许多小店仍然会在下午早些时候关几个小时，到傍晚再重新开门。门上写着 orario continuato 的店，宣告的是例外，不是常规。",
+      "oQueVoceFaz": "读告示上重新开门的时间，而不是读那个词，或者到隔壁的酒吧问 a che ora aprite？然后把下午的安排围着四点来排。",
+      "oQueMelhora": "你不再把要办的事都塞进一个根本没开门的时段，而是等同一家店重新开门，柜台后面站着的是个休息过的人。",
+      "ondeNaoVale": "不适用于大城市的旅游中心、车站区域或超市，那里现在通行全天营业——而且在米兰越来越不适用，那里的午休已基本消失。",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "it-b10-n06"
+      ]
+    }
+  ]
+}

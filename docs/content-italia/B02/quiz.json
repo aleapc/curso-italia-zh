@@ -1,0 +1,92 @@
+{
+  "id": "q-b02",
+  "nivel": "basico",
+  "titulo": "测验 —— 在需要之前就说出来",
+  "subtitulo": "关键在时机，而非词汇",
+  "introAudioKey": "it-b02-q-i",
+  "introPt": "一位旅行者走进一家店铺，穿过人群，得体地离开。",
+  "cenario": "一家小店，清晨。",
+  "dialogo": [
+    {
+      "audioKey": "it-b02-q01",
+      "voz": "target_it_f",
+      "es": "Buongiorno!",
+      "pt": "早上好！"
+    },
+    {
+      "audioKey": "it-b02-q02",
+      "voz": "target_it_m",
+      "es": "Permesso.",
+      "pt": "借过一下。"
+    },
+    {
+      "audioKey": "it-b02-q03",
+      "voz": "target_it_f",
+      "es": "Scusi, posso chiederle una cosa?",
+      "pt": "打扰一下，我可以问您一件事吗？"
+    },
+    {
+      "audioKey": "it-b02-q04",
+      "voz": "target_it_m",
+      "es": "Arrivederci, buona giornata!",
+      "pt": "再见，祝您有美好的一天！"
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "在一家小店里你什么时候说 buongiorno？",
+      "opcoes": [
+        "一进门时，在看任何东西之前",
+        "只在付款时",
+        "离开时",
+        "只有别人先跟你说话时"
+      ],
+      "correta": 0,
+      "explica": "问候是整场交易的开场动作。"
+    },
+    {
+      "pergunta": "permesso 起什么作用？",
+      "opcoes": [
+        "为犯错道歉",
+        "宣告你要穿过某个空间",
+        "提出一个问题",
+        "结束一段对话"
+      ],
+      "correta": 1,
+      "explica": "你是在宣告要通过；你不需要为自己的存在道歉。"
+    },
+    {
+      "pergunta": "scusi 起什么作用？",
+      "opcoes": [
+        "开启一个问题，或化解一次碰撞",
+        "表示再见",
+        "表示谢谢",
+        "表示请"
+      ],
+      "correta": 0,
+      "explica": "英语把两者都合成 excuse me；意大利语把它们分开。"
+    },
+    {
+      "pergunta": "对刚认识的服务员该说 ciao 吗？",
+      "opcoes": [
+        "该说，这是正常的问候",
+        "最好别说 —— 它是非正式的、双方对等的",
+        "只在早上说",
+        "只在离开时说"
+      ],
+      "correta": 1,
+      "explica": "面对柜台后的任何人，Buongiorno 和 arrivederci 都是稳妥的一对。"
+    },
+    {
+      "pergunta": "buonasera 什么时候接替 buongiorno？",
+      "opcoes": [
+        "午夜时",
+        "下午过半左右",
+        "正好下午六点",
+        "永远不会"
+      ],
+      "correta": 1,
+      "explica": "这个转换模糊且因地区而异；早一点说 buonasera 不会冒犯任何人。"
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "id": "q-a02",
+  "nivel": "avancado",
+  "titulo": "测验 — 他们在笑什么",
+  "subtitulo": "听懂幽默",
+  "introAudioKey": "it-a02-q-i",
+  "introPt": "旅行者被人打趣，并妥当地应对。",
+  "cenario": "和新认识的人同桌。",
+  "dialogo": [
+    {
+      "audioKey": "it-a02-q01",
+      "voz": "target_it_m",
+      "es": "Ma tu sei scemo, eh! Guarda che roba.",
+      "pt": "你真是个傻瓜，知道吗！你看看那个。",
+      "tts": "Ma tu sei scemo, eh! Guarda che roba."
+    },
+    {
+      "audioKey": "it-a02-q02",
+      "voz": "target_it_f",
+      "es": "Il mio italiano è un disastro, lo so.",
+      "pt": "我的意大利语一团糟，我知道。",
+      "tts": "Il mio italiano è un disastro, lo so."
+    },
+    {
+      "audioKey": "it-a02-q03",
+      "voz": "target_it_m",
+      "es": "Ma no, ma va! Parli benissimo, complimenti.",
+      "pt": "哪里，别这么说！你说得很好，佩服。",
+      "tts": "Ma no, ma va! Parli benissimo, complimenti."
+    },
+    {
+      "audioKey": "it-a02-q04",
+      "voz": "target_it_m",
+      "es": "Certo, come no. E io sono il Papa.",
+      "pt": "当然，那还用说。我还是教皇呢。",
+      "tts": "Certo, come no. E io sono il Papa."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "Sfottò 是：",
+      "opcoes": [
+        "一种侮辱",
+        "彼此有交情的人之间充满亲昵的调侃",
+        "一道地方菜",
+        "一种纸牌游戏"
+      ],
+      "correta": 1,
+      "explica": "这种许可是挣来的，不是对着满屋子人都能用的。"
+    },
+    {
+      "pergunta": "作为外国人，你能重复一个地域性的玩笑吗？",
+      "opcoes": [
+        "可以，这显示你融入了",
+        "不行——那会显得像外国人在评判一场家庭内部的争吵",
+        "只在北部可以",
+        "只能拿自己的家乡开玩笑"
+      ],
+      "correta": 1,
+      "explica": "南北方已经互相打趣了150年。"
+    },
+    {
+      "pergunta": "哪种玩笑总是奏效？",
+      "opcoes": [
+        "拿他们的政治开玩笑",
+        "拿他们的开车方式开玩笑",
+        "拿你自己开玩笑",
+        "拿食物开玩笑"
+      ],
+      "correta": 2,
+      "explica": "你的意大利语、你的胃口、你在下午四点喝的卡布奇诺。"
+    },
+    {
+      "pergunta": "面无表情地说出的 Come no 意思是：",
+      "opcoes": [
+        "当然",
+        "绝对不是",
+        "也许",
+        "怎么会"
+      ],
+      "correta": 1,
+      "explica": "标志在于语气，而不是字面。"
+    },
+    {
+      "pergunta": "你没听懂笑话。最好的做法是？",
+      "opcoes": [
+        "还是跟着笑",
+        "说一句 ah, mi prendi in giro，或者直接问",
+        "换个话题",
+        "离开"
+      ],
+      "correta": 1,
+      "explica": "礼貌性的假笑反正会露馅。"
+    }
+  ]
+}

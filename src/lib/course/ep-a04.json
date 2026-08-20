@@ -1,0 +1,249 @@
+{
+  "id": "a04",
+  "nivel": "avancado",
+  "numero": 32,
+  "parte": "A04",
+  "titulo": "那场老争论",
+  "subtitulo": "南方与北方是每个国家都有的那条断层线——而对一个游客来说唯一有用的立场是好奇",
+  "cena": "有人刚刚满怀感情地告诉你，他们国家的另一半有多么不同——然后停顿了，仿佛接下来轮到你的看法。",
+  "moldura": "ganha",
+  "frasePiso": "问、听，别排名。让你保持受欢迎的问题是从这里看是什么样，而绝不是哪一方对。",
+  "moldes": [],
+  "fatosDatados": [
+    {
+      "id": "it-divario",
+      "afirmacao": "意大利南北之间持续存在的经济差距有官方统计记录：人均GDP、就业率和家庭收入在南部（Mezzogiorno）都比中北部低得多，而这一差距经过数十年的政策仍被证明是顽固的。这是可测量的经济事实；对其成因的解释则被激烈争论。",
+      "fonte": "Istat — «Rapporto annuale», capitoli sui divari territoriali; SVIMEZ — «Rapporto sull'economia del Mezzogiorno»",
+      "ano": 2026,
+      "revisarAte": "2027-08-04",
+      "evidencia": "FATO",
+      "risco": "medio",
+      "audioKeys": [
+        "it-a04-n03"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "it-a04-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "pt": "每个国家都有一条贯穿一切的线。在意大利，它大致横在北方和南方之间。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "it-a04-n02",
+      "bloco": "corpo",
+      "pt": "你会在玩笑里、政治里、足球里，以及人们说自己愿意或不愿意住哪儿的话里听到它。"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_it_m",
+      "audioKey": "it-a04-r01",
+      "receptivo": true,
+      "acao": "别附和，也别反对。问一个问题，让他们继续说。",
+      "es": "Al sud si vive meglio, ma il lavoro sta al nord. È così.",
+      "pt": "南方生活更好，但工作在北方。就是这样。",
+      "tts": "Al sud si vive meglio, ma il lavoro sta al nord. È così."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "it-a04-n03",
+      "bloco": "capsula",
+      "pt": "经济差距是被测量过的，而且是真实的。它的成因则被争论，而那场争论才是敏感的部分。"
+    },
+    {
+      "consulta": [
+        "conversa/perguntar"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "it-a04-p01",
+      "promptPt": "问他们自己的经历，而不是问这个国家。现在开口说。",
+      "audioKey": "it-a04-t01",
+      "es": "E lei come l'ha vissuta?",
+      "pinyin": "eh lay KO-me la vees-SOO-ta",
+      "pt": "那您是怎么经历过来的？",
+      "tts": "E lei come l'ha vissuta?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_it_f",
+      "audioKey": "it-a04-r02",
+      "receptivo": true,
+      "acao": "这是一个家庭故事，不是一个政治立场。就当它是这样来听。",
+      "es": "Mio padre è partito da Bari a vent'anni. Non è più tornato.",
+      "pt": "我父亲二十岁离开了巴里。他再也没回去过。",
+      "tts": "Mio padre è partito da Bari a vent'anni. Non è più tornato."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "it-a04-n04",
+      "pt": "国内迁徙触及了极其庞大的家庭数量。听起来像一个立场的东西，往往是一段家族历史。"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_it_m",
+      "audioKey": "it-a04-r03",
+      "receptivo": true,
+      "acao": "足球竞争承载着同一条断层线。享受它；别把选一支球队当作代理立场。",
+      "es": "Quando gioca il Napoli contro la Juve, non è solo calcio.",
+      "pt": "当那不勒斯对阵尤文图斯时，那不只是足球。",
+      "tts": "Quando gioca il Napoli contro la Juve, non è solo calcio."
+    },
+    {
+      "consulta": [
+        "conversa/perguntar"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "it-a04-p02",
+      "promptPt": "问它意味着什么，别选边。现在开口说。",
+      "audioKey": "it-a04-t02",
+      "es": "Perché è così sentita questa partita?",
+      "pinyin": "per-KEH eh ko-ZEE sen-TEE-ta KWES-ta par-TEE-ta",
+      "pt": "为什么这场比赛被看得这么重？",
+      "tts": "Perché è così sentita questa partita?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "it-a04-n05",
+      "pt": "错误的动作是下判决。任何你给这个国家的两半排名的句子，都会让你付出接下来整段对话的代价。"
+    },
+    {
+      "consulta": [
+        "conversa/opiniao"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "it-a04-p03",
+      "promptPt": "诚实地说你了解得不够，没法有一个看法。现在开口说。",
+      "audioKey": "it-a04-t03",
+      "es": "Non ne so abbastanza per giudicare.",
+      "pinyin": "non neh so ab-bas-TAN-tsa per joo-dee-KA-re",
+      "pt": "我了解得不够，没法评判。",
+      "tts": "Non ne so abbastanza per giudicare."
+    },
+    {
+      "consulta": [
+        "conversa/opiniao"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "it-a04-p04",
+      "promptPt": "说你喜欢另一半的什么，作为经历而不是作为排名。现在开口说。",
+      "audioKey": "it-a04-t04",
+      "es": "Al sud mi hanno accolto benissimo, devo dire.",
+      "pinyin": "al sood mee AN-no ak-KOL-to be-NEES-see-mo, DE-vo DEE-re",
+      "pt": "我得说，在南方他们把我招待得好极了。",
+      "tts": "Al sud mi hanno accolto benissimo, devo dire."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_it_f",
+      "audioKey": "it-a04-r04",
+      "receptivo": true,
+      "acao": "那句落得很好。经历是被允许的；比较则不会被允许。",
+      "es": "Eh, quello sì. Su quello non si discute.",
+      "pt": "啊，那倒是。那件事没什么好争的。",
+      "tts": "Eh, quello sì. Su quello non si discute."
+    },
+    {
+      "consulta": [
+        "conversa/perguntar"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "it-a04-p05",
+      "promptPt": "问这些年他们的城镇里有什么变了。现在开口说。",
+      "audioKey": "it-a04-x01",
+      "es": "Qui cos'è cambiato negli anni?",
+      "pinyin": "kwee ko-ZEH kam-bee-A-to NE-lyee AN-nee",
+      "pt": "这些年这里有什么变了？",
+      "tts": "Qui cos'è cambiato negli anni?"
+    },
+    {
+      "consulta": [
+        "conversa/opiniao"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "it-a04-p06",
+      "promptPt": "说这趟旅行让你明白这个国家不是一个地方。现在开口说。",
+      "audioKey": "it-a04-x02",
+      "es": "Ho capito che l'Italia non è una sola.",
+      "pinyin": "oh ka-PEE-to keh lee-TA-lya non eh OO-na SO-la",
+      "pt": "我明白了意大利不只是一个地方。",
+      "tts": "Ho capito che l'Italia non è una sola."
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_en_us_m",
+      "audioKey": "it-a04-n06",
+      "bloco": "recap",
+      "pt": "A04 完成。差距是真实的，解释是有争议的，而你的任务是一个问题而不是一个判决。"
+    }
+  ],
+  "aprofundar": {
+    "titulo": "一条贯穿一切的线",
+    "secoes": [
+      {
+        "titulo": "事实和解读是两回事",
+        "corpo": "经济差距存在，这是被测量过、无争议的。它为什么存在——历史、政策、国家、有组织犯罪、统一本身——则被带着真实感情地争论，而正是第二部分是不需要一个游客的意见的地方。"
+      },
+      {
+        "titulo": "它往往是一个家庭故事",
+        "corpo": "从南到北的大规模国内迁徙塑造了极其庞大数量的意大利家庭。当有人告诉你他们对这道分界怎么看时，你常常是在听一段关于他们自己父母生活的叙述。",
+        "exemplos": [
+          {
+            "es": "E lei come l'ha vissuta?",
+            "pt": "那您是怎么经历过来的？"
+          },
+          {
+            "es": "Non ne so abbastanza per giudicare.",
+            "pt": "我了解得不够，没法评判。"
+          }
+        ]
+      },
+      {
+        "titulo": "足球承载着它",
+        "corpo": "某些赛事是整场争论的代理，而看台上的喊声可能比你在对话里听到的任何东西都更难看。享受比赛而不采纳一方是完全可能的，也安全得多。"
+      },
+      {
+        "titulo": "经历胜过比较",
+        "corpo": "说你在某处受到欢迎是对你旅程的叙述。说这个国家的一半比另一半好则是对他们的判决。前者永远安全；后者永远不值得。"
+      }
+    ]
+  },
+  "slot": "A04",
+  "permissao": "你被允许说你没有意见。在这场对话里 Non ne so abbastanza per giudicare 不是回避——它是在一个国家待了三周之后准确的答案，而且它被听成尊重，而不是拘谨。",
+  "permissaoAudioKey": "it-a04-n05",
+  "espelho": "每个国家都有那场外人应该置身事外的争论，而每个人都知道听一个游客自信地在自己国家的那场争论里选边的感觉。在意大利认出它的形状比听起来容易，因为你已经从家里就知道它了。",
+  "fichasCulturais": [
+    {
+      "sinal": "有人当着你的面批评这个国家的另一半，然后停顿，似乎在等你的看法。",
+      "suaLeitura": "他们想要我的意见，而有一个意见显示我一直在留意。",
+      "oQueEAli": "这停顿通常是修辞性的，而不是真的在请求一个外部判决。这道分界是一场内部争论，背后有一个半世纪的历史，而且很常带着个人的家庭利害。",
+      "oQueVoceFaz": "用一个关于他们经历的问题替代判决——e lei come l'ha vissuta?——或者说出你自己的经历而不给任何东西排名。",
+      "oQueMelhora": "你得到真正的故事，那通常比立场有趣得多，而且你留在对话里，而不是结束它。",
+      "ondeNaoVale": "这不是让你对自己的旅程闭口的理由。说你在哪里受到很好的对待是受欢迎的；它只有在变成一次比较时才成为问题。",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "it-a04-n04",
+        "it-a04-n05"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "id": "q-b15",
+  "nivel": "basico",
+  "titulo": "测验 — 购物：价格、尺码、试一试、能不能换",
+  "subtitulo": "四个问题，一张小票",
+  "introAudioKey": "it-b15-q-i",
+  "introPt": "一位旅行者把一次购物办完，不给以后留下任何疑问。",
+  "cenario": "一家小店。",
+  "dialogo": [
+    {
+      "audioKey": "it-b15-q01",
+      "voz": "target_it_f",
+      "es": "Buongiorno, do solo un'occhiata.",
+      "pt": "早上好，我只是随便看看。"
+    },
+    {
+      "audioKey": "it-b15-q02",
+      "voz": "target_it_f",
+      "es": "Quanto costa questa?",
+      "pt": "这个多少钱？"
+    },
+    {
+      "audioKey": "it-b15-q03",
+      "voz": "target_it_f",
+      "es": "Posso cambiarla se non va bene?",
+      "pt": "如果不合适，我可以换吗？"
+    },
+    {
+      "audioKey": "it-b15-q04",
+      "voz": "target_it_m",
+      "es": "Entro otto giorni, con lo scontrino.",
+      "pt": "八天之内，凭小票。"
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "为什么进小店时要打个招呼？",
+      "opcoes": [
+        "法律规定的",
+        "这是让你被当成一个人、而不是一股人流的方式",
+        "为了拿折扣",
+        "为了更快被招呼"
+      ],
+      "correta": 1,
+      "explica": "接一句 Do solo un'occhiata，就为你换来了安静逛店的权利。"
+    },
+    {
+      "pergunta": "什么时候问能不能换货？",
+      "opcoes": [
+        "回到家之后",
+        "在付款之前",
+        "只有坏了才问",
+        "从不问"
+      ],
+      "correta": 1,
+      "explica": "各家店的答复不一样，而事先问一句几乎不费什么。"
+    },
+    {
+      "pergunta": "对于你自己改主意想退的东西，店家有义务收回吗？",
+      "opcoes": [
+        "有，一直都有",
+        "没有——保修管的是有瑕疵的货，不管反悔",
+        "有，十四天之内",
+        "只有刷卡付款才有"
+      ],
+      "correta": 1,
+      "explica": "很多店反正也会收，只要在期限内并带着小票。"
+    },
+    {
+      "pergunta": "ci penso 起什么作用？",
+      "opcoes": [
+        "要求打折",
+        "把商品预留下来",
+        "是一句完整而礼貌的、不买就走的告辞",
+        "叫经理来"
+      ],
+      "correta": 2,
+      "explica": "没人指望你为没买某样东西给出解释。"
+    },
+    {
+      "pergunta": "欧盟的十四天无理由退货权适用于在实体店的购买吗？",
+      "opcoes": [
+        "适用",
+        "不适用——它针对的是远程销售",
+        "只适用于衣服",
+        "只适用于五十欧元以上"
+      ],
+      "correta": 1,
+      "explica": "在实体店里，规矩就是店家跟你说的那套。"
+    }
+  ]
+}

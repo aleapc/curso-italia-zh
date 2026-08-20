@@ -1,0 +1,92 @@
+{
+  "id": "q-i08",
+  "nivel": "intermediario",
+  "titulo": "测验 — 被邀请到别人家里",
+  "subtitulo": "一顿周日午餐的样子",
+  "introAudioKey": "it-i08-q-i",
+  "introPt": "一位旅行者接受了邀请，把整个流程都做对了。",
+  "cenario": "在一个意大利家庭的餐桌上吃周日午餐。",
+  "dialogo": [
+    {
+      "audioKey": "it-i08-q01",
+      "voz": "target_it_m",
+      "es": "Domenica venite a pranzo da noi. Alle una.",
+      "pt": "周日到我们家来吃午饭。一点钟。"
+    },
+    {
+      "audioKey": "it-i08-q02",
+      "voz": "target_it_f",
+      "es": "Cosa posso portare?",
+      "pt": "我可以带点什么？"
+    },
+    {
+      "audioKey": "it-i08-q03",
+      "voz": "target_it_m",
+      "es": "Ma niente, che dice! Portate solo voi stessi.",
+      "pt": "什么都不用，您说什么呢！人来就行。"
+    },
+    {
+      "audioKey": "it-i08-q04",
+      "voz": "target_it_f",
+      "es": "Ho portato il dolce, spero vada bene.",
+      "pt": "我带了甜点，希望没问题。"
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "主人说什么都不用带。你怎么做？",
+      "opcoes": [
+        "什么都不带",
+        "带点上桌的东西——那句拒绝本身就是这套往来的一部分",
+        "再问一遍",
+        "事后送花"
+      ],
+      "correta": 1,
+      "explica": "从正经糕点店买的甜点是最稳妥的选择。"
+    },
+    {
+      "pergunta": "你坐在哪里？",
+      "opcoes": [
+        "随便坐",
+        "等别人安排——问一句 dove mi metto?",
+        "坐主位",
+        "坐离门最近的位置"
+      ],
+      "correta": 1,
+      "explica": "家庭餐桌上的座位并不是中立的。"
+    },
+    {
+      "pergunta": "祝酒时最重要的是什么？",
+      "opcoes": [
+        "用词要准确",
+        "碰杯时看着每一个人",
+        "站起来",
+        "把杯里的酒喝完"
+      ],
+      "correta": 1,
+      "explica": "Cin cin 和 salute 都是标准说法。"
+    },
+    {
+      "pergunta": "什么时候起身告辞才不算太早？",
+      "opcoes": [
+        "第一道菜之后",
+        "咖啡已经端上来并喝过之后",
+        "两个小时之后",
+        "有人打哈欠时"
+      ],
+      "correta": 1,
+      "explica": "在那之前起身，会被读作这顿饭出了什么岔子。"
+    },
+    {
+      "pergunta": "你已经吃饱，他们却还在不停地劝。最好的做法？",
+      "opcoes": [
+        "每次都断然拒绝",
+        "象征性地拿一点，再配上一句赞美",
+        "全都吃光",
+        "离开"
+      ],
+      "correta": 1,
+      "explica": "除非你有过敏——那时改用 B13 那套。"
+    }
+  ]
+}

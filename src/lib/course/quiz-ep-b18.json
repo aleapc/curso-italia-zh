@@ -1,0 +1,92 @@
+{
+  "id": "q-b18",
+  "nivel": "basico",
+  "titulo": "测验 — 最后一天",
+  "subtitulo": "退房、寄存行李、把那句话说出口",
+  "introAudioKey": "it-b18-q-i",
+  "introPt": "一位旅行者把这趟旅程好好收尾，而不只是一走了之。",
+  "cenario": "在酒店的最后一个早晨。",
+  "dialogo": [
+    {
+      "audioKey": "it-b18-q01",
+      "voz": "target_it_f",
+      "es": "Buongiorno, vorrei fare il check-out.",
+      "pt": "早上好，我想退房。"
+    },
+    {
+      "audioKey": "it-b18-q02",
+      "voz": "target_it_f",
+      "es": "Posso lasciare la valigia fino alle sei?",
+      "pt": "我可以把行李箱寄存到六点吗？"
+    },
+    {
+      "audioKey": "it-b18-q03",
+      "voz": "target_it_f",
+      "es": "Il ristorante che ci ha consigliato era ottimo.",
+      "pt": "您推荐的那家餐厅棒极了。"
+    },
+    {
+      "audioKey": "it-b18-q04",
+      "voz": "target_it_m",
+      "es": "Che piacere sentirlo. Torni a trovarci!",
+      "pt": "很高兴听您这么说。欢迎再来！"
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "为什么要索取明细账单？",
+      "opcoes": [
+        "为了提出异议",
+        "因为旅游税和额外消费落在这上面，而不在预付的预订里",
+        "为了拿折扣",
+        "给你的雇主报销用"
+      ],
+      "correta": 1,
+      "explica": "这是问题还能轻松得到答案的最后时机。"
+    },
+    {
+      "pergunta": "怎样的告别才有分量？",
+      "opcoes": [
+        "音量大",
+        "具体说出到底是什么帮到了你",
+        "只说意大利语",
+        "给小费"
+      ],
+      "correta": 1,
+      "explica": "具体，正是让感谢区别于客套话的地方。"
+    },
+    {
+      "pergunta": "Torni a trovarci 期待的是：",
+      "opcoes": [
+        "不作回应",
+        "回敬一句——torneremo，或 alla prossima",
+        "一笔小费",
+        "一条评价"
+      ],
+      "correta": 1,
+      "explica": "不作回应会显得像是把话谈到一半就断了。"
+    },
+    {
+      "pergunta": "退房后的 deposito bagagli（行李寄存）是：",
+      "opcoes": [
+        "少见、开口都尴尬的事",
+        "很平常，对住客通常免费",
+        "只有火车站才有",
+        "只寄存行李箱"
+      ],
+      "correta": 1,
+      "explica": "它把死气沉沉的最后一天变成真正的一天。"
+    },
+    {
+      "pergunta": "这个模块是怎么收尾的？",
+      "opcoes": [
+        "以一句防盗的提醒",
+        "以一句告别",
+        "以一场考试",
+        "以一份购物清单"
+      ],
+      "correta": 1,
+      "explica": "它是以一句在你还没有任何需求时就送出的问候开场的。"
+    }
+  ]
+}

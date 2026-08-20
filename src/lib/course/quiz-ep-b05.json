@@ -1,0 +1,92 @@
+{
+  "id": "q-b05",
+  "nivel": "basico",
+  "titulo": "测验 —— 三个回答，然后停下",
+  "subtitulo": "目的、时长、住在哪里",
+  "introAudioKey": "it-b05-q-i",
+  "introPt": "一位旅行者用三个简短的句子回答边检。",
+  "cenario": "抵达时的护照检查。",
+  "dialogo": [
+    {
+      "audioKey": "it-b05-q01",
+      "voz": "target_it_m",
+      "es": "Qual è il motivo del viaggio?",
+      "pt": "您此行的目的是什么？"
+    },
+    {
+      "audioKey": "it-b05-q02",
+      "voz": "target_it_f",
+      "es": "Sono in vacanza.",
+      "pt": "我在度假。"
+    },
+    {
+      "audioKey": "it-b05-q03",
+      "voz": "target_it_m",
+      "es": "Quanto tempo si ferma?",
+      "pt": "您要停留多久？"
+    },
+    {
+      "audioKey": "it-b05-q04",
+      "voz": "target_it_f",
+      "es": "Dieci giorni.",
+      "pt": "十天。"
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "在边检柜台要完成哪三件事？",
+      "opcoes": [
+        "目的、时长、住宿",
+        "姓名、年龄、职业",
+        "钱、行李、机票",
+        "航班、座位、登机口"
+      ],
+      "correta": 0,
+      "explica": "逐一回答，然后停下。"
+    },
+    {
+      "pergunta": "eccola 是什么意思、起什么作用？",
+      "opcoes": [
+        "给您 —— 递上证件",
+        "我不知道",
+        "请重复一遍",
+        "谢谢"
+      ],
+      "correta": 0,
+      "explica": "它把这次交流从记忆转向凭证。"
+    },
+    {
+      "pergunta": "该不该用课上那个「十天」？",
+      "opcoes": [
+        "该，总是用它",
+        "不该，用你真实的天数",
+        "只在少于两周时用",
+        "只在度假时用"
+      ],
+      "correta": 1,
+      "explica": "真实胜过流利；无论如何结构都一样简短。"
+    },
+    {
+      "pergunta": "简短的回答会显得可疑吗？",
+      "opcoes": [
+        "会，要多解释一些",
+        "不会，简短说明它正好对上了问题",
+        "只有你停顿时才会",
+        "只对游客而言才会"
+      ],
+      "correta": 1,
+      "explica": "过度解释才是真正拖慢柜台速度的原因。"
+    },
+    {
+      "pergunta": "如果你没听清问题怎么办？",
+      "opcoes": [
+        "猜一个然后点头",
+        "说 scusi, non ho capito la domanda",
+        "用英语回答",
+        "再把护照递一次"
+      ],
+      "correta": 1,
+      "explica": "开口问，比从错误回答中补救要快。"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "marca": "Dimmi!",
+  "cabecalho": "意大利速览",
+  "titulo": "旅行者口袋",
+  "subtitulo": "关键信息在飞行模式下也能随时查看。",
+  "rotulos": {
+    "cambio": "货币换算器",
+    "valorEm": "金额（单位",
+    "dataCotacao": "汇率日期",
+    "avisoCotacao": "仅供参考。消费前请以你的银行卡或银行汇率为准。",
+    "tomadas": "插座与电压",
+    "emergencia": "紧急求助",
+    "ligar": "拨打",
+    "saberUtil": "实用须知"
+  },
+  "mesmaMoeda": "意大利使用欧元；出发前请换好欧元或备好可在当地取款的银行卡。",
+  "moedas": {
+    "EUR": { "flag": "🇪🇺", "locale": "en-GB" },
+    "CNY": { "flag": "🇨🇳", "locale": "zh-CN" },
+    "GBP": { "flag": "🇬🇧", "locale": "en-GB" },
+    "USD": { "flag": "🇺🇸", "locale": "en-US" }
+  },
+  "cambio": {
+    "date": "2026-07-27",
+    "rates": {
+      "CNY": 7.8,
+      "GBP": 0.85524,
+      "USD": 1.1389
+    }
+  },
+  "emergencia": [
+    { "numero": "112", "oQue": "欧盟统一紧急电话——任何电话、任何时间均可免费拨打。为访客提供多语种支持和实时翻译。请首先拨打此号码。" },
+    { "numero": "113", "oQue": "警察（Polizia di Stato）" },
+    { "numero": "115", "oQue": "消防（Vigili del Fuoco）" },
+    { "numero": "118", "oQue": "医疗急救／救护车" }
+  ],
+  "saberUtil": [
+    { "emoji": "☕", "texto": "酒吧对同一种饮品依法收取两种价格：al banco（站在吧台）和 al tavolo（坐在桌旁），桌边服务往往贵约一倍——价目表必须公示，落座前请先看清。" },
+    { "emoji": "🧾", "texto": "Coperto 是按人头收取的餐位费：法律并未强制，但只要在菜单上清楚标明即合法；servizio 以百分比印出，合法且应付。" },
+    { "emoji": "💶", "texto": "在意大利不必给小费——两人晚餐后凑个整数、或留下 2–5 欧元现金即受欢迎，且完全出于自愿。" },
+    { "emoji": "🧑‍⚖️", "texto": "scontrino fiscale（税务收据）是法律要求，而非礼貌之举——每笔交易都必须开具，所以别忘了拿了再走。" },
+    { "emoji": "🚆", "texto": "区域线的电子车票会在你所选的出发时间自动生效，之后不可更改；请确保手机上能随时打开二维码，因为出示不了就等同于无票乘车。纸质车票上车前仍需在机器上打卡。" },
+    { "emoji": "💚", "texto": "绿色十字代表药店，售处方药和非处方药。歇业时会在门口张贴 farmacia di turno 名单——即附近 24 小时轮值的药店及其电话。" },
+    { "emoji": "🩺", "texto": "EHIC 或 GHIC 卡让欧盟和英国访客能以减免费用使用公共医疗系统，但既不覆盖私立诊所，也不覆盖回国转运。" }
+  ]
+}

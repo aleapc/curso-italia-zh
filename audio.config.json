@@ -1,0 +1,40 @@
+{
+  "_comentario": "EN → Itália: voz-guia AMERICANA (EUA 8,13 M de chegadas contra 3,80 M do Reino Unido — o comprador maior manda no sotaque do guia) — Matilda (educadora) + Eric (segunda voz). Fala-alvo em italiano padrão — Valeria + Fabio, as duas ÚNICAS vozes com language:it na biblioteca da conta (conferido via /v1/voices em 2026-08-04). REGRA INV-5: a voz-guia NUNCA fala italiano e a voz nativa NUNCA fala inglês. Italiano não é tonal: a exigência é naturalidade e ritmo, não fidelidade tonal. Fabio e Valeria são exatamente as duas que o SKU IT→Espanha já usa como voz-GUIA; aqui elas trocam de lado e viram a fala-ALVO, que é o reuso correto — voz é ativo do IDIOMA, não do curso.",
+  "model": "eleven_flash_v2_5",
+  "guideModel": "eleven_flash_v2_5",
+  "targetModel": "eleven_multilingual_v2",
+  "roles": {
+    "guide_en_us_f": {
+      "voiceId": "0H4ruoQ81Ei2FCwjW5j1",
+      "languageCode": "zh",
+      "name": "Susan"
+    },
+    "guide_en_us_m": {
+      "voiceId": "DSyEP4HEaCKur8rFFOri",
+      "languageCode": "zh",
+      "name": "Zack"
+    },
+    "target_it_f": {
+      "voiceId": "DrXMEEZ3ZiRzhi81CK7I",
+      "languageCode": "it",
+      "name": "Valeria"
+    },
+    "target_it_m": {
+      "voiceId": "eOn95oFslB2Bc07vuxXT",
+      "languageCode": "it",
+      "name": "Fabio"
+    }
+  },
+  "_g14": {
+    "guia": [
+      "guide_en_us_f",
+      "guide_en_us_m"
+    ],
+    "guiaLingua": "zh",
+    "alvo": [
+      "target_it_f",
+      "target_it_m"
+    ],
+    "alvoLingua": "it"
+  }
+}

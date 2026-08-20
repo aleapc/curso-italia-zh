@@ -1,0 +1,59 @@
+{
+  "id": "b04",
+  "nivel": "basico",
+  "numero": 4,
+  "parte": "1D",
+  "titulo": "和你一起登机的四份文件",
+  "subtitulo": "护照、能离线证明的预订、一个可用的网络连接，还有两种付款方式——今晚就检查好，趁着补救还不费事",
+  "cena": "今晚，在厨房餐桌上，是这一切最容易补救的最后时刻——明天它们全都装进一部可能没有信号的手机里。",
+  "moldura": "protege",
+  "frasePiso": "如果手机在出租车站前没电了，这趟行程也应该还握在你手里。",
+  "moldes": [],
+  "steps": [
+    { "tipo": "intro", "voz": "guide_en_us_f", "audioKey": "it-b04-n01", "gesto": 1, "bloco": "aquecimento", "pt": "明天的旅程从今晚开始。四份文件，趁着出错还不费一分钱补救的时候检查好。" },
+    { "tipo": "intro", "voz": "guide_en_us_m", "audioKey": "it-b04-n02", "bloco": "corpo", "pt": "第一：护照，还有你所乘航空公司自己的有效期规定——航空公司的登机检查和边境的规定不是一回事。" },
+    { "tipo": "intro", "voz": "guide_en_us_f", "audioKey": "it-b04-n03", "pt": "第二：让预订在手机没电时也能用。把酒店地址和返程机票存到一个没有信号也能打开的地方。" },
+    { "tipo": "ouvir", "voz": "target_it_m", "audioKey": "it-b04-r01", "es": "Buonasera, come posso aiutarla?", "pt": "晚上好，请问有什么可以帮您？", "tts": "Buonasera, come posso aiutarla?" },
+    { "consulta": ["dormir/confirmar"], "tipo": "responde", "voz": "target_it_f", "promptVoz": "guide_en_us_m", "promptAudioKey": "it-b04-p01", "promptPt": "你在飞行前给酒店打电话。开口就说明来意。现在请说。", "audioKey": "it-b04-t01", "es": "Vorrei confermare la mia prenotazione.", "pinyin": "vor-RAY kon-fer-MA-re la MEE-a pre-no-ta-tsee-O-ne", "pt": "我想确认一下我的预订。", "tts": "Vorrei confermare la mia prenotazione." },
+    { "tipo": "intro", "voz": "guide_en_us_m", "audioKey": "it-b04-n04", "pt": "应用里的一个绿色对勾不算凭证。请他们把确认发到一个你能保存下来的地方。" },
+    { "consulta": ["dormir/confirmar", "reparo/escribir"], "tipo": "responde", "voz": "target_it_f", "molde": "MI-PUO", "encaixe": "mandare la conferma", "promptVoz": "guide_en_us_f", "promptAudioKey": "it-b04-p02", "promptPt": "请他们把确认发到你的邮箱，这样你就能离线保存。现在请说。", "audioKey": "it-b04-t02", "es": "Mi può mandare la conferma per email?", "pinyin": "mee pwoh man-DA-re la kon-FER-ma per EE-mayl", "pt": "您能把确认发到我的邮箱吗？", "tts": "Mi può mandare la conferma per email?" },
+    { "tipo": "intro", "voz": "guide_en_us_f", "audioKey": "it-b04-n05", "bloco": "capsula", "pt": "酒店名字不等于目的地。司机和离线地图都需要完整的街道地址。" },
+    { "consulta": ["dormir/endereco"], "tipo": "responde", "voz": "target_it_f", "promptVoz": "guide_en_us_m", "promptAudioKey": "it-b04-p03", "promptPt": "预订上只显示酒店名字。请他们给你完整地址。现在请说。", "audioKey": "it-b04-t03", "es": "Qual è l'indirizzo completo?", "pinyin": "kwal eh leen-dee-REET-tso kom-PLEH-to", "pt": "完整地址是什么？", "tts": "Qual è l'indirizzo completo?" },
+    { "tipo": "ouvir", "voz": "target_it_m", "audioKey": "it-b04-r02", "es": "Via Garibaldi quarantadue, secondo piano.", "pt": "加里波第街四十二号，二楼。", "tts": "Via Garibaldi quarantadue, secondo piano." },
+    { "consulta": ["reparo/escribir"], "tipo": "responde", "voz": "target_it_f", "molde": "MI-PUO", "encaixe": "scrivere l'indirizzo", "promptVoz": "guide_en_us_f", "promptAudioKey": "it-b04-p04", "promptPt": "那个你记不住。请他们写下来。现在请说。", "audioKey": "it-b04-t04", "es": "Me lo può scrivere?", "pinyin": "meh lo pwoh SKREE-veh-re", "pt": "您能帮我写下来吗？", "tts": "Me lo può scrivere?" },
+    { "tipo": "intro", "voz": "guide_en_us_m", "audioKey": "it-b04-n06", "pt": "第三：网络连接。在家就装好 eSIM，并把激活步骤存在一个不用联网也能看的地方。" },
+    { "tipo": "intro", "voz": "guide_en_us_f", "audioKey": "it-b04-n07", "pt": "第四：两种付款方式，都由你亲自测试过。银行卡在国外被拒的原因，柜台没人跟你解释。" },
+    { "consulta": ["dormir/chegada-tardia"], "tipo": "responde", "voz": "target_it_f", "promptVoz": "guide_en_us_m", "promptAudioKey": "it-b04-p05", "promptPt": "你的航班很晚才到。说明你几点到，并确认前台是否开着。现在请说。", "audioKey": "it-b04-t05", "es": "Arrivo dopo le undici. La reception è aperta?", "pinyin": "ar-REE-vo DO-po le OON-dee-chee. la re-SEP-shon eh a-PER-ta", "pt": "我十一点以后到。前台开着吗？", "tts": "Arrivo dopo le undici. La reception è aperta?" },
+    { "tipo": "ouvir", "voz": "target_it_m", "audioKey": "it-b04-r03", "es": "Sì, siamo aperti ventiquattro ore.", "pt": "是的，我们二十四小时营业。", "tts": "Sì, siamo aperti ventiquattro ore." },
+    { "consulta": ["dormir/confirmar"], "tipo": "responde", "voz": "target_it_f", "promptVoz": "guide_en_us_f", "promptAudioKey": "it-b04-p06", "promptPt": "要一个你能从机场打的电话号码。现在请说。", "audioKey": "it-b04-t06", "es": "Qual è il numero dell'hotel?", "pinyin": "kwal eh eel NOO-meh-ro del-lo-TEL", "pt": "酒店的电话号码是多少？", "tts": "Qual è il numero dell'hotel?" },
+    { "consulta": ["dormir/confirmar"], "tipo": "responde", "voz": "target_it_f", "molde": "MI-PUO", "encaixe": "tenere la prenotazione", "promptVoz": "guide_en_us_m", "promptAudioKey": "it-b04-p07", "promptPt": "请他们保留你的预订，直到你到达。现在请说。", "audioKey": "it-b04-t07", "es": "Mi può tenere la prenotazione?", "pinyin": "mee pwoh te-NEH-re la pre-no-ta-tsee-O-ne", "pt": "您能帮我保留这个预订吗？", "tts": "Mi può tenere la prenotazione?" },
+    { "consulta": ["simpatia/agradecer"], "tipo": "responde", "voz": "target_it_f", "promptVoz": "guide_en_us_f", "promptAudioKey": "it-b04-p08", "promptPt": "热情地结束通话。现在请说。", "audioKey": "it-b04-t08", "es": "Perfetto, grazie mille. A presto!", "pinyin": "per-FET-to, GRA-tsee-eh MEEL-le. a PRES-to", "pt": "太好了，非常感谢。回头见！", "tts": "Perfetto, grazie mille. A presto!" },
+    { "tipo": "shadow", "voz": "target_it_f", "audioKey": "it-b04-s01", "es": "Vorrei confermare la mia prenotazione. Qual è l'indirizzo completo? Me lo può scrivere?", "pinyin": "vor-RAY kon-fer-MA-re la MEE-a pre-no-ta-tsee-O-ne. kwal eh leen-dee-REET-tso kom-PLEH-to. meh lo pwoh SKREE-veh-re", "pt": "把整个飞行前的通话一口气跟读一遍。", "tts": "Vorrei confermare la mia prenotazione. Qual è l'indirizzo completo? Me lo può scrivere?" },
+    { "tipo": "recap", "voz": "guide_en_us_f", "audioKey": "it-b04-n08", "bloco": "recap", "pt": "B04 完成。护照检查过，预订已确认并离线保存，完整地址已写下来，网络连接和两种付款方式都测试过。" }
+  ],
+  "aprofundar": {
+    "titulo": "一份会过期的清单",
+    "secoes": [
+      { "titulo": "离线本身就是一项旅行功能", "corpo": "把地址、返程预订和 eSIM 步骤截图保存下来，在机场 wifi、账户被锁和电池没电的情况下都能撑住——一连串应用链接却做不到。" },
+      { "titulo": "航空公司的规定和边境的规定不一样", "corpo": "护照有效期会被两个不同的方按两套不同的规定检查两次。满足了边境的要求，并不保证航空公司会让你登机——出发去机场前两个都要查。" },
+      { "titulo": "确认是一个动作，不是一份文件", "corpo": "这里有用的意大利语并不是把你的证件列出来。它在出发前补上预订里那些脆弱的缺口：确认它、拿到完整地址、把它写下来。", "exemplos": [{ "es": "Vorrei confermare la mia prenotazione.", "pt": "我想确认一下我的预订。" }, { "es": "Qual è l'indirizzo completo?", "pt": "完整地址是什么？" }] },
+      { "titulo": "意大利地址把门牌号放在街名后面", "corpo": "是 Via Garibaldi 42，不是 42 Via Garibaldi。写下来它就毫不含糊，这也正是 B03 里那条“写下来”的要领在这里派上用场的原因。" }
+    ]
+  },
+  "slot": "B04",
+  "permissao": "这一件事你可以做得过头。把一个预订确认两遍，或者存下一个大概永远用不上的地址，都不是焦虑——这是整趟旅程中，今晚花五分钟就能换来实实在在保护的那一部分，防的是手机没电或前台关门。",
+  "permissaoAudioKey": "it-b04-n01",
+  "espelho": "任何一个曾经“以防万一”航空公司应用失灵而把登机牌打印出来的人，其实已经在用这套本能了，只不过只用在一份文件上。B04 请你把同样的离线备份习惯用到另外三份文件上——不是一种新的谨慎，而是把熟悉的那种延伸开来。",
+  "fichasCulturais": [
+    {
+      "sinal": "你落地了，打开地图找酒店，却没有信号，除了酒店名字什么都没缓存下来。",
+      "suaLeitura": "我早该买漫游，或者这趟旅行已经开始出问题了。",
+      "oQueEAli": "酒店名字没法用来导航。司机或离线地图需要街道和门牌号，而在意大利的城市里，同一个街名会在不同城镇反复出现，所以城市也很重要。",
+      "oQueVoceFaz": "飞行前，请他们把完整地址写下来，并存到一个没有信号也能用的地方——不要只放在预订应用里。",
+      "oQueMelhora": "司机、陌生人或离线地图都能立刻据此行动，而不是让你站在到达大厅里，手里只攥着一个品牌名。",
+      "ondeNaoVale": "它替代不了确认预订本身——一个完美的地址配上错误的预订，仍然是错误的预订。",
+      "evidencia": "CONSENSO",
+      "audioKeys": ["it-b04-n05"]
+    }
+  ]
+}

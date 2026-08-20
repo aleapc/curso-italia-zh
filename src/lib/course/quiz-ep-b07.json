@@ -1,0 +1,92 @@
+{
+  "id": "q-b07",
+  "nivel": "basico",
+  "titulo": "测验 —— Dov’è —— 让你迈开脚步的那个问题",
+  "subtitulo": "候车点、地址，以及在哪儿停下",
+  "introAudioKey": "it-b07-q-i",
+  "introPt": "一位旅行者找到正规出租车候车点，并把这趟车程得体地收尾。",
+  "cenario": "从到达大厅到酒店门口。",
+  "dialogo": [
+    {
+      "audioKey": "it-b07-q01",
+      "voz": "target_it_f",
+      "es": "Scusi, dov’è la fermata dei taxi?",
+      "pt": "打扰一下，出租车候车点在哪里？"
+    },
+    {
+      "audioKey": "it-b07-q02",
+      "voz": "target_it_m",
+      "es": "Uscita cinque, appena fuori.",
+      "pt": "五号出口，就在外面。"
+    },
+    {
+      "audioKey": "it-b07-q03",
+      "voz": "target_it_f",
+      "es": "A questo indirizzo, per favore.",
+      "pt": "请到这个地址。"
+    },
+    {
+      "audioKey": "it-b07-q04",
+      "voz": "target_it_f",
+      "es": "Qui va bene, grazie.",
+      "pt": "在这儿停就好，谢谢。"
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "dov’è 是哪两个词的缩合？",
+      "opcoes": [
+        "Dove è",
+        "Dove sono",
+        "Da ove",
+        "Dov’era"
+      ],
+      "correta": 0,
+      "explica": "重音符号告诉你重音落在末尾。"
+    },
+    {
+      "pergunta": "为什么要越过在航站楼里揽客的人？",
+      "opcoes": [
+        "他们总是不老实",
+        "正规出租车在标示的候车点营运，有计价器和收据",
+        "接受他们的服务是违法的",
+        "他们只收现金"
+      ],
+      "correta": 1,
+      "explica": "建筑物内部处在那套系统之外。"
+    },
+    {
+      "pergunta": "该怎么把地址给司机？",
+      "opcoes": [
+        "凭记忆背出来",
+        "一边说一边把存好的屏幕给他看",
+        "一个字母一个字母地拼",
+        "写在纸上"
+      ],
+      "correta": 1,
+      "explica": "意大利的门牌号在街道名之后，而地名在各个城市之间重复出现。"
+    },
+    {
+      "pergunta": "什么时候索要 la ricevuta？",
+      "opcoes": [
+        "在你下车之前",
+        "第二天",
+        "在酒店",
+        "永远不要"
+      ],
+      "correta": 0,
+      "explica": "它是车门关上后唯一留存下来的凭据。"
+    },
+    {
+      "pergunta": "qui va bene 起什么作用？",
+      "opcoes": [
+        "问价格",
+        "在你真正能下车的地方把车停下",
+        "谢谢司机",
+        "确认地址"
+      ],
+      "correta": 1,
+      "explica": "在打开酒店这一步之前，先把这趟车程收尾。"
+    }
+  ]
+}

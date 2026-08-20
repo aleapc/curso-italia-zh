@@ -1,0 +1,96 @@
+{
+  "id": "q-a04",
+  "nivel": "avancado",
+  "titulo": "测验 — 那场由来已久的争论",
+  "subtitulo": "一条贯穿一切的界线",
+  "introAudioKey": "it-a04-q-i",
+  "introPt": "旅行者选择发问，而不是排高低。",
+  "cenario": "一段关于北方和南方的对话。",
+  "dialogo": [
+    {
+      "audioKey": "it-a04-q01",
+      "voz": "target_it_m",
+      "es": "Al sud si vive meglio, ma il lavoro sta al nord.",
+      "pt": "南方生活更好，但工作在北方。",
+      "tts": "Al sud si vive meglio, ma il lavoro sta al nord."
+    },
+    {
+      "audioKey": "it-a04-q02",
+      "voz": "target_it_f",
+      "es": "Mio padre è partito da Bari a vent'anni. Non è più tornato.",
+      "pt": "我父亲二十岁时离开巴里。他再也没有回去。",
+      "tts": "Mio padre è partito da Bari a vent'anni. Non è più tornato."
+    },
+    {
+      "audioKey": "it-a04-q03",
+      "voz": "target_it_f",
+      "es": "Non ne so abbastanza per giudicare.",
+      "pt": "我了解得不够，没法评判。",
+      "tts": "Non ne so abbastanza per giudicare."
+    },
+    {
+      "audioKey": "it-a04-q04",
+      "voz": "target_it_f",
+      "es": "Al sud mi hanno accolto benissimo, devo dire.",
+      "pt": "我得说，在南方他们对我招待得非常好。",
+      "tts": "Al sud mi hanno accolto benissimo, devo dire."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "北方和南方之间的经济差距是：",
+      "opcoes": [
+        "一种刻板印象",
+        "经过测算的事实，只是原因众说纷纭",
+        "近期才有的说法",
+        "已经消除"
+      ],
+      "correta": 1,
+      "explica": "Istat 和 SVIMEZ 都有记录；有争议的是成因。"
+    },
+    {
+      "pergunta": "当有人告诉你他对这道鸿沟的看法时，你往往听到的是：",
+      "opcoes": [
+        "党派政治",
+        "一个家族的故事",
+        "一个玩笑",
+        "一段旅游推销"
+      ],
+      "correta": 1,
+      "explica": "国内的人口迁移塑造了无数家庭的命运。"
+    },
+    {
+      "pergunta": "错误的做法是：",
+      "opcoes": [
+        "提一个问题",
+        "对哪一半更好下一个定论",
+        "说你不知道",
+        "分享你的经历"
+      ],
+      "correta": 1,
+      "explica": "任何排高低都会让你失去接下来的对话。"
+    },
+    {
+      "pergunta": "那不勒斯对尤文图斯是：",
+      "opcoes": [
+        "只是足球",
+        "整场争论的一个缩影",
+        "一场友谊赛",
+        "近期才有的"
+      ],
+      "correta": 1,
+      "explica": "尽情享受，但不要选边站。"
+    },
+    {
+      "pergunta": "哪句话说出来是安全的？",
+      "opcoes": [
+        "北方组织得更好",
+        "南方人更友善",
+        "在南方他们对我招待得非常好",
+        "两边都不行"
+      ],
+      "correta": 2,
+      "explica": "分享经历是可以的；作比较则不行。"
+    }
+  ]
+}

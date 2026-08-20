@@ -1,0 +1,22 @@
+{
+  "id": "q-b14",
+  "nivel": "basico",
+  "titulo": "测验 — Mi porta，还有账单",
+  "subtitulo": "Coperto、servizio、scontrino",
+  "introAudioKey": "it-b14-q-i",
+  "introPt": "一位旅行者请人拿账单，读懂那两行附加费，然后拿走小票。",
+  "cenario": "在一家小饭馆用餐结束时。",
+  "dialogo": [
+    { "audioKey": "it-b14-q01", "voz": "target_it_f", "es": "Mi porta il conto, per favore?", "pt": "麻烦给我拿账单，好吗？" },
+    { "audioKey": "it-b14-q02", "voz": "target_it_m", "es": "Coperto due euro a persona, servizio dieci per cento.", "pt": "餐位费每人两欧元，服务费百分之十。" },
+    { "audioKey": "it-b14-q03", "voz": "target_it_f", "es": "Scusi, cos'è questa voce?", "pt": "不好意思，这一项是什么？" },
+    { "audioKey": "it-b14-q04", "voz": "target_it_f", "es": "Mi porta lo scontrino, per favore?", "pt": "麻烦给我拿小票，好吗？" }
+  ],
+  "perguntas": [
+    { "pergunta": "为什么账单不会自己送上来？", "opcoes": ["服务员忘了", "不请自来地送账单等于是在催你走", "厨房出菜慢", "你得去收银台付款"], "correta": 1, "explica": "在你发出信号之前，这张桌子都是你的。" },
+    { "pergunta": "coperto（餐位费）是法律要求的吗？", "opcoes": ["是，一直都是", "不是——但只要在菜单上清楚标示，它就是合法的", "不是，而且永远都是非法的", "只在旅游区才有"], "correta": 1, "explica": "菜单上任何地方都没写的 coperto，才是值得质疑的那种。" },
+    { "pergunta": "账单上有 servizio。你还应该另给小费吗？", "opcoes": ["应该，百分之十五", "应该，百分之十", "不必——不指望你在此之上再给小费；凑个整数就足够了", "只有服务好时才给"], "correta": 2, "explica": "意大利不靠小费运转。" },
+    { "pergunta": "scontrino fiscale（正式收据）是：", "opcoes": ["一种礼节", "商家的法律义务", "可有可无的单据", "只给公司开的"], "correta": 1, "explica": "它也是事后能让你就任何事提出异议的唯一凭据。" },
+    { "pergunta": "mi porta 涵盖的是什么？", "opcoes": ["只有账单", "任何需要实际端到你桌上的东西", "问路", "价格"], "correta": 1, "explica": "账单、水、面包、小票。" }
+  ]
+}

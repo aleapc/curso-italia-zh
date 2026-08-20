@@ -1,0 +1,285 @@
+{
+  "id": "b17",
+  "nivel": "basico",
+  "numero": 17,
+  "parte": "6B",
+  "titulo": "药房、疼痛、急救",
+  "subtitulo": "绿色十字、贴在关闭的门上的清单，以及任何电话都能拨通的号码",
+  "cena": "现在是周日傍晚，你面前的药房关着门，玻璃内侧贴着一张打印的纸。",
+  "moldura": "protege",
+  "frasePiso": "说出症状，说出哪里疼，让药剂师来选。关着的门依然会告诉你哪家开着。",
+  "moldes": [],
+  "fatosDatados": [
+    {
+      "id": "it-112-farmacia-turno",
+      "afirmacao": "112 是欧洲统一急救电话，在意大利用任何电话都能拨通，包括没有话费时，而且大多数情况下没有 SIM 卡也能拨。药房实行轮值制度：关闭的药房必须张贴 farmacie di turno（值班药房）清单，标明附近哪家药房值班以及值班时间，同样的轮值表也由当地卫生部门公布。",
+      "fonte": "Commissione Europea — «112: il numero unico di emergenza europeo»; Federfarma — servizio di turno e reperibilità",
+      "ano": 2026,
+      "revisarAte": "2027-08-04",
+      "evidencia": "FATO",
+      "risco": "alto",
+      "audioKeys": [
+        "it-b17-n05"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "it-b17-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "pt": "这是本单元里纯粹防御性的一部分。它的存在是为了让难熬的一夜变短，而不是变长。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "it-b17-n02",
+      "bloco": "corpo",
+      "pt": "绿色十字就是药房。进去后，说出症状——没人指望你说出药名。"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_it_f",
+      "audioKey": "it-b17-t01",
+      "es": "Ho mal di testa da ieri.",
+      "pinyin": "oh mal dee TES-ta da ee-EH-ri",
+      "pt": "我从昨天开始头疼。",
+      "tts": "Ho mal di testa da ieri."
+    },
+    {
+      "consulta": [
+        "saude/sintoma",
+        "saude/farmacia"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "it-b17-p01",
+      "promptPt": "说出哪里疼、从什么时候开始。两个事实，别讲故事。现在开口。",
+      "audioKey": "it-b17-t01",
+      "es": "Ho mal di testa da ieri.",
+      "pinyin": "oh mal dee TES-ta da ee-EH-ri",
+      "pt": "我从昨天开始头疼。"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_it_m",
+      "audioKey": "it-b17-r01",
+      "es": "Prende altri farmaci? È allergico a qualcosa?",
+      "pt": "您在服用其他药物吗？您对什么东西过敏吗？",
+      "tts": "Prende altri farmaci? È allergico a qualcosa?",
+      "receptivo": true,
+      "acao": "在他们问第二遍之前，把两个问题都回答了。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "it-b17-n03",
+      "pt": "Mal di 加上身体部位。Mal di testa、mal di gola、mal di stomaco、mal di denti。一个句式，四种难熬的夜晚。"
+    },
+    {
+      "consulta": [
+        "saude/sintoma"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "it-b17-p02",
+      "promptPt": "同样的句式，换个身体部位：你的喉咙。现在开口。",
+      "audioKey": "it-b17-t02",
+      "es": "Ho mal di gola.",
+      "pinyin": "oh mal dee GO-la",
+      "pt": "我喉咙疼。",
+      "tts": "Ho mal di gola."
+    },
+    {
+      "consulta": [
+        "saude/alergia",
+        "comer/restricao"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "molde": "SENZA",
+      "encaixe": "aspirina",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "it-b17-p03",
+      "promptPt": "有一种常见成分你不能用。用 B12 的句式把它去掉。现在开口。",
+      "audioKey": "it-b17-t03",
+      "es": "C'è qualcosa senza aspirina?",
+      "pinyin": "cheh kwal-KO-za SEN-tsa as-pee-REE-na",
+      "pt": "有没有不含阿司匹林的？",
+      "tts": "C'è qualcosa senza aspirina?"
+    },
+    {
+      "consulta": [
+        "saude/receita"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "it-b17-p04",
+      "promptPt": "在他们去找之前，先问要不要处方。现在开口。",
+      "audioKey": "it-b17-t04",
+      "es": "Ci vuole la ricetta?",
+      "pinyin": "chee VWO-le la ree-CHET-ta",
+      "pt": "需要处方吗？",
+      "tts": "Ci vuole la ricetta?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "it-b17-n04",
+      "bloco": "capsula",
+      "pt": "如果药房关门了，看门上的信息。贴在里面的清单会告诉你今晚附近哪家值班。"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_it_m",
+      "audioKey": "it-b17-r02",
+      "receptivo": true,
+      "es": "Farmacie di turno: via Garibaldi dodici, aperta fino alle otto.",
+      "pt": "值班药房：加里波第街十二号，营业到八点。",
+      "tts": "Farmacie di turno: via Garibaldi dodici, aperta fino alle otto."
+    },
+    {
+      "consulta": [
+        "saude/farmacia",
+        "transporte/direcao"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "molde": "C-E",
+      "encaixe": "una farmacia di turno",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "it-b17-p05",
+      "promptPt": "问一位路人哪家药房在值班。现在开口。",
+      "audioKey": "it-b17-t05",
+      "es": "C'è una farmacia di turno qui vicino?",
+      "pinyin": "cheh OO-na far-ma-CHEE-a dee TOOR-no kwee vee-CHEE-no",
+      "pt": "这附近有值班药房吗？",
+      "tts": "C'è una farmacia di turno qui vicino?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "it-b17-n05",
+      "pt": "遇到紧急情况，只有一个号码：一一二。在意大利用任何电话都能拨通，没有话费、通常连 SIM 卡都不用。"
+    },
+    {
+      "consulta": [
+        "saude/emergencia"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "it-b17-p06",
+      "promptPt": "有人现在需要帮助。叫一辆救护车。现在开口。",
+      "audioKey": "it-b17-t06",
+      "es": "Chiami un'ambulanza, per favore.",
+      "pinyin": "kee-A-mee oo-nam-boo-LAN-tsa per fa-VO-re",
+      "pt": "请叫一辆救护车。",
+      "tts": "Chiami un'ambulanza, per favore."
+    },
+    {
+      "consulta": [
+        "saude/emergencia"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "it-b17-p07",
+      "promptPt": "在给一一二打电话时，先说出你在哪里。现在开口。",
+      "audioKey": "it-b17-t07",
+      "es": "Sono in via Garibaldi, davanti alla farmacia.",
+      "pinyin": "SO-no een VEE-a ga-ree-BAL-dee, da-VAN-tee AL-la far-ma-CHEE-a",
+      "pt": "我在加里波第街，药房前面。",
+      "tts": "Sono in via Garibaldi, davanti alla farmacia."
+    },
+    {
+      "consulta": [
+        "saude/medico"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "molde": "DOV-E",
+      "encaixe": "il pronto soccorso",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "it-b17-p08",
+      "promptPt": "用 B07 的句式，问急诊科在哪里。现在开口。",
+      "audioKey": "it-b17-t08",
+      "es": "Dov'è il pronto soccorso?",
+      "pinyin": "do-VEH eel PRON-to sok-KOR-so",
+      "pt": "急诊科在哪里？",
+      "tts": "Dov'è il pronto soccorso?"
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_it_f",
+      "audioKey": "it-b17-s01",
+      "es": "Ho mal di testa da ieri. C'è qualcosa senza aspirina? Dov'è il pronto soccorso?",
+      "pinyin": "oh mal dee TES-ta da ee-EH-ri. cheh kwal-KO-za SEN-tsa as-pee-REE-na. do-VEH eel PRON-to sok-KOR-so",
+      "pt": "跟读这条逐步升级：症状、限制、急救。",
+      "tts": "Ho mal di testa da ieri. C'è qualcosa senza aspirina? Dov'è il pronto soccorso?",
+      "molde": "SENZA"
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_en_us_f",
+      "audioKey": "it-b17-n06",
+      "bloco": "recap",
+      "pt": "B17 完成。Mal di 加身体部位、关闭的门上的值班清单、一一二，还有 pronto soccorso。"
+    }
+  ],
+  "aprofundar": {
+    "titulo": "难熬一夜的简短版本",
+    "secoes": [
+      {
+        "titulo": "Mal di 加身体部位",
+        "corpo": "Testa、gola、stomaco、denti、schiena。你来描述，药剂师来开药——说出一个症状，比猜一个这里可能根本没有的品牌更有用。",
+        "exemplos": [
+          {
+            "es": "Ho mal di stomaco.",
+            "pt": "我胃疼。"
+          },
+          {
+            "es": "Ho mal di denti.",
+            "pt": "我牙疼。"
+          }
+        ]
+      },
+      {
+        "titulo": "意大利药剂师是第一站",
+        "corpo": "药房处理了很多在别处需要看诊所的情况，而且当某件事确实需要看医生时，他们会直截了当地告诉你。先去那里是正常的路径，而不是抄近道。"
+      },
+      {
+        "titulo": "关着的门依然是信息",
+        "corpo": "贴在玻璃里面的轮值清单写着值班药房及其营业时间。这是到了一家关门药房时最有用的一样东西，而大多数人却看都不看就走了。"
+      },
+      {
+        "titulo": "112，以及你已经有的那张卡",
+        "corpo": "112 可以用任何电话接通急救服务。如果你持有欧洲健康保险卡，或英国的对应卡，请随身带着——它以与本地居民相同的条件覆盖国家提供的必要医疗，但它不能替代旅行保险。"
+      }
+    ]
+  },
+  "slot": "B17",
+  "permissao": "你完全可以为了一点小事去药房。意大利药剂师整天处理的正是这类情况，如果有必要，他们会让你去看医生——你不必事先判断自己的问题是否严重到值得占用他们的时间。",
+  "permissaoAudioKey": "it-b17-n02",
+  "espelho": "任何曾因为觉得张罗看病比忍着不适更麻烦、而在国外硬扛过一场病的人，都懂这一部分是为什么。在家里也是同样的盘算；旅行只是给这个借口又添了一门语言。",
+  "fichasCulturais": [
+    {
+      "sinal": "你在周日傍晚到了一家药房，它关着门，玻璃里面贴着一张打印的纸。",
+      "suaLeitura": "所有店铺要到周一才开，我只能硬扛过去。",
+      "oQueEAli": "意大利药房实行值班轮值制，关闭的药房必须张贴 farmacie di turno 清单，写明附近哪一家开着、开到几点。橱窗里那张纸就是答案，而不是一则关于停业的通知。",
+      "oQueVoceFaz": "看清单找最近的地址和营业时间，或问一位路人 c'è una farmacia di turno qui vicino？",
+      "oQueMelhora": "难熬的一夜二十分钟就解决了，而不是一直拖到第二天早上。",
+      "ondeNaoVale": "这不是应对任何紧急情况的途径——胸痛、呼吸困难、严重受伤或严重过敏反应，要打 112、去 pronto soccorso，而不是跑到城市另一头的药房。",
+      "evidencia": "FATO",
+      "audioKeys": [
+        "it-b17-n04",
+        "it-b17-n05"
+      ]
+    }
+  ]
+}

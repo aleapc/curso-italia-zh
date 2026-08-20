@@ -1,0 +1,258 @@
+{
+  "id": "a02",
+  "nivel": "avancado",
+  "numero": 30,
+  "parte": "A02",
+  "titulo": "他们笑什么，以及你可以安全开的那一个玩笑",
+  "subtitulo": "意大利式幽默运转在彼此已挣得资格的人之间那种亲昵的侮辱之上，这就是为什么你能开的玩笑永远是关于你自己的",
+  "cena": "桌上每个人都在笑他们其中一人对另一人说的话，而你分不清那是不是刻薄。",
+  "moldura": "ganha",
+  "frasePiso": "笑你自己，永远别笑他们。自嘲的玩笑到处都管用；亲昵的侮辱只在有交情的人之间管用。",
+  "moldes": [],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "it-a02-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "pt": "幽默是一门语言最后才给你的东西，也是最先出错的东西。这一部分大多是关于听的。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "it-a02-n02",
+      "bloco": "corpo",
+      "pt": "最主要的形式是 sfottò——取笑一个你关系很近的人。它听起来刺耳，意思却相反。"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_it_m",
+      "audioKey": "it-a02-r01",
+      "receptivo": true,
+      "acao": "那是亲昵，不是攻击。跟着桌上的人一起笑，别为谁辩护。",
+      "es": "Ma tu sei scemo, eh! Guarda che roba.",
+      "pt": "你真是个傻瓜，知道吗！瞧瞧这玩意儿。",
+      "tts": "Ma tu sei scemo, eh! Guarda che roba."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "it-a02-n03",
+      "pt": "Scemo、cretino、pazzo——朋友之间不停地互相抛来抛去。同样的词从陌生人嘴里说出来，就正是它们听起来的意思。"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_it_f",
+      "audioKey": "it-a02-r02",
+      "receptivo": true,
+      "acao": "意大利人之间的地域取笑。你在这里是观众，永远不是参与者。",
+      "es": "Eh, si vede che sei di Milano. Sempre di corsa.",
+      "pt": "嗯，一看就知道你是米兰来的。总是急匆匆的。",
+      "tts": "Eh, si vede che sei di Milano. Sempre di corsa."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "it-a02-n04",
+      "bloco": "capsula",
+      "pt": "地域玩笑是一项只有意大利人玩的全国运动。外国人重复其中一个并不是加入——它会被听成评判。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "it-a02-n05",
+      "pt": "那么你能做什么？把你自己当作对象。你的口音、你的胃口、你没法在九点吃晚饭。"
+    },
+    {
+      "consulta": [
+        "conversa/humor"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "it-a02-p01",
+      "promptPt": "拿你自己的意大利语开玩笑。现在开口说。",
+      "audioKey": "it-a02-t01",
+      "es": "Il mio italiano è un disastro, lo so.",
+      "pinyin": "eel MEE-o ee-ta-LYA-no eh oon dee-ZAS-tro, lo so",
+      "pt": "我的意大利语一团糟，我知道。",
+      "tts": "Il mio italiano è un disastro, lo so."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_it_m",
+      "audioKey": "it-a02-r03",
+      "receptivo": true,
+      "acao": "那份安慰是自然而温暖的。接受它，别跟这句夸奖争辩。",
+      "es": "Ma no, ma va! Parli benissimo, complimenti.",
+      "pt": "哪里，别这么说！你说得很好，佩服。",
+      "tts": "Ma no, ma va! Parli benissimo, complimenti."
+    },
+    {
+      "consulta": [
+        "conversa/humor",
+        "comer/pedido"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "it-a02-p02",
+      "promptPt": "拿你这周吃了多少东西开玩笑。现在开口说。",
+      "audioKey": "it-a02-t02",
+      "es": "Ho mangiato pasta tutti i giorni. Non mi vergogno.",
+      "pinyin": "oh man-JA-to PAS-ta TOOT-tee ee JOR-nee. non mee ver-GO-nyo",
+      "pt": "我每天都吃意面。我一点都不惭愧。",
+      "tts": "Ho mangiato pasta tutti i giorni. Non mi vergogno."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_it_f",
+      "audioKey": "it-a02-r04",
+      "receptivo": true,
+      "acao": "一个冲你来的关于烹饪的玩笑。正确的回答是同意，不是辩解。",
+      "es": "E il cappuccino dopo pranzo? Confessa!",
+      "pt": "那午饭后的卡布奇诺呢？招了吧！",
+      "tts": "E il cappuccino dopo pranzo? Confessa!"
+    },
+    {
+      "consulta": [
+        "conversa/humor"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "it-a02-p03",
+      "promptPt": "认了它，而不是为自己辩护。现在开口说。",
+      "audioKey": "it-a02-t03",
+      "es": "Colpevole! Ne ho presi due.",
+      "pinyin": "kol-PE-vo-le! neh oh PRE-zee DOO-eh",
+      "pt": "有罪！我喝了两杯。",
+      "tts": "Colpevole! Ne ho presi due."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "it-a02-n06",
+      "pt": "整个动作就是这样。被取笑而愉快地同意，就是一个外国人被纳入意大利餐桌的方式。"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_it_m",
+      "audioKey": "it-a02-r05",
+      "receptivo": true,
+      "acao": "面无表情地说出的反讽。是语气而不是词语告诉你这是个玩笑。",
+      "es": "Certo, come no. E io sono il Papa.",
+      "pt": "当然，可不是嘛。那我还是教皇呢。",
+      "tts": "Certo, come no. E io sono il Papa."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "it-a02-n07",
+      "pt": "Come no 面无表情地说出来，意思与是相反。它是你会听到的最常见的讽刺标记。"
+    },
+    {
+      "consulta": [
+        "conversa/humor"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "it-a02-p04",
+      "promptPt": "示意你听懂了玩笑，但不去解释它。现在开口说。",
+      "audioKey": "it-a02-t04",
+      "es": "Ah, ho capito. Mi prendi in giro.",
+      "pinyin": "ah, oh ka-PEE-to. mee PREN-dee een JEE-ro",
+      "pt": "啊，我明白了。你在逗我。",
+      "tts": "Ah, ho capito. Mi prendi in giro."
+    },
+    {
+      "consulta": [
+        "conversa/humor"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "it-a02-p05",
+      "promptPt": "拿你自己的晚餐时钟开玩笑。现在开口说。",
+      "audioKey": "it-a02-x01",
+      "es": "Alle nove ho già fame da due ore.",
+      "pinyin": "AL-le NO-ve oh jah FA-me da DOO-eh O-re",
+      "pt": "到九点我已经饿了两个小时了。",
+      "tts": "Alle nove ho già fame da due ore."
+    },
+    {
+      "consulta": [
+        "conversa/humor"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "it-a02-p06",
+      "promptPt": "有人取笑了你，而你很喜欢。说出来。现在开口说。",
+      "audioKey": "it-a02-x02",
+      "es": "Mi fai ridere, dai. Hai ragione.",
+      "pinyin": "mee fai REE-de-re, dai. eye ra-JO-ne",
+      "pt": "你逗得我笑了，得了。你说得对。",
+      "tts": "Mi fai ridere, dai. Hai ragione."
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_en_us_m",
+      "audioKey": "it-a02-n08",
+      "bloco": "recap",
+      "pt": "A02 完成。Sfottò 是亲昵，地域玩笑是留给意大利人的，而你能开的玩笑永远关于你自己。"
+    }
+  ],
+  "aprofundar": {
+    "titulo": "接受性幽默",
+    "secoes": [
+      {
+        "titulo": "Sfottò",
+        "corpo": "有关系的人之间那种亲昵的挖苦。侮辱词汇是真的——scemo、cretino、pazzo——而意思是亲近。它在你到达的第三天还不对你开放，早早使用会被读成对关系的误判，而不是幽默。",
+        "exemplos": [
+          {
+            "es": "Ma tu sei scemo, eh!",
+            "pt": "你真是个傻瓜，知道吗！"
+          },
+          {
+            "es": "Mi prendi in giro.",
+            "pt": "你在逗我。"
+          }
+        ]
+      },
+      {
+        "titulo": "地域玩笑不属于你",
+        "corpo": "南北方不停地互相取笑，而且已经这样一个半世纪了。一个游客重复其中任何一句都不是参与一个共享的游戏——它会被读成一个外国人对一场家庭争吵下判断。"
+      },
+      {
+        "titulo": "自嘲永远管用",
+        "corpo": "你的意大利语、你的胃口、你没法在九点吃饭、你四点喝的卡布奇诺。这些每一个都会带来温暖，而随之而来的安慰即使是自然反应也是真心的。"
+      },
+      {
+        "titulo": "Come no，面无表情地说",
+        "corpo": "字面是「怎么会不」，意思是当然——而面无表情地说出来，意思是绝对不。标记是语气而非词语，这就是为什么它放在这个听的模块里，而不是更早。"
+      }
+    ]
+  },
+  "slot": "A02",
+  "permissao": "你被允许没听懂玩笑并说出来。Ah, mi prendi in giro 是一个慢半拍也完全好用的回应，而问一句刚才哪里好笑，远比那种反正会露馅的礼貌性笑要受欢迎得多。",
+  "permissaoAudioKey": "it-a02-n01",
+  "espelho": "任何在自己母语里比一群人慢半秒才笑出来的人，都懂这里那种小小的慌乱。幽默是流利度真正被衡量的地方，在每一种语言里都是，这正是为什么没有人指望你在到达的第三周就反应得快。",
+  "fichasCulturais": [
+    {
+      "sinal": "桌上有人当着你的面侮辱他们的一个朋友——叫他傻瓜、嘲笑他的家乡、模仿他的口音——而所有人都笑了。",
+      "suaLeitura": "那太刻薄了，而加入进去会显示我在这里很自在。",
+      "oQueEAli": "亲昵的挖苦是一种已建立亲近关系的标记，而使用它的许可是挣来的，不是与在场者共享的。笑着的人都有资格这么说；你被纳入的是笑声，而不是那份许可。",
+      "oQueVoceFaz": "跟着桌上的人一起笑，然后开一个关于你自己的玩笑。那才是对你开放的参与方式。",
+      "oQueMelhora": "你得到身处其中的温暖，却不会犯下取笑一个你才认识两小时的人的失误。",
+      "ondeNaoVale": "这不是永久的——在足够的时间和真正的友谊之后，这份许可确实会延伸到外国人，而被回敬取笑就是它已经如此的信号。",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "it-a02-n02",
+        "it-a02-n04"
+      ]
+    }
+  ]
+}

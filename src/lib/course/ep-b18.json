@@ -1,0 +1,258 @@
+{
+  "id": "b18",
+  "nivel": "basico",
+  "numero": 18,
+  "parte": "6C",
+  "titulo": "最后一天——退房、寄存行李，说一句让你被欢迎再来的话",
+  "subtitulo": "退房是事务性的。道别不是，而它恰恰是人们真正会记住的那句话",
+  "cena": "房间空了，航班在今晚九点，而柜台后的那个人整周都是同一张面孔。",
+  "moldura": "ganha",
+  "frasePiso": "结清账单、寄放行李，然后对整周帮助你的那个人说一句真心话。",
+  "moldes": [],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "it-b18-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "pt": "最后一个早晨有两个部分。手续，很快就办完；还有道别，那才是你会记住的部分。"
+    },
+    {
+      "consulta": [
+        "dormir/checkout"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "it-b18-p01",
+      "promptPt": "用一句话开始退房。现在开口。",
+      "audioKey": "it-b18-t01",
+      "es": "Buongiorno, vorrei fare il check-out.",
+      "pinyin": "bwon-JOR-no, vor-REI FA-re eel chek-AUT",
+      "pt": "早上好，我想退房。",
+      "tts": "Buongiorno, vorrei fare il check-out."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_it_m",
+      "audioKey": "it-b18-r01",
+      "es": "Certo. Ha preso qualcosa dal frigobar?",
+      "pt": "当然。您从迷你吧拿过什么东西吗？",
+      "tts": "Certo. Ha preso qualcosa dal frigobar?",
+      "receptivo": true,
+      "acao": "如实回答，然后还是要一份明细账单。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "it-b18-n02",
+      "bloco": "corpo",
+      "pt": "如实回答那个问题，然后还是把账单看一遍——旅游税出现在这里，而它从来不在你预付的部分里。"
+    },
+    {
+      "consulta": [
+        "pagar/conta"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "it-b18-p02",
+      "promptPt": "在付款前，请求看一份明细账单。现在开口。",
+      "audioKey": "it-b18-t02",
+      "es": "Posso vedere il conto dettagliato?",
+      "pinyin": "POS-so ve-DE-re eel KON-to det-ta-LYA-to",
+      "pt": "我可以看一下明细账单吗？",
+      "tts": "Posso vedere il conto dettagliato?",
+      "molde": "POSSO",
+      "encaixe": "vedere il conto dettagliato"
+    },
+    {
+      "consulta": [
+        "dormir/bagagem",
+        "reparo/permissao"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "molde": "POSSO",
+      "encaixe": "lasciare la valigia fino alle sei",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "it-b18-p03",
+      "promptPt": "你有一整天时间和一只行李箱。带上时间来问。现在开口。",
+      "audioKey": "it-b18-t03",
+      "es": "Posso lasciare la valigia fino alle sei?",
+      "pinyin": "POS-so la-SHA-re la va-LEE-ja FEE-no AL-le say",
+      "pt": "我可以把行李箱寄存到六点吗？",
+      "tts": "Posso lasciare la valigia fino alle sei?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_it_m",
+      "audioKey": "it-b18-r02",
+      "es": "Certo, gliela mettiamo nel deposito. Nessun problema.",
+      "pt": "当然，我们会把它放进储物间。没问题。",
+      "tts": "Certo, gliela mettiamo nel deposito. Nessun problema."
+    },
+    {
+      "consulta": [
+        "dormir/bagagem"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "molde": "QUANTO-COSTA",
+      "encaixe": "il deposito",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "it-b18-p04",
+      "promptPt": "用 B11 的句式，确认行李寄存要不要收费。现在开口。",
+      "audioKey": "it-b18-t04",
+      "es": "Quanto costa il deposito?",
+      "pinyin": "KWAN-to KOS-ta eel de-PO-zee-to",
+      "pt": "行李寄存多少钱？",
+      "tts": "Quanto costa il deposito?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "it-b18-n03",
+      "bloco": "capsula",
+      "pt": "现在到了不属于事务性的那部分。说一句具体的话——具体，正是让感谢不同于客套的地方。"
+    },
+    {
+      "consulta": [
+        "simpatia/elogiar"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "it-b18-p05",
+      "promptPt": "告诉他们你在这里住得非常舒适。现在开口。",
+      "audioKey": "it-b18-t05",
+      "es": "Siamo stati benissimo, grazie di tutto.",
+      "pinyin": "see-A-mo STA-tee be-NEES-see-mo, GRA-tsee-eh dee TOOT-to",
+      "pt": "我们住得非常舒适，谢谢你所做的一切。",
+      "tts": "Siamo stati benissimo, grazie di tutto."
+    },
+    {
+      "consulta": [
+        "simpatia/elogiar"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "it-b18-p06",
+      "promptPt": "说出真正帮到你的那件事：他们推荐的那家餐厅。现在开口。",
+      "audioKey": "it-b18-t06",
+      "es": "Il ristorante che ci ha consigliato era ottimo.",
+      "pinyin": "eel ris-to-RAN-te keh chee a kon-see-LYA-to EH-ra OT-tee-mo",
+      "pt": "你推荐的那家餐厅棒极了。",
+      "tts": "Il ristorante che ci ha consigliato era ottimo."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_it_m",
+      "audioKey": "it-b18-r03",
+      "es": "Che piacere sentirlo. Torni a trovarci!",
+      "pt": "听到这话真高兴。欢迎再来看我们！",
+      "tts": "Che piacere sentirlo. Torni a trovarci!"
+    },
+    {
+      "consulta": [
+        "simpatia/despedir"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "it-b18-p07",
+      "promptPt": "好好回应这句话——说你会再来。现在开口。",
+      "audioKey": "it-b18-t07",
+      "es": "Torneremo di sicuro. Alla prossima!",
+      "pinyin": "tor-ne-RE-mo dee see-KOO-ro. AL-la PROS-see-ma",
+      "pt": "我们一定会再来。下次见！",
+      "tts": "Torneremo di sicuro. Alla prossima!"
+    },
+    {
+      "consulta": [
+        "taxi/destino",
+        "transporte/destino"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "molde": "MI-PORTA",
+      "encaixe": "un taxi per l'aeroporto",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "it-b18-p08",
+      "promptPt": "用 B14 的句式，请他们帮你叫一辆去机场的出租车。现在开口。",
+      "audioKey": "it-b18-t08",
+      "es": "Mi chiama un taxi per l'aeroporto?",
+      "pinyin": "mee kee-A-ma oon TAK-see per la-e-ro-POR-to",
+      "pt": "您能帮我叫一辆去机场的出租车吗？",
+      "tts": "Mi chiama un taxi per l'aeroporto?"
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_it_f",
+      "audioKey": "it-b18-s01",
+      "es": "Posso lasciare la valigia fino alle sei? Siamo stati benissimo, grazie di tutto. Alla prossima!",
+      "pinyin": "POS-so la-SHA-re la va-LEE-ja FEE-no AL-le say. see-A-mo STA-tee be-NEES-see-mo GRA-tsee-eh dee TOOT-to. AL-la PROS-see-ma",
+      "pt": "跟读这最后一个早晨：行李、感谢、道别。",
+      "tts": "Posso lasciare la valigia fino alle sei? Siamo stati benissimo, grazie di tutto. Alla prossima!",
+      "molde": "POSSO"
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_en_us_f",
+      "audioKey": "it-b18-n04",
+      "bloco": "recap",
+      "pt": "B18 完成，ME VIRO 也随之完成。你能抵达、吃饭、购物、住宿、求助，并以让人记住的方式离开。"
+    }
+  ],
+  "aprofundar": {
+    "titulo": "好好收尾",
+    "secoes": [
+      {
+        "titulo": "具体胜过热烈",
+        "corpo": "Grazie di tutto 没问题。但说出那件具体的事——那家餐厅、他们帮你换的房间、借给你的那把伞——才是把一次交易变成一段明年还能续上的关系的东西。",
+        "exemplos": [
+          {
+            "es": "Siamo stati benissimo.",
+            "pt": "我们住得非常舒适。"
+          },
+          {
+            "es": "Alla prossima!",
+            "pt": "下次见！"
+          }
+        ]
+      },
+      {
+        "titulo": "Deposito bagagli 很正常",
+        "corpo": "酒店通常会在退房后帮客人保管行李，一般对住客免费；车站和市中心的服务点则会收费。开口要求寄存，能把一个原本空耗的最后一天变成真正能用的一天。"
+      },
+      {
+        "titulo": "看清最后一张账单",
+        "corpo": "旅游税、迷你吧和各种额外费用会出现在最终发票上，而不是预付的预订里。要求一份明细版并不是不信任——这是唯一一个提问还能得到轻松答复的时刻。"
+      },
+      {
+        "titulo": "旅程以一句道别结束",
+        "corpo": "这个单元以一句你在需要任何东西之前就先说出的问候开始，又以一句你在不再需要任何东西时说出的话结束。这种对称正是全部要点：语言从来就不只是为了从别人那里取得什么。"
+      }
+    ]
+  },
+  "slot": "B18",
+  "permissao": "你完全可以在离开时，用不完美的意大利语，对一个你大概再也不会见到的人说一句温暖的话。这不是多愁善感——它是你所学一切最后、也最轻松的一次运用，只需一句话。",
+  "permissaoAudioKey": "it-b18-n03",
+  "espelho": "任何曾经只点个头就离开酒店、事后又想着自己本该对那个替他打理好一周的人说点什么的人，都懂这份小小的遗憾。这不是语言问题；只是那句话，跳过它比说出它更容易。",
+  "fichasCulturais": [
+    {
+      "sinal": "你热情地感谢前台的人，他们说 torni a trovarci——欢迎再来看我们。",
+      "suaLeitura": "一句客套话，就像“祝你今天愉快”，不需要真正回应。",
+      "oQueEAli": "它是一句客套话，但期待你回一句。在一个收尾的寒暄真正有分量的文化里，不回应会让人觉得对话是被中断了，而不是好好收了尾。",
+      "oQueVoceFaz": "回应它：torneremo di sicuro，或者简单地说 alla prossima。两个词就能把这次交流好好收尾。",
+      "oQueMelhora": "你带着一次小小的对话离开，而不是收下一句客套话，而这也正是你若真的再来时被记住的方式。",
+      "ondeNaoVale": "但如果你确实不会再来，说会来就成了一个你得一直维持的谎言——这时只说 grazie di tutto 本身就是一个完整而诚实的收尾。",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "it-b18-n03"
+      ]
+    }
+  ]
+}

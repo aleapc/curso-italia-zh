@@ -1,0 +1,92 @@
+{
+  "id": "q-i04",
+  "nivel": "intermediario",
+  "titulo": "测验 — 傍晚",
+  "subtitulo": "晚餐之前的那一步",
+  "introAudioKey": "it-i04-q-i",
+  "introPt": "一位旅行者搞清楚开胃酒（aperitivo）算不算晚餐。",
+  "cenario": "傍晚七点的一家酒吧。",
+  "dialogo": [
+    {
+      "audioKey": "it-i04-q01",
+      "voz": "target_it_m",
+      "es": "Facciamo l'aperitivo? Qui viene con il buffet.",
+      "pt": "我们喝杯开胃酒吧？这里配自助餐。"
+    },
+    {
+      "audioKey": "it-i04-q02",
+      "voz": "target_it_f",
+      "es": "Volentieri. Cosa c'è compreso?",
+      "pt": "很乐意。都包含些什么？"
+    },
+    {
+      "audioKey": "it-i04-q03",
+      "voz": "target_it_f",
+      "es": "Questo giro lo offro io.",
+      "pt": "这一轮我请。"
+    },
+    {
+      "audioKey": "it-i04-q04",
+      "voz": "target_it_m",
+      "es": "Ma no, ci mancherebbe. Offro io, siete ospiti.",
+      "pt": "不行不行，怎么能这样。我请，你们是客人。"
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "cosa c'è compreso? 决定了什么？",
+      "opcoes": [
+        "价格",
+        "这到底是晚餐，还是晚餐前的一点小吃",
+        "坐哪里",
+        "谁来付钱"
+      ],
+      "correta": 1,
+      "explica": "如果含自助餐，那这就是晚餐。"
+    },
+    {
+      "pergunta": "配大量自助餐的那种开胃酒：",
+      "opcoes": [
+        "全国通行",
+        "在米兰和北方最盛行",
+        "南方的习惯",
+        "游客发明的"
+      ],
+      "correta": 1,
+      "explica": "越往南，开胃酒越小份，之后还有晚餐。"
+    },
+    {
+      "pergunta": "你想付钱却被拒绝了。你怎么做？",
+      "opcoes": [
+        "坚持到他们接受为止",
+        "坚持一次，然后争取下一轮由你来请",
+        "什么都不说",
+        "一项一项地分摊账单"
+      ],
+      "correta": 1,
+      "explica": "两次是大方，三次就成了争执。"
+    },
+    {
+      "pergunta": "为什么没点的食物就上来了？",
+      "opcoes": [
+        "上错了",
+        "它已经包含在饮料的价格里",
+        "会另外收费",
+        "是促销"
+      ],
+      "correta": 1,
+      "explica": "这就是为什么这杯饮料比中午贵。"
+    },
+    {
+      "pergunta": "在意大利，你怎么从餐桌上告辞？",
+      "opcoes": [
+        "悄悄溜走",
+        "用一句话——noi andiamo, grazie della compagnia",
+        "付了钱就走",
+        "等所有人一起走"
+      ],
+      "correta": 1,
+      "explica": "悄悄溜走会被读作出了什么岔子。"
+    }
+  ]
+}

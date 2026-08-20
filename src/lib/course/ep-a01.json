@@ -1,0 +1,291 @@
+{
+  "id": "a01",
+  "nivel": "avancado",
+  "numero": 29,
+  "parte": "A01",
+  "titulo": "他们不对你说话时是怎么讲的",
+  "subtitulo": "意大利人对你会放慢，对彼此会加快——这一部分讲的是后者",
+  "cena": "你身旁两个人正进行着一整段对话，而你连一个词的边界都找不到。",
+  "moldura": "ganha",
+  "frasePiso": "如果你从这一部分只带走一样东西——non lo so 会缩成 nnollosò——你就已经能听懂比大多数游客更多的真实口语了。",
+  "moldes": [],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "it-a01-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "pt": "到目前为止都是对你说的意大利语。这个模块讲的是在你身边说的意大利语，那是另一回事。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "it-a01-n02",
+      "bloco": "corpo",
+      "pt": "规则一：词会连在一起。前一个词的最后一个元音和后一个词的第一个元音会变成一个音。"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_it_f",
+      "audioKey": "it-a01-r01",
+      "receptivo": true,
+      "acao": "不要试图抓住每个词。抓住这是一次拒绝，然后往下走。",
+      "es": "Ma non lo so, te l'ho già detto!",
+      "pt": "可是我不知道，我已经告诉过你了！",
+      "tts": "Ma non lo so, te l'ho già detto!"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "it-a01-n03",
+      "pt": "Non lo so 会变成一个词。Te l'ho già detto 失去了它的边缘。两者都很常见，也都不是含糊。"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_it_m",
+      "audioKey": "it-a01-r02",
+      "receptivo": true,
+      "acao": "听整体轮廓，不是各个部分。结尾上扬意味着这是冲你问的问题。",
+      "es": "Ci vediamo dopo, no? Alle sette, dai.",
+      "pt": "待会儿见，好吗？七点，来吧。",
+      "tts": "Ci vediamo dopo, no? Alle sette, dai."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "it-a01-n04",
+      "bloco": "capsula",
+      "pt": "规则二：填充词承载意义。Allora、dai、boh、magari、mah。学会这五个，其余就变得可以摸索了。"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_it_f",
+      "audioKey": "it-a01-r03",
+      "receptivo": true,
+      "acao": "Boh 意思是我完全不知道，而且它本身就是一个完整的回答。别等更多了。",
+      "es": "Boh, mah, vedremo. Magari domani.",
+      "pt": "不知道，唉，再看看吧。也许明天。",
+      "tts": "Boh, mah, vedremo. Magari domani."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "it-a01-n05",
+      "pt": "Allora 用来开场。Dai 用来催促。Boh 是不知道。Magari 是也许，或者但愿。Mah 是带耸肩的怀疑。"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_it_m",
+      "audioKey": "it-a01-r04",
+      "receptivo": true,
+      "acao": "开头的 Allora 是一个信号，表示一个决定要来了。注意它后面跟着什么。",
+      "es": "Allora, facciamo così: io vado, tu resti.",
+      "pt": "那么，就这么办：我去，你留下。",
+      "tts": "Allora, facciamo così: io vado, tu resti."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "it-a01-n06",
+      "pt": "规则三：音量和插话并不是冲突。两个意大利人快速地互相抢话，通常是在表示同意。"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_it_f",
+      "audioKey": "it-a01-r05",
+      "receptivo": true,
+      "acao": "这是同意，不是争吵。没有出任何问题。",
+      "es": "Eh sì, esatto, appunto, dicevo io la stessa cosa!",
+      "pt": "对，没错，正是，我说的就是同一件事！",
+      "tts": "Eh sì, esatto, appunto, dicevo io la stessa cosa!"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "it-a01-n07",
+      "pt": "Esatto、appunto、infatti、esattamente——一堆表示同意的词。听到它们意味着气氛是热络，而不是激烈。"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_it_m",
+      "audioKey": "it-a01-r06",
+      "receptivo": true,
+      "acao": "南方口音：词尾元音会变软。同样的词，不同的边缘。别把它听成另一种语言。",
+      "es": "Uè, guagliò, che fai? Vieni o no?",
+      "pt": "喂，小子，你在干嘛？来不来？",
+      "tts": "Uè, guagliò, che fai? Vieni o no?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "it-a01-n08",
+      "pt": "地方口音不是一个要解决的问题。把它认作地方口音，对自己耳朵的担忧就消失了。"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_it_f",
+      "audioKey": "it-a01-r07",
+      "receptivo": true,
+      "acao": "那句很快，但里面还是有 allora 和 dai。你抓住了框架——那才是本事。",
+      "es": "Allora dai, andiamo, che se no facciamo tardi.",
+      "pt": "好啦，来吧，我们走，不然就要迟到了。",
+      "tts": "Allora dai, andiamo, che se no facciamo tardi."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "it-a01-n09",
+      "bloco": "recap",
+      "pt": "A01 完成。词会连在一起，五个填充词承载意义，重叠的声音是同意。"
+    },
+    {
+      "consulta": [
+        "reparo/repetir"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "it-a01-p01",
+      "promptPt": "你什么都没听懂。请对方说慢一点，不用道歉两次。现在开口说。",
+      "audioKey": "it-a01-x01",
+      "es": "Più lentamente, per favore.",
+      "pinyin": "pyoo len-ta-MEN-te per fa-VO-re",
+      "pt": "请说慢一点。",
+      "tts": "Più lentamente, per favore."
+    },
+    {
+      "consulta": [
+        "reparo/pensar"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "it-a01-p02",
+      "promptPt": "用那个能在你思考时给你争取一秒的填充词。现在开口说。",
+      "audioKey": "it-a01-x02",
+      "es": "Allora... aspetti un attimo.",
+      "pinyin": "al-LO-ra... as-PET-tee oon AT-tee-mo",
+      "pt": "那个……请等一下。",
+      "tts": "Allora... aspetti un attimo."
+    },
+    {
+      "consulta": [
+        "reparo/nao-entendi"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "it-a01-p03",
+      "promptPt": "说你听懂了大意，但没听懂细节。现在开口说。",
+      "audioKey": "it-a01-x03",
+      "es": "Ho capito il senso, ma non tutto.",
+      "pinyin": "oh ka-PEE-to eel SEN-so, ma non TOOT-to",
+      "pt": "我听懂了大意，但不是全部。",
+      "tts": "Ho capito il senso, ma non tutto."
+    },
+    {
+      "consulta": [
+        "reparo/repetir"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "it-a01-p04",
+      "promptPt": "问是哪个词你没听到。现在开口说。",
+      "audioKey": "it-a01-x04",
+      "es": "Che parola era, scusi?",
+      "pinyin": "keh pa-RO-la EH-ra, SKOO-zee",
+      "pt": "抱歉，那是哪个词？",
+      "tts": "Che parola era, scusi?"
+    },
+    {
+      "consulta": [
+        "conversa/humor"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "it-a01-p05",
+      "promptPt": "说他们对你说话时你听得更懂，比他们互相说话时更懂。现在开口说。",
+      "audioKey": "it-a01-x05",
+      "es": "Fra di voi parlate molto più veloce!",
+      "pinyin": "fra dee voy par-LA-te MOL-to pyoo ve-LO-che",
+      "pt": "你们彼此之间说得快多了！",
+      "tts": "Fra di voi parlate molto più veloce!"
+    },
+    {
+      "consulta": [
+        "reparo/repetir"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "it-a01-p06",
+      "promptPt": "请他们把这个词写下来，好让你记住。现在开口说。",
+      "audioKey": "it-a01-x06",
+      "es": "Me lo scrive? Così me lo ricordo.",
+      "pinyin": "meh lo SKREE-ve? ko-ZEE meh lo ree-KOR-do",
+      "pt": "能帮我写下来吗？这样我就记得住了。",
+      "tts": "Me lo scrive? Così me lo ricordo.",
+      "molde": "MI-PUO",
+      "encaixe": "scrivere"
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_en_us_m",
+      "audioKey": "it-a01-n10",
+      "pt": "目标不是听懂一切。而是知道一个你并非中心的房间里正在发生什么。"
+    }
+  ],
+  "aprofundar": {
+    "titulo": "撑起一段对话的五个词",
+    "secoes": [
+      {
+        "titulo": "Allora、dai、boh、magari、mah",
+        "corpo": "Allora 用来开场或收尾。Dai 用来催促、鼓励或表达难以置信。Boh 是一个完整的我完全不知道。Magari 是也许，单独使用时意思是但愿如此。Mah 是怀疑。它们没有一个能干净地翻译，而这五个都不断出现。",
+        "exemplos": [
+          {
+            "es": "Boh, vedremo.",
+            "pt": "不知道，再看看吧。"
+          },
+          {
+            "es": "Allora, facciamo così.",
+            "pt": "那么，就这么办。"
+          }
+        ]
+      },
+      {
+        "titulo": "边缘去了哪里",
+        "corpo": "Non lo so 会连成一个词。Te l'ho detto 失去它的边界。词尾元音在南方变弱，辅音在中部会成双。这些都不是随意的口语——这就是这门语言在不为学习者表演时的样子。"
+      },
+      {
+        "titulo": "重叠不是冲突",
+        "corpo": "同时说话、越来越大的音量以及反复出现的同意词，是热烈对话的一种正常语域。把它读成争吵是游客最常犯的误读之一，而它会改变整个房间给人的感觉。"
+      },
+      {
+        "titulo": "这个模块是故意接受性的",
+        "corpo": "没人要求你产出这些。作为游客自己去用 dai 或 guagliò，落点会在古怪和做作之间。认出它；别去使用它。"
+      }
+    ]
+  },
+  "slot": "A01",
+  "permissao": "你被允许只听懂偷听到的大约三分之一，并把这算作成功。没有人能在第二语言里以全分辨率跟上一段快速对话——知道一个房间是热络还是紧张才是真正的本事，而这远远用不着每一个词。",
+  "permissaoAudioKey": "it-a01-n01",
+  "espelho": "任何听过自己国家另一个地区的两个人说话、并丢掉一半内容的人，都知道这不是外语问题。语速和共享的语境完成了大部分工作；语言只是其中一部分。",
+  "fichasCulturais": [
+    {
+      "sinal": "你身边两个人提高了嗓门，互相抢话，手势急促。交谈越来越快、越来越响。",
+      "suaLeitura": "一场争吵开始了，我应该走开。",
+      "oQueEAli": "重叠说话和上升的音量是投入对话的一种正常语域，而你听到反复出现的词——esatto、appunto、infatti——是同意词。这里的强度表示的是投入，而非冲突。",
+      "oQueVoceFaz": "在判断这个房间在做什么之前，先去听那些同意词。如果它们在，就没有出任何问题。",
+      "oQueMelhora": "你不再把热情误读为敌意，而正是这一点让一个热闹的酒吧对某些游客显得有敌意，对另一些人却显得欢迎。",
+      "ondeNaoVale": "这不是说意大利人的任何争吵都从来不是争吵——真正的冲突存在，样子也不同，重叠更少，轮次之间的沉默更多。",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "it-a01-n06",
+        "it-a01-n07"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "id": "q-i01",
+  "nivel": "intermediario",
+  "titulo": "测验 — 他们的时钟",
+  "subtitulo": "两个时钟，一道时差",
+  "introAudioKey": "it-i01-q-i",
+  "introPt": "一位旅行者弄清楚厨房实际几点开门。",
+  "cenario": "六点一刻，一家餐厅门外。",
+  "dialogo": [
+    {
+      "audioKey": "it-i01-q01",
+      "voz": "target_it_f",
+      "es": "A che ora apre la cucina?",
+      "pt": "厨房几点开门？"
+    },
+    {
+      "audioKey": "it-i01-q02",
+      "voz": "target_it_m",
+      "es": "La cucina apre alle otto. Prima solo aperitivo.",
+      "pt": "厨房八点开。在那之前只有开胃酒（aperitivo）。"
+    },
+    {
+      "audioKey": "it-i01-q03",
+      "voz": "target_it_f",
+      "es": "Un tavolo per due alle nove, è possibile?",
+      "pt": "九点两人一桌，可以吗？"
+    },
+    {
+      "audioKey": "it-i01-q04",
+      "voz": "target_it_f",
+      "es": "Lei dove va a mangiare la sera?",
+      "pt": "您晚上去哪里吃饭？"
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "午餐时段一般在什么时候结束：",
+      "opcoes": [
+        "四点",
+        "两点半",
+        "六点",
+        "它不关门"
+      ],
+      "correta": 1,
+      "explica": "过了之后厨房是关闭的，而不是上菜慢。"
+    },
+    {
+      "pergunta": "晚餐服务开始的时间：",
+      "opcoes": [
+        "各地都一样",
+        "越往南越晚——在那里九点很平常",
+        "六点",
+        "只在十点之后"
+      ],
+      "correta": 1,
+      "explica": "用一家店八点时有多空来评判它，会让你判断失误。"
+    },
+    {
+      "pergunta": "在旅游中心区，六点就满座的晚餐服务说明：",
+      "opcoes": [
+        "物有所值",
+        "顾客是些什么人",
+        "食材新鲜",
+        "早关门"
+      ],
+      "correta": 1,
+      "explica": "通常还配着多语言菜单和照片。"
+    },
+    {
+      "pergunta": "哪种问法能得到真实的答案？",
+      "opcoes": [
+        "Dove dovrei mangiare?",
+        "Lei dove va a mangiare?",
+        "Qual è il migliore?",
+        "È buono qui?"
+      ],
+      "correta": 1,
+      "explica": "第二句问的是他们的生活，而不是问游客。"
+    },
+    {
+      "pergunta": "八点时餐厅空荡荡意味着：",
+      "opcoes": [
+        "当地人不来这里",
+        "现在还早——九点到十点之间店会坐满",
+        "它刚开门",
+        "评价差"
+      ],
+      "correta": 1,
+      "explica": "不过在午餐时，满座才真的是好兆头。"
+    }
+  ]
+}

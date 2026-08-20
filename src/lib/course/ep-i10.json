@@ -1,0 +1,274 @@
+{
+  "id": "i10",
+  "nivel": "intermediario",
+  "numero": 28,
+  "parte": "I10",
+  "titulo": "这里的钱：他们必须收的那张卡，没人指望的那笔小费",
+  "subtitulo": "卡必须收，小费不是这里的机制，AA 制很正常，而讨价还价只活在两个地方",
+  "cena": "机器“坏了”，你有十二欧元现金，你正试着判断这到底是个问题还是一场谈判。",
+  "moldura": "ganha",
+  "frasePiso": "这些都不是较量。用平稳的语气直接问，答案几乎总是“可以”。",
+  "decisao": "礼貌地坚持刷卡、不出于反射留小费，而不是因为难为情就付现金、再加上没人要求的 15%",
+  "moldes": [],
+  "fatosDatados": [
+    {
+      "id": "it-pos-obbligo",
+      "afirmacao": "意大利的商户、工匠和专业人士必须接受电子刷卡支付，无最低金额，除非存在客观的技术不可能。自 2022 年 6 月 30 日起，拒收将处以 30 欧元加上被拒交易金额 4% 的行政罚款。自 2026 年 1 月 1 日起，POS 终端还必须与电子收银机相连。合规并不完美，且经过测量：Altroconsumo 的神秘顾客调查发现，六座城市中 18% 的出租车拒收刷卡，约半数烟草店、以及 37% 到 40% 的市集摊主也是如此，通常以“终端坏了”为借口。",
+      "fonte": "D.L. 179/2012 e successive modifiche; Legge di Bilancio 2025 (collegamento POS-registratore); Altroconsumo — «Pagare con pos: il 18% dei taxi dice no», dicembre 2023",
+      "ano": 2026,
+      "revisarAte": "2027-08-05",
+      "evidencia": "FATO",
+      "risco": "medio",
+      "audioKeys": [
+        "it-i10-n03"
+      ]
+    },
+    {
+      "id": "it-mancia",
+      "afirmacao": "意大利的小费是自愿的、小额的：FIPE 报告约 60% 的意大利顾客会或多或少地给小费，通常是几欧元现金。它实际上只收现金——约 62% 的场所只接受现金小费，仅有 0.8% 允许电子小费。Federconsumatori 认为小费必须始终是顾客的自由选择，并把餐厅在账单上自行加收的 10%“小费”视为一项应予质疑的隐性费用。找不到关于出租车或酒店小费惯例的机构来源；流传的出租车百分比数字是彼此矛盾的旅游博客说法。",
+      "fonte": "FIPE via QuiFinanza — «Mancia al ristorante, quanto può incidere sul conto»; Linkiesta — «Nei ristoranti italiani è ancora difficile pagare la mancia con carta», gennaio 2025; Federconsumatori Toscana via La Nazione",
+      "ano": 2026,
+      "revisarAte": "2027-08-05",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": [
+        "it-i10-n02"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "it-i10-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "pt": "这里每趟旅行都会遇到四个关于钱的问题。四个都有直白的答案，没有一个需要你态度强硬。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "it-i10-n02",
+      "bloco": "corpo",
+      "pt": "第一：小费。服务费通常已含在价内。凑个整很暖心；百分之十五是外国习惯。"
+    },
+    {
+      "consulta": [
+        "pagar/conta"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "it-i10-p01",
+      "promptPt": "凑个整收尾，别做算术。现在说。",
+      "audioKey": "it-i10-t01",
+      "es": "Lasci pure il resto, grazie.",
+      "pinyin": "LA-shee POO-re eel RES-to, GRA-tsee-eh",
+      "pt": "零钱不用找了，谢谢。",
+      "tts": "Lasci pure il resto, grazie."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "it-i10-n03",
+      "bloco": "capsula",
+      "pt": "第二：刷卡。这里的商家依法必须收卡，无最低金额。终端“坏了”有时只是一种偏好。"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_it_m",
+      "audioKey": "it-i10-r01",
+      "receptivo": true,
+      "acao": "先别走去取款机。用平稳的语气问一次，看看会怎样。",
+      "es": "Eh, il POS oggi non va tanto bene...",
+      "pt": "唉，今天刷卡机不太好使……",
+      "tts": "Eh, il POS oggi non va tanto bene..."
+    },
+    {
+      "consulta": [
+        "pagar/cartao"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "it-i10-p02",
+      "promptPt": "请他们还是试一下。友好，别带指责。现在说。",
+      "audioKey": "it-i10-t02",
+      "es": "Proviamo lo stesso, per favore?",
+      "pinyin": "pro-VYA-mo lo STES-so, per fa-VO-re",
+      "pt": "我们还是试试看，好吗？",
+      "tts": "Proviamo lo stesso, per favore?"
+    },
+    {
+      "consulta": [
+        "pagar/cartao"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "it-i10-p03",
+      "promptPt": "直白地说你没有现金。这通常就到此为止。现在说。",
+      "audioKey": "it-i10-t03",
+      "es": "Non ho contanti, mi dispiace.",
+      "pinyin": "non oh kon-TAN-tee, mee dees-pee-A-che",
+      "pt": "我没有现金，不好意思。",
+      "tts": "Non ho contanti, mi dispiace."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "it-i10-n04",
+      "pt": "第三：分账。各付各的完全正常，把总额按桌上人数平分也一样正常。"
+    },
+    {
+      "consulta": [
+        "pagar/dividir"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "it-i10-p04",
+      "promptPt": "提议平摊。现在说。",
+      "audioKey": "it-i10-t04",
+      "es": "Facciamo alla romana?",
+      "pinyin": "fat-CHA-mo AL-la ro-MA-na",
+      "pt": "我们平摊吧？",
+      "tts": "Facciamo alla romana?"
+    },
+    {
+      "consulta": [
+        "pagar/dividir"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "it-i10-p05",
+      "promptPt": "改为在收银台要各自的账单。现在说。",
+      "audioKey": "it-i10-t05",
+      "es": "Conti separati, per favore.",
+      "pinyin": "KON-tee se-pa-RA-tee per fa-VO-re",
+      "pt": "分开结账，谢谢。",
+      "tts": "Conti separati, per favore."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "it-i10-n05",
+      "pt": "第四：讨价还价。在商店或餐厅里不会发生。在跳蚤市场或跟街头小贩那里会，程度轻微。"
+    },
+    {
+      "consulta": [
+        "pagar/preco",
+        "comprar/preco"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "molde": "QUANTO-COSTA",
+      "encaixe": "se ne prendo due",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "it-i10-p06",
+      "promptPt": "在跳蚤市场，用 B11 的句型问买两个多少钱。现在说。",
+      "audioKey": "it-i10-t06",
+      "es": "Quanto costa se ne prendo due?",
+      "pinyin": "KWAN-to KOS-ta seh neh PREN-do DOO-eh",
+      "pt": "如果我买两个多少钱？",
+      "tts": "Quanto costa se ne prendo due?"
+    },
+    {
+      "consulta": [
+        "pagar/preco"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "it-i10-p07",
+      "promptPt": "钞票大、买的东西小。在他们打开钱箱前先提醒一句。现在说。",
+      "audioKey": "it-i10-t07",
+      "es": "Ho solo cinquanta, va bene?",
+      "pinyin": "oh SO-lo cheen-KWAN-ta, va BEH-ne",
+      "pt": "我只有一张五十的，可以吗？",
+      "tts": "Ho solo cinquanta, va bene?"
+    },
+    {
+      "consulta": [
+        "pagar/recibo"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "it-i10-p08",
+      "promptPt": "每一笔都用同样的方式收尾——拿好小票。现在说。",
+      "audioKey": "it-i10-t08",
+      "es": "Mi dà lo scontrino, per favore?",
+      "pinyin": "mee da lo skon-TREE-no per fa-VO-re",
+      "pt": "能给我小票吗？",
+      "tts": "Mi dà lo scontrino, per favore?"
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_it_f",
+      "audioKey": "it-i10-s01",
+      "es": "Proviamo lo stesso, per favore? Non ho contanti, mi dispiace. Facciamo alla romana?",
+      "pinyin": "pro-VYA-mo lo STES-so per fa-VO-re. non oh kon-TAN-tee mee dees-pee-A-che. fat-CHA-mo AL-la ro-MA-na",
+      "pt": "跟读这三句几乎能摆平任何关于钱的时刻的话。",
+      "tts": "Proviamo lo stesso, per favore? Non ho contanti, mi dispiace. Facciamo alla romana?",
+      "molde": "QUANTO-COSTA"
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_en_us_f",
+      "audioKey": "it-i10-n06",
+      "bloco": "recap",
+      "pt": "I10 完成，APROVEITO 也随之完成。凑个整、再问一次刷卡、放心分账、拿好小票。"
+    }
+  ],
+  "aprofundar": {
+    "titulo": "四个有直白答案的问题",
+    "secoes": [
+      {
+        "titulo": "收卡的义务是真的",
+        "corpo": "接受电子支付是法律要求，无最低消费，而自 2022 年年中起，拒收将处以 30 欧元加被拒交易 4% 的罚款。拒收仍会发生，且经过测量：消费者协会的神秘顾客调查发现约五分之一的出租车和约半数烟草店把卡挡在门外，几乎总是以“终端坏了”为由。一句平稳的 proviamo lo stesso 能化解其中大部分。",
+        "exemplos": [
+          {
+            "es": "Proviamo lo stesso, per favore?",
+            "pt": "我们还是试试看，好吗？"
+          },
+          {
+            "es": "Non ho contanti, mi dispiace.",
+            "pt": "我没有现金，不好意思。"
+          }
+        ]
+      },
+      {
+        "titulo": "Alla romana",
+        "corpo": "把总额在桌上所有人之间平分，不论谁点了什么。Accademia della Crusca 把它追溯到古老的 romanata，一种每位食客各付整桌一份的聚会。它不是拿罗马人抠门开的玩笑——那是 pagare alla genovese，一个不同且不友善的说法。在朋友之间平分是常见的默认做法，而且比逐项算账更快。"
+      },
+      {
+        "titulo": "小费不是那个机制",
+        "corpo": "约十分之六的意大利顾客会给小费，而当他们给时，是几欧元现金而不是一个百分比。它实际上以及按习惯都是现金：几乎没有场所能通过刷卡机处理小费。账单上已声明的服务费就是为服务所付的钱；餐厅自行加上的百分之十“小费”是另一回事，消费者协会把它视为一项隐性费用。"
+      },
+      {
+        "titulo": "讨价还价活在哪里",
+        "corpo": "跳蚤市场、二手集市和古董市场，程度轻微，且随场合而变：在跳蚤市场近乎是意料之中的，在高端古董展上则极少而正式。商店、餐厅、酒吧和出租车都是明码标价。这一条是背景知识而非有据可查的事实——没有消费者或行业机构就此发布过信息——但所找到的一切都不与之相矛盾。"
+      }
+    ]
+  },
+  "slot": "I10",
+  "permissao": "你有权坚持刷卡。收卡是他们的义务，而不是你在请求的一个人情，而一句平静、语气正常的问话，比走去取款机远远更常把事情解决。",
+  "permissaoAudioKey": "it-i10-n03",
+  "espelho": "任何人只要在家里因为不愿反驳一句“刷卡机坏了”而付了现金，就懂这里要纠正的那个反射。多问一次的不适小而即时；不问的代价则悄无声息，一整周累积下来。",
+  "fichasCulturais": [
+    {
+      "sinal": "你为一笔小额消费递出卡，却被告知终端今天坏了，或有个最低金额。",
+      "suaLeitura": "机器坏了，我得去找现金，或者有最低消费很正常。",
+      "oQueEAli": "意大利的商家依法必须接受刷卡支付，无最低金额。规定一个最低金额是不允许的，而一个只在小额交易时“抱恙”的终端，通常是一种偏好而非故障。",
+      "oQueVoceFaz": "用平稳的语气问 proviamo lo stesso, per favore?，必要时再加一句 non ho contanti。大多数拒收到此为止。",
+      "oQueMelhora": "你保住了这笔消费，拿到了小票，也不再每天为取款机及其手续费损失二十分钟。",
+      "ondeNaoVale": "不值得为此升级冲突——终端确实会真坏，这是一件用一句平稳的问话而非对抗来处理的事。小市集和乡村小贩尽管有规定，实际上也可能只收现金。",
+      "evidencia": "FATO",
+      "audioKeys": [
+        "it-i10-n03"
+      ]
+    }
+  ]
+}

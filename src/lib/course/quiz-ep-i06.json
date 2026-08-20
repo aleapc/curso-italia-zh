@@ -1,0 +1,92 @@
+{
+  "id": "q-i06",
+  "nivel": "intermediario",
+  "titulo": "测验 — 向他们讲述昨天",
+  "subtitulo": "三个动词就能讲一个故事",
+  "introAudioKey": "it-i06-q-i",
+  "introPt": "一位旅行者把一天变成了一段别人想继续听下去的讲述。",
+  "cenario": "和柜台后的人闲聊。",
+  "dialogo": [
+    {
+      "audioKey": "it-i06-q01",
+      "voz": "target_it_m",
+      "es": "Allora, cosa avete fatto ieri?",
+      "pt": "那么，你们昨天做了什么？"
+    },
+    {
+      "audioKey": "it-i06-q02",
+      "voz": "target_it_f",
+      "es": "Ieri sono andato a Firenze. Ho mangiato la bistecca alla fiorentina.",
+      "pt": "昨天我去了佛罗伦萨。我吃了佛罗伦萨牛排。"
+    },
+    {
+      "audioKey": "it-i06-q03",
+      "voz": "target_it_m",
+      "es": "Ah, quella vera! E dove, scusa?",
+      "pt": "啊，正宗的那种！请问在哪里吃的？"
+    },
+    {
+      "audioKey": "it-i06-q04",
+      "voz": "target_it_f",
+      "es": "Mi è piaciuto moltissimo. Domani andiamo a Siena. Lei c'è stato?",
+      "pt": "我非常喜欢。明天我们去锡耶纳。您去过吗？"
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "哪些动词在过去时里用 sono？",
+      "opcoes": [
+        "所有动词",
+        "表示移动和变化的动词",
+        "只有 andare",
+        "关于食物的动词"
+      ],
+      "correta": 1,
+      "explica": "Sono andato、sono andata、siamo andati——词尾要和你的性别、数目一致。"
+    },
+    {
+      "pergunta": "Ho mangiato ——为什么用 ho 而不是 sono？",
+      "opcoes": [
+        "它是不规则动词",
+        "对某个东西施加动作的动词用 ho，而且词尾从不变化",
+        "因为是食物",
+        "地区差异"
+      ],
+      "correta": 1,
+      "explica": "这个区别就是你在这里需要的大部分语法。"
+    },
+    {
+      "pergunta": "Mi è piaciuto 字面意思是：",
+      "opcoes": [
+        "我喜欢它",
+        "它使我愉悦——那个东西才是主语",
+        "我想要它",
+        "我尝了它"
+      ],
+      "correta": 1,
+      "explica": "这就是为什么它随那个东西变化，而不是随你变化。"
+    },
+    {
+      "pergunta": "为什么要在讲述里点出一个不好的地方？",
+      "opcoes": [
+        "为了显得负面",
+        "因为什么都喜欢会被读作客套，而不是真实体验",
+        "因为外国人被期望这样做",
+        "为了拿到折扣"
+      ],
+      "correta": 1,
+      "explica": "这能把一份报告变成一场对话。"
+    },
+    {
+      "pergunta": "Eh, tutti dicono così 的意思是：",
+      "opcoes": [
+        "他们在取笑你",
+        "他们在向你要下一层的细节",
+        "对话结束了",
+        "他们不同意"
+      ],
+      "correta": 1,
+      "explica": "用具体的细节回答，然后把问题回问回去。"
+    }
+  ]
+}

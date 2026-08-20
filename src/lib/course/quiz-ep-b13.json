@@ -1,0 +1,22 @@
+{
+  "id": "q-b13",
+  "nivel": "basico",
+  "titulo": "测验 — 那句一锤定音的话，还有那张卡片",
+  "subtitulo": "先说 Allergia，再说 è grave",
+  "introAudioKey": "it-b13-q-i",
+  "introPt": "一位旅行者确保过敏信息传到厨房，而不只是停在餐桌上。",
+  "cenario": "在一家餐厅点餐。",
+  "dialogo": [
+    { "audioKey": "it-b13-q01", "voz": "target_it_f", "es": "Ho un'allergia alle arachidi. È grave.", "pt": "我对花生过敏。很严重。" },
+    { "audioKey": "it-b13-q02", "voz": "target_it_m", "es": "Ho capito. Lo dico in cucina.", "pt": "我明白了。我会告诉厨房。" },
+    { "audioKey": "it-b13-q03", "voz": "target_it_f", "es": "Questo piatto contiene arachidi?", "pt": "这道菜含花生吗？" },
+    { "audioKey": "it-b13-q04", "voz": "target_it_m", "es": "Questo no, ma è fritto nello stesso olio.", "pt": "这道不含，但它是用同一锅油炸的。" }
+  ],
+  "perguntas": [
+    { "pergunta": "为什么 allergia 要放在句首？", "opcoes": ["听起来更礼貌", "它是能改变厨房里发生什么的那个词", "意大利语语法要求这样", "它更好发音"], "correta": 1, "explica": "所以它要放在最前，而不是最后。" },
+    { "pergunta": "你在等服务员回复里的什么信号？", "opcoes": ["温暖的语气", "提到厨房", "一句道歉", "重复一遍菜名"], "correta": 1, "explica": "Lo dico in cucina 才是你想要的回答；光有热情只是默认的态度。" },
+    { "pergunta": "为什么要随身带一张写好的卡片？", "opcoes": ["法律要求", "它能扛住嘈杂、口音、换班和没电的手机", "更便宜", "服务员更喜欢"], "correta": 1, "explica": "手机没电时，纸片照样管用。" },
+    { "pergunta": "Fritto nello stesso olio（用同一锅油炸的）是：", "opcoes": ["一种拒绝", "一个好回答——它点出了菜单从不印出来的风险", "一次推销", "跟过敏无关"], "correta": 1, "explica": "同一锅油、同一块砧板、同一锅水。" },
+    { "pergunta": "菜端上来时你该怎么做？", "opcoes": ["立刻开吃", "在第一口之前再确认一次", "把整句话重复一遍", "叫经理来"], "correta": 1, "explica": "确认一次，而不是第四次重复。" }
+  ]
+}

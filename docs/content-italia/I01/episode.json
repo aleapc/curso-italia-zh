@@ -1,0 +1,275 @@
+{
+  "id": "i01",
+  "nivel": "intermediario",
+  "numero": 19,
+  "parte": "I01",
+  "titulo": "他们的时间表，以及为什么太早吃饭会让你错过好餐桌",
+  "subtitulo": "在旅游区，一家六点就开始供应晚餐的餐厅是在告诉你它是为谁准备的——同一个厨房到八点半就是另一个天地了",
+  "cena": "六点一刻，你饿了，唯一亮着灯的地方门口摆着一份四种语言的菜单。",
+  "moldura": "ganha",
+  "frasePiso": "问问他们几点开始营业。答案会同时告诉你何时该吃，以及你正站在一家什么样的店门口。",
+  "decisao": "等到八点半，去当地人吃饭的地方吃，而不是六点就在一家只靠游客过活的店里将就",
+  "moldes": [],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "it-i01-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "pt": "意大利的作息时间比大多数游客到达时所习惯的要晚，而这两者之间的落差，正是旅游陷阱藏身之处。"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_it_m",
+      "audioKey": "it-i01-r01",
+      "receptivo": true,
+      "acao": "记下时间，到点再回来。不要提前两小时坐到别的地方去。",
+      "es": "La cucina apre alle otto. Prima solo aperitivo.",
+      "pt": "厨房八点开门。在那之前只有餐前酒。",
+      "tts": "La cucina apre alle otto. Prima solo aperitivo."
+    },
+    {
+      "consulta": [
+        "comer/horario"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "it-i01-p01",
+      "promptPt": "问问厨房几点开门。现在说。",
+      "audioKey": "it-i01-t01",
+      "es": "A che ora apre la cucina?",
+      "pinyin": "a keh O-ra A-pre la koo-CHEE-na",
+      "pt": "厨房几点开门？",
+      "tts": "A che ora apre la cucina?",
+      "molde": "A-CHE-ORA",
+      "encaixe": "apre la cucina"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "it-i01-n02",
+      "bloco": "corpo",
+      "pt": "晚餐通常在七点半或八点左右开始，南方更晚，而餐厅是在九点以后才坐满，而不是一开门就满。"
+    },
+    {
+      "consulta": [
+        "comer/reserva"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "it-i01-p02",
+      "promptPt": "按当地人吃饭的时间订桌，而不是按你饿了的时间。现在说。",
+      "audioKey": "it-i01-t02",
+      "es": "Un tavolo per due alle nove, è possibile?",
+      "pinyin": "oon TA-vo-lo per DOO-eh AL-le NO-ve, eh pos-SEE-bee-le",
+      "pt": "九点两人一桌，可以吗？",
+      "tts": "Un tavolo per due alle nove, è possibile?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "it-i01-n03",
+      "pt": "那这两个小时干什么呢？做大家都做的事：你在上一部分学到的餐前酒。"
+    },
+    {
+      "consulta": [
+        "comer/horario"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "it-i01-p03",
+      "promptPt": "午餐有它自己的时段。问问他们供应到几点。现在说。",
+      "audioKey": "it-i01-t03",
+      "es": "Fino a che ora si pranza?",
+      "pinyin": "FEE-no a keh O-ra see PRAN-tsa",
+      "pt": "午餐供应到几点？",
+      "tts": "Fino a che ora si pranza?",
+      "molde": "A-CHE-ORA",
+      "encaixe": "si pranza"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_it_m",
+      "audioKey": "it-i01-r02",
+      "receptivo": true,
+      "acao": "两点半是硬性界限。过了这个点厨房就是关了，不是慢，而是不做了。",
+      "es": "Fino alle due e mezza. Poi la cucina chiude.",
+      "pt": "供应到两点半。之后厨房就关了。",
+      "tts": "Fino alle due e mezza. Poi la cucina chiude."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "it-i01-n04",
+      "bloco": "capsula",
+      "pt": "在旅游区中心六点就供应全套晚餐的店没有错。它是在告诉你它的顾客是谁。"
+    },
+    {
+      "consulta": [
+        "comer/escolher"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "it-i01-p04",
+      "promptPt": "问一个当地人他们自己去哪里吃，而不是问你该去哪里吃。现在说。",
+      "audioKey": "it-i01-t04",
+      "es": "Lei dove va a mangiare la sera?",
+      "pinyin": "lay DO-ve va a man-JA-re la SE-ra",
+      "pt": "您晚上去哪里吃饭？",
+      "tts": "Lei dove va a mangiare la sera?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "it-i01-n05",
+      "pt": "措辞很重要。“我该去哪里吃”会得到给游客的答案；“您去哪里吃”会得到另外那个答案。"
+    },
+    {
+      "consulta": [
+        "comer/reserva"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "it-i01-p05",
+      "promptPt": "问问到底需不需要订位。现在说。",
+      "audioKey": "it-i01-t05",
+      "es": "Bisogna prenotare?",
+      "pinyin": "bee-ZO-nya pre-no-TA-re",
+      "pt": "需要订位吗？",
+      "tts": "Bisogna prenotare?"
+    },
+    {
+      "consulta": [
+        "comer/horario"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "molde": "C-E",
+      "encaixe": "un posto senza prenotazione",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "it-i01-p06",
+      "promptPt": "你没订位，现在是九点。用 B08 的句型来问。现在说。",
+      "audioKey": "it-i01-t06",
+      "es": "C'è un posto senza prenotazione?",
+      "pinyin": "cheh oon POS-to SEN-tsa pre-no-ta-TSYO-ne",
+      "pt": "有没有不用订位的位子？",
+      "tts": "C'è un posto senza prenotazione?"
+    },
+    {
+      "consulta": [
+        "comer/horario"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "it-i01-p07",
+      "promptPt": "已经很晚了，你想知道是不是还来得及。现在说。",
+      "audioKey": "it-i01-t07",
+      "es": "Siamo ancora in tempo per mangiare?",
+      "pinyin": "SYA-mo an-KO-ra een TEM-po per man-JA-re",
+      "pt": "我们还赶得上吃饭吗？",
+      "tts": "Siamo ancora in tempo per mangiare?"
+    },
+    {
+      "consulta": [
+        "comer/reserva"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "it-i01-p08",
+      "promptPt": "趁你人还在那儿，订明天的位子。现在说。",
+      "audioKey": "it-i01-t08",
+      "es": "Allora prenoto per domani sera.",
+      "pinyin": "al-LO-ra pre-NO-to per do-MA-nee SE-ra",
+      "pt": "那我订明天晚上的。",
+      "tts": "Allora prenoto per domani sera."
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_it_f",
+      "audioKey": "it-i01-s01",
+      "es": "A che ora apre la cucina? Un tavolo per due alle nove, è possibile? Lei dove va a mangiare la sera?",
+      "pinyin": "a keh O-ra A-pre la koo-CHEE-na. oon TA-vo-lo per DOO-eh AL-le NO-ve eh pos-SEE-bee-le. lay DO-ve va a man-JA-re la SE-ra",
+      "pt": "跟读这三个决定你今晚的问句。",
+      "tts": "A che ora apre la cucina? Un tavolo per due alle nove, è possibile? Lei dove va a mangiare la sera?",
+      "molde": "C-E"
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_en_us_f",
+      "audioKey": "it-i01-n06",
+      "bloco": "recap",
+      "pt": "I01 完成。厨房营业时间、九点订一桌，还有 lei dove va——那句能得到真实答案的措辞。"
+    }
+  ],
+  "aprofundar": {
+    "titulo": "两套时钟，一道落差",
+    "secoes": [
+      {
+        "titulo": "午餐时段很窄",
+        "corpo": "厨房通常在十二点半到两点半左右供应午餐，然后就完全停止。三点到店还指望吃一顿正餐，是游客最终吃得糟糕的最常见原因。",
+        "exemplos": [
+          {
+            "es": "Fino a che ora si pranza?",
+            "pt": "午餐供应到几点？"
+          },
+          {
+            "es": "Siamo ancora in tempo per mangiare?",
+            "pt": "我们还赶得上吃饭吗？"
+          }
+        ]
+      },
+      {
+        "titulo": "越往南晚餐开始得越晚",
+        "corpo": "在北方，厨房可能七点半开门；在南方，九点很平常，餐厅可能十点才坐满。有必要如实说明这些数字的性质：营业时间在 2011 年已完全放开，所以这些都不是规定，也找不到任何关于意大利人实际几点入座的全国性调查。这是有充分报道的惯例，不是测量结果——这恰恰是为什么本部分教你去问，而不是去背一个时钟。"
+      },
+      {
+        "titulo": "六点这个信号",
+        "corpo": "在旅游中心地带六点就供应全套晚餐并不是骗局，而是一个关于谁会路过门口的经营决定。它通常还配着多语言菜单和照片，这是同一个信号的重复。"
+      },
+      {
+        "titulo": "问题的措辞",
+        "corpo": "Dove dovrei mangiare 会招来一个为游客量身定制的推荐。Lei dove va a mangiare 问的是他们自己的生活，会得到一份不同的名单，通常离市中心更远、也更便宜。"
+      }
+    ]
+  },
+  "slot": "I01",
+  "permissao": "你有权饿上两个小时。等到八点半不是一场附带文化意义的耐力测试——好餐桌就在那儿，而餐前酒的存在正是为了填补这段空档。",
+  "permissaoAudioKey": "it-i01-n03",
+  "espelho": "任何人只要在旅途第一晚因为生物钟还没倒过来而五点就吃了晚饭，就懂这道落差。它两天内会自行消失；唯一的代价是这期间你看到的是哪些餐厅。",
+  "fichasCulturais": [
+    {
+      "sinal": "你晚上八点路过一家餐厅，里面几乎空无一人，于是你断定它不好，继续往前走。",
+      "suaLeitura": "晚餐时间空荡荡，说明当地人都避开这家店。",
+      "oQueEAli": "在意大利大部分地方，八点吃晚饭算早，在南方更是非常早。你正在评判的这家店会在九点到十点之间坐满，而你解读为“判决”的那份空荡，只不过是时间还没到。",
+      "oQueVoceFaz": "问 a che ora apre la cucina，订九点的位子，然后中间去喝杯餐前酒。",
+      "oQueMelhora": "你不再用“哪家挤满了按外国作息吃饭的人”来挑餐厅，那是个可靠地专挑到坏店的筛选标准。",
+      "ondeNaoVale": "午餐时不适用，那时满座确实是好兆头，因为时段很窄，大家都在同样的两小时里吃饭——也不适用于一家到十点还空着的店。",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "it-i01-n02"
+      ]
+    }
+  ],
+  "fatosDatados": [
+    {
+      "id": "it-orari-liberalizzati",
+      "afirmacao": "意大利没有法律规定的固定晚餐时间：商业和餐饮业的营业和打烊时间已由 2011 年第 201 号法令第 31 条（转化为 2011 年第 214 号法律）完全放开，全国适用，无需地方性实施细则。因此本部分所教的时间是惯例而非规定，也找不到任何 Istat 或行业协会关于平均晚餐开始时间的调查——南北差异被广泛报道，但未经测量。",
+      "fonte": "Camera dei Deputati — dossier «Disciplina degli orari di apertura degli esercizi commerciali»; D.L. 201/2011 conv. L. 214/2011",
+      "ano": 2026,
+      "revisarAte": "2028-08-05",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": [
+        "it-i01-n02"
+      ]
+    }
+  ]
+}

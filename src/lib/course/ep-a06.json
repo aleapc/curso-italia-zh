@@ -1,0 +1,254 @@
+{
+  "id": "a06",
+  "nivel": "avancado",
+  "numero": 34,
+  "parte": "A06",
+  "titulo": "他们的日历",
+  "subtitulo": "Ferragosto 让城市空掉，主保圣人日让一个镇关门而下一个不关，而 sagra 是你整趟旅行最好的一顿饭",
+  "cena": "现在是八月中旬，你喜欢的那条街整个都拉下了卷帘门，一张手写的牌子说着关于二十二号的什么事。",
+  "moldura": "ganha",
+  "frasePiso": "在你安排这一周之前，先问问这周有什么。关门是查得到的，节庆也是，而其中一个正是你来的原因。",
+  "moldes": [],
+  "fatosDatados": [
+    {
+      "id": "it-ferragosto-patrono",
+      "afirmacao": "Ferragosto，8月15日，是全国公共假日，也是意大利夏季假期的高峰，在它前后的一段时间里城市中许多小商家会关门。此外，每个市镇（comune）都会把自己的主保圣人日作为地方公共假日——罗马在6月29日，米兰在12月7日，那不勒斯在9月19日，威尼斯在4月25日——所以一个镇可能关门，而它旁边的镇完全开着。",
+      "fonte": "Governo Italiano — calendario delle festività nazionali; regolamenti comunali sui santi patroni",
+      "ano": 2026,
+      "revisarAte": "2027-08-04",
+      "evidencia": "FATO",
+      "risco": "medio",
+      "audioKeys": [
+        "it-a06-n02",
+        "it-a06-n04"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "it-a06-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "pt": "意大利有两本日历。全国那本你可以查到，还有让一个镇毫无预兆地关门的当地那本。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "it-a06-n02",
+      "bloco": "corpo",
+      "pt": "最大的那个是 Ferragosto，八月十五日。城市空掉，商店关门，而海岸挤满了人。"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_it_m",
+      "audioKey": "it-a06-r01",
+      "receptivo": true,
+      "acao": "读牌子上的重新开门日期。围着它来安排这一周，而不是明天再来。",
+      "es": "Chiuso per ferie dal dieci al venticinque agosto.",
+      "pt": "因假期歇业，从八月十日至二十五日。",
+      "tts": "Chiuso per ferie dal dieci al venticinque agosto."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "it-a06-n03",
+      "pt": "八月里的城市不是一趟失败的旅行。它是另一趟：更空、更热，由海岸承担着生活。"
+    },
+    {
+      "consulta": [
+        "cidade/evento",
+        "conversa/planos"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "it-a06-p01",
+      "promptPt": "在你制定计划之前，先问这周有什么关门了。现在开口说。",
+      "audioKey": "it-a06-t01",
+      "es": "Questa settimana è tutto chiuso?",
+      "pinyin": "KWES-ta set-tee-MA-na eh TOOT-to kee-OO-zo",
+      "pt": "这周全都关门吗？",
+      "tts": "Questa settimana è tutto chiuso?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "it-a06-n04",
+      "bloco": "capsula",
+      "pt": "第二本日历是主保圣人。每个镇都有自己的假日，而下一个镇有另一个。"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_it_f",
+      "audioKey": "it-a06-r02",
+      "receptivo": true,
+      "acao": "那是地方假日，不是全国假日。旁边那个镇会照常上班。",
+      "es": "Domani è il santo patrono, è festa solo qui.",
+      "pt": "明天是主保圣人日，只有这里放假。",
+      "tts": "Domani è il santo patrono, è festa solo qui."
+    },
+    {
+      "consulta": [
+        "cidade/evento"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "it-a06-p02",
+      "promptPt": "问这里的主保圣人日是哪天。现在开口说。",
+      "audioKey": "it-a06-t02",
+      "es": "Quand'è il santo patrono qui?",
+      "pinyin": "kwan-DEH eel SAN-to pa-TRO-no kwee",
+      "pt": "这里的主保圣人日是哪天？",
+      "tts": "Quand'è il santo patrono qui?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "it-a06-n05",
+      "pt": "还有第三样东西，值得为它挪动一趟旅行：sagra。一个围绕一种食材办起来的村庄节庆。"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_it_m",
+      "audioKey": "it-a06-r03",
+      "receptivo": true,
+      "acao": "去。长桌、一道菜、只收现金，而且比那一周任何餐厅都好。",
+      "es": "Sabato c'è la sagra del cinghiale, al campo sportivo.",
+      "pt": "周六在运动场有野猪肉节。",
+      "tts": "Sabato c'è la sagra del cinghiale, al campo sportivo."
+    },
+    {
+      "consulta": [
+        "cidade/evento",
+        "conversa/planos"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "it-a06-p03",
+      "promptPt": "问这个周末附近有没有 sagra。现在开口说。",
+      "audioKey": "it-a06-t03",
+      "es": "C'è qualche sagra qui vicino nel weekend?",
+      "pinyin": "cheh KWAL-keh SA-gra kwee vee-CHEE-no nel week-END",
+      "pt": "这周末附近有 sagra 吗？",
+      "tts": "C'è qualche sagra qui vicino nel weekend?"
+    },
+    {
+      "consulta": [
+        "cidade/evento",
+        "pagar/conta"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "it-a06-p04",
+      "promptPt": "问那个实际的问题——是否需要现金。现在开口说。",
+      "audioKey": "it-a06-t04",
+      "es": "Si paga in contanti alla sagra?",
+      "pinyin": "see PA-ga een kon-TAN-tee AL-la SA-gra",
+      "pt": "在 sagra 是付现金吗？",
+      "tts": "Si paga in contanti alla sagra?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_it_f",
+      "audioKey": "it-a06-r04",
+      "receptivo": true,
+      "acao": "带现金。这是那条刷卡规则真的帮不了你的唯一地方。",
+      "es": "Sì, contanti. Prendi i buoni alla cassa all'ingresso.",
+      "pt": "对，现金。你在入口处的收银台领餐券。",
+      "tts": "Sì, contanti. Prendi i buoni alla cassa all'ingresso."
+    },
+    {
+      "consulta": [
+        "cidade/evento"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "it-a06-p05",
+      "promptPt": "问节庆几点开始。现在开口说。",
+      "audioKey": "it-a06-x01",
+      "es": "A che ora comincia la sagra?",
+      "pinyin": "a keh O-ra ko-MEEN-cha la SA-gra",
+      "pt": "sagra 几点开始？",
+      "tts": "A che ora comincia la sagra?",
+      "molde": "A-CHE-ORA",
+      "encaixe": "comincia la sagra"
+    },
+    {
+      "consulta": [
+        "ler/horario"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "it-a06-p06",
+      "promptPt": "问商店在你离开之前会不会重新开门。现在开口说。",
+      "audioKey": "it-a06-x02",
+      "es": "Riaprono prima di venerdì?",
+      "pinyin": "ree-A-pro-no PREE-ma dee ve-ner-DEE",
+      "pt": "他们在周五之前重新开门吗？",
+      "tts": "Riaprono prima di venerdì?"
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_en_us_m",
+      "audioKey": "it-a06-n06",
+      "bloco": "recap",
+      "pt": "A06 完成。Ferragosto 让城市空掉，圣人日只关一个镇，而 sagra 值得为它重新安排。"
+    }
+  ],
+  "aprofundar": {
+    "titulo": "两本日历和一个节庆",
+    "secoes": [
+      {
+        "titulo": "Ferragosto",
+        "corpo": "八月十五日，一个全国假日，也是夏季假期的中心。许多小商家会在它前后关门一段时间，城市变得稀疏，而海岸挤满人。它在事前完全可见，却照样让游客措手不及。",
+        "exemplos": [
+          {
+            "es": "Questa settimana è tutto chiuso?",
+            "pt": "这周全都关门吗？"
+          },
+          {
+            "es": "Quand'è il santo patrono qui?",
+            "pt": "这里的主保圣人日是哪天？"
+          }
+        ]
+      },
+      {
+        "titulo": "主保圣人是地方性的",
+        "corpo": "每个市镇都有自己的圣人日作为公共假日，所以关门可能是一镇一镇的。罗马、米兰、那不勒斯和威尼斯的日期都不同，而一趟一日游可能毫无预兆地正好撞上其中之一。"
+      },
+      {
+        "titulo": "sagra 是你没计划过的最好一顿饭",
+        "corpo": "一个围绕一种食材办起来的村庄节庆——牛肝菌、野猪、栗子、某种特定的意面——由村里人大量烹制，在长桌上供应。它通常收现金，通常用餐券系统，而且通常是你会记住的那顿食物。"
+      },
+      {
+        "titulo": "怎么找到它们",
+        "corpo": "sagre 是在纸上宣传的：墙上的海报、跨路的横幅、环岛处的一块牌子。它们常常在网上不可见，从街上却完全可见，这正是为什么这一部分的问题是问一个人，而不是问一部手机。"
+      }
+    ]
+  },
+  "slot": "A06",
+  "permissao": "你被允许围着一个从海报上得知的村庄节庆重新安排一趟旅行。为了一个 sagra 跳过一个已预订的博物馆不是浪费的一天——它是把你计划好的旅行和你真正会去谈起的旅行区分开来的那个选择。",
+  "permissaoAudioKey": "it-a06-n05",
+  "espelho": "任何在一个自己不知道存在的公共假日抵达某地的人，都懂一条关门的街那种平淡的感觉。解决办法到处都一样——在你安排这一周之前问一个当地人，而不是之后。",
+  "fichasCulturais": [
+    {
+      "sinal": "你去附近一个镇一日游，发现一切都关着，尽管那天早上你自己的镇是开着且热闹的。",
+      "suaLeitura": "我把营业时间搞错了，或者出了什么事。",
+      "oQueEAli": "每个市镇都把自己的主保圣人日作为地方公共假日，而日期一镇一镇各不相同。二十分钟车程外的一次关门，在那里可能是一个完整的假日，而在你过夜的地方只是一个平常的星期二。",
+      "oQueVoceFaz": "对你计划要去的任何地方问 quand'è il santo patrono qui?，并且在前一天而不是抵达当天核实它。",
+      "oQueMelhora": "你要么避开关门的那天，要么更好，故意在那天抵达——圣人日通常伴随着一场游行、一个集市，以及处于最本真状态的那个镇。",
+      "ondeNaoVale": "这不适用于大型连锁、超市和交通，它们大多照常运营，也不适用于最大的旅游中心，那里的地方假日几乎不会影响商业营业时间。",
+      "evidencia": "FATO",
+      "audioKeys": [
+        "it-a06-n04"
+      ]
+    }
+  ]
+}

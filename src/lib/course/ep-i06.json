@@ -1,0 +1,280 @@
+{
+  "id": "i06",
+  "nivel": "intermediario",
+  "numero": 24,
+  "parte": "I06",
+  "titulo": "向他们讲述昨天",
+  "subtitulo": "三个过去时动词就能撑起一整趟旅行——sono andato、ho mangiato、mi è piaciuto",
+  "cena": "有人问你昨天做了什么，而你会说的每一句都卡在现在时里。",
+  "moldura": "ganha",
+  "frasePiso": "你不需要这门语言的整个过去时。你只需要三个动词，而其中一个不过是一种感受。",
+  "decisao": "用三个过去时动词讲述昨天，而不是把一切都用现在时描述，从而变成那个只会答“是”的人",
+  "moldes": [],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "it-i06-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "pt": "从你能说出昨天做了什么的那一刻起，你就不再是一个点东西的人，而成了一个有故事的旅人。"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_it_m",
+      "audioKey": "it-i06-r01",
+      "receptivo": true,
+      "acao": "这是开场。用你去了哪里来回答，而不是一个“是”。",
+      "es": "Allora, cosa avete fatto ieri?",
+      "pt": "那么，你们昨天做了什么？",
+      "tts": "Allora, cosa avete fatto ieri?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "it-i06-n02",
+      "bloco": "molde",
+      "pt": "句型是 ho 或 sono，加上动词。Sono andato——我去了。如果你是女性，就是 sono andata。"
+    },
+    {
+      "consulta": [
+        "conversa/contar",
+        "conversa/passado"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "it-i06-p01",
+      "promptPt": "说你昨天去了哪里。一个地方，一句话。现在说。",
+      "audioKey": "it-i06-t01",
+      "es": "Ieri sono andato a Firenze.",
+      "pinyin": "ee-EH-ri SO-no an-DA-to a fee-REN-tse",
+      "pt": "昨天我去了佛罗伦萨。",
+      "tts": "Ieri sono andato a Firenze.",
+      "molde": "HO-FATTO",
+      "encaixe": "sono andato a Firenze"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "it-i06-n03",
+      "pt": "第二个动词：ho mangiato。我吃了。这个用 ho，不是 sono，而这个区别就是你在这里需要的全部语法。"
+    },
+    {
+      "consulta": [
+        "conversa/contar",
+        "comer/pedido"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "it-i06-p02",
+      "promptPt": "说你吃了什么。说菜名，不是餐厅名。现在说。",
+      "audioKey": "it-i06-t02",
+      "es": "Ho mangiato la bistecca alla fiorentina.",
+      "pinyin": "oh man-JA-to la bis-TEK-ka AL-la fyo-ren-TEE-na",
+      "pt": "我吃了佛罗伦萨牛排。",
+      "tts": "Ho mangiato la bistecca alla fiorentina.",
+      "molde": "HO-FATTO",
+      "encaixe": "ho mangiato la bistecca"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_it_m",
+      "audioKey": "it-i06-r02",
+      "es": "Ah, quella vera! E dove, scusa?",
+      "pt": "啊，正宗的那种！那在哪儿吃的，能问一下吗？",
+      "tts": "Ah, quella vera! E dove, scusa?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "it-i06-n04",
+      "bloco": "capsula",
+      "pt": "第三个动词是让对话活下去的那个：mi è piaciuto。我喜欢它。字面意思是，它让我愉悦。"
+    },
+    {
+      "consulta": [
+        "conversa/opiniao"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "it-i06-p03",
+      "promptPt": "说你非常喜欢。现在说。",
+      "audioKey": "it-i06-t03",
+      "es": "Mi è piaciuto moltissimo.",
+      "pinyin": "mee eh pya-CHOO-to mol-TEES-see-mo",
+      "pt": "我非常喜欢。",
+      "tts": "Mi è piaciuto moltissimo.",
+      "molde": "MI-PIACE",
+      "encaixe": "moltissimo"
+    },
+    {
+      "consulta": [
+        "conversa/contar"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "it-i06-p04",
+      "promptPt": "把其中两个串起来——去了哪里、做了什么。现在说。",
+      "audioKey": "it-i06-t04",
+      "es": "Sono andato al mercato e ho comprato del formaggio.",
+      "pinyin": "SO-no an-DA-to al mer-KA-to eh oh kom-PRA-to del for-MAJ-jo",
+      "pt": "我去了市集，买了些奶酪。",
+      "tts": "Sono andato al mercato e ho comprato del formaggio.",
+      "molde": "HO-FATTO",
+      "encaixe": "sono andato al mercato"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "it-i06-n05",
+      "pt": "注意这个句型的样子：移动用 sono，对某样东西做某事用 ho。这就涵盖了你要说的大部分内容。"
+    },
+    {
+      "consulta": [
+        "conversa/contar"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "it-i06-p05",
+      "promptPt": "说你走了很多路。现在说。",
+      "audioKey": "it-i06-t05",
+      "es": "Abbiamo camminato tantissimo.",
+      "pinyin": "ab-BYA-mo kam-mee-NA-to tan-TEES-see-mo",
+      "pt": "我们走了非常多路。",
+      "tts": "Abbiamo camminato tantissimo.",
+      "molde": "HO-FATTO",
+      "encaixe": "abbiamo camminato"
+    },
+    {
+      "consulta": [
+        "conversa/opiniao"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "it-i06-p06",
+      "promptPt": "说说让你惊讶的地方，好让故事有个落点。现在说。",
+      "audioKey": "it-i06-t06",
+      "es": "Non me l'aspettavo così bello.",
+      "pinyin": "non meh las-pet-TA-vo ko-ZEE BEL-lo",
+      "pt": "我没想到它这么美。",
+      "tts": "Non me l'aspettavo così bello."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_it_m",
+      "audioKey": "it-i06-r03",
+      "receptivo": true,
+      "acao": "别光说“是”。说出那一样你会为它再去一次的东西。",
+      "es": "Eh, tutti dicono così. E domani dove andate?",
+      "pt": "嗯，大家都这么说。那明天你们去哪儿？",
+      "tts": "Eh, tutti dicono così. E domani dove andate?"
+    },
+    {
+      "consulta": [
+        "conversa/planos"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "it-i06-p07",
+      "promptPt": "回答明天的问题，再把它抛回给他们。现在说。",
+      "audioKey": "it-i06-t07",
+      "es": "Domani andiamo a Siena. Lei c'è stato?",
+      "pinyin": "do-MA-nee an-DYA-mo a see-EH-na. lay cheh STA-to",
+      "pt": "明天我们去锡耶纳。您去过吗？",
+      "tts": "Domani andiamo a Siena. Lei c'è stato?",
+      "molde": "C-E",
+      "encaixe": "stato"
+    },
+    {
+      "consulta": [
+        "conversa/opiniao",
+        "comer/pedido"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "it-i06-p08",
+      "promptPt": "轻描淡写地说出那一样你不喜欢的东西。一趟没有低谷的旅行听起来像编的。现在说。",
+      "audioKey": "it-i06-t08",
+      "es": "Il museo, invece, non mi è piaciuto tanto.",
+      "pinyin": "eel moo-ZEH-o, een-VE-che, non mee eh pya-CHOO-to TAN-to",
+      "pt": "不过那座博物馆，我不太喜欢。",
+      "tts": "Il museo, invece, non mi è piaciuto tanto.",
+      "molde": "MI-PIACE",
+      "encaixe": "il museo"
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_it_f",
+      "audioKey": "it-i06-s01",
+      "es": "Ieri sono andato a Firenze. Ho mangiato la bistecca alla fiorentina. Mi è piaciuto moltissimo.",
+      "pinyin": "ee-EH-ri SO-no an-DA-to a fee-REN-tse. oh man-JA-to la bis-TEK-ka AL-la fyo-ren-TEE-na. mee eh pya-CHOO-to mol-TEES-see-mo",
+      "pt": "按故事想要的顺序跟读这三个动词。",
+      "tts": "Ieri sono andato a Firenze. Ho mangiato la bistecca alla fiorentina. Mi è piaciuto moltissimo.",
+      "molde": "HO-FATTO"
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_en_us_f",
+      "audioKey": "it-i06-n06",
+      "bloco": "recap",
+      "pt": "I06 完成。Sono andato、ho mangiato、mi è piaciuto——去了哪里、吃了什么、感觉如何。那就是一个故事。"
+    }
+  ],
+  "aprofundar": {
+    "titulo": "三个动词构成一个故事",
+    "secoes": [
+      {
+        "titulo": "Sono 还是 ho",
+        "corpo": "表示移动和变化的动词用 sono，词尾与你一致：sono andato、sono andata、siamo andati。对某样东西做某事的动词用 ho，永不变化：ho mangiato、ho visto、ho comprato。搞错这个是意大利语里最被原谅的错误。",
+        "exemplos": [
+          {
+            "es": "Sono andato al mercato.",
+            "pt": "我去了市集。"
+          },
+          {
+            "es": "Ho comprato del formaggio.",
+            "pt": "我买了些奶酪。"
+          }
+        ]
+      },
+      {
+        "titulo": "Mi è piaciuto 是故意反着来的",
+        "corpo": "它的意思是“它让我愉悦”，所以那样东西才是主语。这就是为什么用 è 而不是 ho，也是为什么它随那样东西而变，而不是随你而变：mi è piaciuta la città，mi sono piaciuti i musei。"
+      },
+      {
+        "titulo": "一个低谷让它显得真实",
+        "corpo": "说你什么都喜欢会被读作客套而非体验。点出一样没打动你的东西——non mi è piaciuto tanto——正是把一份汇报变成一场有人想继续下去的对话的关键。"
+      },
+      {
+        "titulo": "把话交还回去",
+        "corpo": "对你这一天的每一次讲述都应该以一个问题收尾。Lei c'è stato? 只要三个词，就把对话从盘问变成交流。"
+      }
+    ]
+  },
+  "slot": "I06",
+  "permissao": "你有权把 sono 和 ho 用反。意大利人在快速说话时也会搞混，没人会因此误解你，而这部分里“等你把规则搞扎实再说”的那个版本，就是你永远不会跟任何人讲你这一天的版本。",
+  "permissaoAudioKey": "it-i06-n02",
+  "espelho": "任何人只要因为拼凑真实答案感觉太费劲，而对一句友善的“今天过得怎样”只淡淡回一句“挺好”，就懂这部分针对的那个反射。这不是语法问题——而是拼一个句子的成本高过了回报，直到某一刻它突然不再是。",
+  "fichasCulturais": [
+    {
+      "sinal": "你告诉某人你很喜欢一座著名的城镇，他们回你 eh, tutti dicono così——大家都这么说。",
+      "suaLeitura": "他们在否定我说的话，或者在嘲笑游客喜欢那种显而易见的东西。",
+      "oQueEAli": "这是一种要求下一层细节、而非结束话题的对话招式。意大利式寒暄倾向于探问具体细节；平淡地附和才是终结一场对话，而不是延续它。",
+      "oQueVoceFaz": "用具体的东西回答：那道菜、那条街、那个时辰。然后把问题抛回去。",
+      "oQueMelhora": "你得到真正的推荐——他们给那些说了具体东西的人的那个版本——而不是给所有人的那个。",
+      "ondeNaoVale": "当对方确实忙碌、交流是事务性的时候不适用；在有排队的柜台前，简短而热情的回答才是对的。",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "it-i06-n05"
+      ]
+    }
+  ]
+}

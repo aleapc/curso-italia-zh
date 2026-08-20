@@ -1,0 +1,295 @@
+{
+  "id": "b01",
+  "nivel": "basico",
+  "numero": 1,
+  "parte": "1A",
+  "titulo": "每个字母都要发音",
+  "subtitulo": "意大利语怎么写就怎么读，怎么读就怎么写——让你最初的词句被听懂的四个要领",
+  "cena": "咖啡师已经转身面向咖啡机，等着你说出一个她能照办的词。",
+  "moldura": "ganha",
+  "frasePiso": "把每个元音都读出来，每个双写字母都读长一点，重音落在词本身该落的地方。第一天做到这些就够被人听懂了。",
+  "moldes": [],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "it-b01-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "pt": "好消息：意大利语怎么读就怎么写。掌握四个要领，那些你一知半解的词就开始能听懂了。"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_it_f",
+      "audioKey": "it-b01-t01",
+      "es": "a — e — i — o — u",
+      "pinyin": "ah — eh — ee — oh — oo",
+      "pt": "五个干净的元音。不滑音，不吞音——每一个都保持自己的口型。",
+      "tts": "a, e, i, o, u"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "it-b01-n02",
+      "bloco": "corpo",
+      "pt": "第一个要领：每个元音都要读出来。英语会吞掉词尾，意大利语不会。Pane 读作 PA-ne，两半都要读。"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_it_m",
+      "audioKey": "it-b01-t02",
+      "es": "Un caffè, per favore.",
+      "pinyin": "oon kaf-FEH, per fa-VO-re",
+      "pt": "一杯咖啡，谢谢。per favore 有四个音节——一个都不要漏。",
+      "tts": "Un caffè, per favore."
+    },
+    {
+      "consulta": [
+        "mesa/bebida",
+        "mesa/pedir"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_m",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "it-b01-p01",
+      "promptPt": "在柜台点一杯咖啡。每个音节都读出来。现在请说。",
+      "audioKey": "it-b01-t02",
+      "es": "Un caffè, per favore.",
+      "pinyin": "oon kaf-FEH, per fa-VO-re",
+      "pt": "一杯咖啡，谢谢。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "it-b01-n03",
+      "pt": "第二个：双写辅音是真的要读。Nono 是第九，nonno 是祖父。双写字母要多停顿一拍。"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_it_f",
+      "audioKey": "it-b01-t03",
+      "es": "Vorrei una birra.",
+      "pinyin": "vor-RAY oo-na BEER-ra",
+      "pt": "我想要一杯啤酒。两处双写：vorrei 和 birra。两个都要用力读。",
+      "tts": "Vorrei una birra."
+    },
+    {
+      "consulta": [
+        "mesa/bebida"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "it-b01-p02",
+      "promptPt": "点一杯啤酒，把两个双写字母都读长一点。现在请说。",
+      "audioKey": "it-b01-t03",
+      "es": "Vorrei una birra.",
+      "pinyin": "vor-RAY oo-na BEER-ra",
+      "pt": "我想要一杯啤酒。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "it-b01-n04",
+      "bloco": "corpo",
+      "pt": "第三个：c 和 g 在 e 和 i 前发软音——ciao、gelato。在 a、o、u 前则保持硬音。"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_it_m",
+      "audioKey": "it-b01-t04",
+      "es": "Un gelato al cioccolato.",
+      "pinyin": "oon je-LA-to al chok-ko-LA-to",
+      "pt": "一份巧克力冰淇淋。软 g，软 c——中间还有一个双写的 k 音。",
+      "tts": "Un gelato al cioccolato."
+    },
+    {
+      "consulta": [
+        "mesa/pedir"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_m",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "it-b01-p03",
+      "promptPt": "点一份巧克力冰淇淋。软 g，软 c。现在请说。",
+      "audioKey": "it-b01-t04",
+      "es": "Un gelato al cioccolato.",
+      "pinyin": "oon je-LA-to al chok-ko-LA-to",
+      "pt": "一份巧克力冰淇淋。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "it-b01-n05",
+      "bloco": "capsula",
+      "pt": "第四个：重音落在倒数第二个音节上。若不是这样，书写的重音符号会告诉你。"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_it_f",
+      "audioKey": "it-b01-t05",
+      "es": "Dov'è la stazione?",
+      "pinyin": "do-VEH la sta-tsee-O-ne",
+      "pt": "车站在哪里？注意 -zione 里的 ts 音，以及落在 O 上的重音。",
+      "tts": "Dov'è la stazione?"
+    },
+    {
+      "consulta": [
+        "transporte/direcao"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "it-b01-p04",
+      "promptPt": "问车站在哪里。è 上的重音符号告诉你重音该落在哪。现在请说。",
+      "audioKey": "it-b01-t05",
+      "es": "Dov'è la stazione?",
+      "pinyin": "do-VEH la sta-tsee-O-ne",
+      "pt": "车站在哪里？"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_it_m",
+      "audioKey": "it-b01-r01",
+      "es": "Sempre dritto, poi a destra.",
+      "pt": "一直往前，然后右转。",
+      "tts": "Sempre dritto, poi a destra."
+    },
+    {
+      "consulta": [
+        "simpatia/agradecer"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "it-b01-p05",
+      "promptPt": "谢谢他们。两个词，两个元音都读到位。现在请说。",
+      "audioKey": "it-b01-t06",
+      "es": "Grazie mille.",
+      "pinyin": "GRA-tsee-eh MEEL-le",
+      "pt": "非常感谢。",
+      "tts": "Grazie mille."
+    },
+    {
+      "consulta": [
+        "simpatia/saudacao"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "it-b01-p06",
+      "promptPt": "在点任何东西之前先跟咖啡师打个招呼。现在请说。",
+      "audioKey": "it-b01-t07",
+      "es": "Buongiorno!",
+      "pinyin": "bwon-JOR-no",
+      "pt": "早上好！",
+      "tts": "Buongiorno!"
+    },
+    {
+      "consulta": [
+        "mesa/pedir"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "it-b01-p07",
+      "promptPt": "要一杯水。把 acqua 这类词里的双写 c 读长——每个元音都读出来。现在请说。",
+      "audioKey": "it-b01-t08",
+      "es": "Un bicchiere d’acqua, per favore.",
+      "pinyin": "oon bik-KYEH-re DAK-kwa per fa-VO-re",
+      "pt": "一杯水，谢谢。",
+      "tts": "Un bicchiere d’acqua, per favore."
+    },
+    {
+      "consulta": [
+        "reparo/devagar"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "it-b01-p08",
+      "promptPt": "你没听清答案。请他们说慢一点再说一遍。现在请说。",
+      "audioKey": "it-b01-t09",
+      "es": "Può ripetere, per favore?",
+      "pinyin": "pwoh ree-PEH-teh-re per fa-VO-re",
+      "pt": "能再说一遍吗，谢谢？",
+      "tts": "Può ripetere, per favore?"
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_it_f",
+      "audioKey": "it-b01-s01",
+      "es": "Un caffè, per favore. Vorrei una birra. Dov'è la stazione? Grazie mille.",
+      "pinyin": "oon kaf-FEH per fa-VO-re. vor-RAY oo-na BEER-ra. do-VEH la sta-tsee-O-ne. GRA-tsee-eh MEEL-le",
+      "pt": "把四个要领在一口气里跟读一遍。",
+      "tts": "Un caffè, per favore. Vorrei una birra. Dov'è la stazione? Grazie mille."
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_en_us_f",
+      "audioKey": "it-b01-n06",
+      "bloco": "recap",
+      "pt": "B01 完成。每个元音都读出来，双写字母读长，c 和 g 在 e 和 i 前发软音，重音落在符号所指的地方。"
+    }
+  ],
+  "aprofundar": {
+    "titulo": "本课程使用的语音模型",
+    "secoes": [
+      {
+        "titulo": "意大利语的拼写很诚实",
+        "corpo": "和英语或法语不同，意大利语接近表音文字：一旦你认得字母，就能读出一个从未见过的词。这就是为什么这一部分只有四条规则而不是一整章——每条规则的回报都高得出奇。",
+        "exemplos": [
+          {
+            "es": "stazione",
+            "pt": "sta-tsee-O-ne——zi 是 ts 音"
+          },
+          {
+            "es": "gnocchi",
+            "pt": "NYOK-kee——gn 就像 canyon 里的 ny"
+          }
+        ]
+      },
+      {
+        "titulo": "双写辅音承载意义",
+        "corpo": "它不是装饰。Nono（第九）和 nonno（祖父），pena（悲伤）和 penna（笔），casa（房子）和 cassa（收银台）。读长双写字母，就是两个真实词语之间的区别。",
+        "exemplos": [
+          {
+            "es": "nonno",
+            "pt": "祖父——把 n 读长"
+          },
+          {
+            "es": "nono",
+            "pt": "第九——单个 n"
+          }
+        ]
+      },
+      {
+        "titulo": "重音在哪里",
+        "corpo": "默认落在倒数第二个音节。当一个词打破默认时，意大利语会替你把重音符号写出来：caffè、città、perché、così。书写的重音符号是一份礼物——是语言在告诉你该往哪里用力。"
+      },
+      {
+        "titulo": "允许你听起来像外国人",
+        "corpo": "你卷不出来的大舌音并不是旅途上的紧急事件。清晰的元音、读长的双写字母和正确的重音，比表演一口口音更能换来被听懂。目标是第一次就被听懂，而不是被误认成本地人。"
+      }
+    ]
+  },
+  "slot": "B01",
+  "permissao": "你可以听起来像外国人。柜台后没有人在给你的卷舌音打分。五个干净的元音加上落对位置的重音，就是第一天的全部要求——其余的会在旅途中自己理顺。",
+  "permissaoAudioKey": "it-b01-n05",
+  "espelho": "英语会不知不觉地吞掉非重读元音——'chocolate' 少了一个音节，'comfortable' 少了两个。意大利语每一个都保留，所以那个在家乡毫无察觉的习惯，恰恰是让一个你们共有的词变得再也认不出来的唯一原因。",
+  "fichasCulturais": [
+    {
+      "sinal": "你说出一个自己很有把握的词——pasta、gelato、cappuccino——对方却在回答前停顿了一下。",
+      "suaLeitura": "我的口音糟到连简单的词都不行了。",
+      "oQueEAli": "那些词进入英语时元音被压平了、双写字母被去掉了。用英语的方式说出来，它们落到听者耳里就成了他们没有的词，而不是他们熟悉的词的一个读错版本。",
+      "oQueVoceFaz": "再说一遍，稍微慢一点，给每个元音完整的音值，并把双写字母读长：cap-puc-CI-no。",
+      "oQueMelhora": "你早就认识的那几十个意大利语词，不再是最先出错的那些。",
+      "ondeNaoVale": "在习惯接待国际客人的酒店前台或机场柜台则不然，那里的工作人员整天都在解读带口音的意大利语，无论如何都会第一次就听懂你。",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "it-b01-n02",
+        "it-b01-n03"
+      ]
+    }
+  ]
+}

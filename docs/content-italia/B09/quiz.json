@@ -1,0 +1,92 @@
+{
+  "id": "q-b09",
+  "nivel": "basico",
+  "titulo": "测验 —— 会自动生效的票，和不会的那种",
+  "subtitulo": "买票、弄清规则、找到站台",
+  "introAudioKey": "it-b09-q-i",
+  "introPt": "一位旅行者买了一张区域列车票，并弄清楚适用哪条打票规则。",
+  "cenario": "在车站，离发车还有六分钟。",
+  "dialogo": [
+    {
+      "audioKey": "it-b09-q01",
+      "voz": "target_it_f",
+      "es": "Un biglietto per Firenze, per favore.",
+      "pt": "请给我一张到佛罗伦萨的票。"
+    },
+    {
+      "audioKey": "it-b09-q02",
+      "voz": "target_it_f",
+      "es": "Devo convalidare il biglietto?",
+      "pt": "我需要给票打卡吗？"
+    },
+    {
+      "audioKey": "it-b09-q03",
+      "voz": "target_it_m",
+      "es": "Sì, quello di carta sì. Alla macchinetta verde.",
+      "pt": "需要，纸质票要打。在绿色的小机器上。"
+    },
+    {
+      "audioKey": "it-b09-q04",
+      "voz": "target_it_f",
+      "es": "Dov'è il binario sette?",
+      "pt": "七号站台在哪里？"
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "Biglietto Digitale Regionale 什么时候生效？",
+      "opcoes": [
+        "当你在机器上扫描它时",
+        "自动生效，在你所选的预定发车时间",
+        "当检票员查票时",
+        "它根本不需要生效"
+      ],
+      "correta": 1,
+      "explica": "无需手动打卡 —— 而且一旦自动激活，它就不能再改签了。"
+    },
+    {
+      "pergunta": "没打卡的纸质区域列车票会怎样？",
+      "opcoes": [
+        "没事，这条规则已经废除了",
+        "只是口头警告",
+        "从50欧元起的罚款，外加票价",
+        "在车上补票，不收额外费用"
+      ],
+      "correta": 2,
+      "explica": "若在五天内到 Trenitalia 办事处缴纳，罚款可减免。"
+    },
+    {
+      "pergunta": "il binario 是什么？",
+      "opcoes": [
+        "站台",
+        "车票",
+        "车厢",
+        "时刻表"
+      ],
+      "correta": 0,
+      "explica": "号码显示在屏幕上 —— 你不必凭记忆说出它。"
+    },
+    {
+      "pergunta": "查票前你的手机电池没电了。你处于什么处境？",
+      "opcoes": [
+        "没问题，票已登记在系统里",
+        "你可能被当作无有效车票乘车处理",
+        "检票员会按你的名字查到",
+        "你会得到一张免费的替代票"
+      ],
+      "correta": 1,
+      "explica": "那个二维码就是车票 —— 它必须能显示出来。"
+    },
+    {
+      "pergunta": "为什么这一部分附带一个较近的复习到期日？",
+      "opcoes": [
+        "音频会过期",
+        "意大利区域列车票务正处于过渡期，规则最近有变动",
+        "价格会变",
+        "课程还没做完"
+      ],
+      "correta": 1,
+      "explica": "出行前查看运营方自己的页面，别依赖过时的建议。"
+    }
+  ]
+}

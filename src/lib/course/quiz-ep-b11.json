@@ -1,0 +1,92 @@
+{
+  "id": "q-b11",
+  "nivel": "basico",
+  "titulo": "测验 — Quanto costa —— 两个词，趁问价还免费时问",
+  "subtitulo": "两种价格，都合法",
+  "introAudioKey": "it-b11-q-i",
+  "introPt": "一位旅行者在坐下之前先弄清那第二种价格。",
+  "cenario": "一座著名广场上的一家酒吧。",
+  "dialogo": [
+    {
+      "audioKey": "it-b11-q01",
+      "voz": "target_it_f",
+      "es": "Quanto costa un caffè al tavolo?",
+      "pt": "在桌位喝一杯咖啡多少钱？"
+    },
+    {
+      "audioKey": "it-b11-q02",
+      "voz": "target_it_m",
+      "es": "Al tavolo sono sei euro, al banco uno e trenta.",
+      "pt": "桌位是六欧元，吧台是一点三欧元。"
+    },
+    {
+      "audioKey": "it-b11-q03",
+      "voz": "target_it_f",
+      "es": "Quanto costa in tutto?",
+      "pt": "一共多少钱？"
+    },
+    {
+      "audioKey": "it-b11-q04",
+      "voz": "target_it_m",
+      "es": "Sono due e cinquanta. Prima paghi alla cassa.",
+      "pt": "两欧五。你先去收银台付款。"
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "为什么同一杯咖啡有两种价格？",
+      "opcoes": [
+        "由服务员决定",
+        "站着喝和坐着喝是两种合法定价，都会标示出来",
+        "游客付得更多",
+        "第二种含小费"
+      ],
+      "correta": 1,
+      "explica": "坐着的价格买下的是那张桌子和那座广场。"
+    },
+    {
+      "pergunta": "点 un caffè 你会得到什么？",
+      "opcoes": [
+        "一杯清淡的美式咖啡",
+        "一杯浓缩咖啡（espresso）",
+        "一杯卡布奇诺",
+        "加奶的咖啡"
+      ],
+      "correta": 1,
+      "explica": "想要清淡的那种，就说 caffè lungo。"
+    },
+    {
+      "pergunta": "有人指着 cassa。这是怎么回事？",
+      "opcoes": [
+        "你先去收银台付款，然后拿小票到吧台",
+        "他们要打烊了",
+        "你必须坐下",
+        "只收现金"
+      ],
+      "correta": 0,
+      "explica": "看看排在你前面的人怎么做，比开口问更快得到答案。"
+    },
+    {
+      "pergunta": "什么时候问 quanto costa 才值得？",
+      "opcoes": [
+        "东西端上来之后",
+        "在你做出决定之前",
+        "只在市场上",
+        "当账单看起来有问题时"
+      ],
+      "correta": 1,
+      "explica": "问价是免费的；事后才发现可就不是了。"
+    },
+    {
+      "pergunta": "一笔菜单上任何地方都没写的桌位费是：",
+      "opcoes": [
+        "正常的",
+        "和 al tavolo 定价一样",
+        "另一回事——而 scontrino（小票）正是让你能提出质疑的凭据",
+        "法律要求的"
+      ],
+      "correta": 2,
+      "explica": "定价必须要标示出来。"
+    }
+  ]
+}

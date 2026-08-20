@@ -1,0 +1,317 @@
+{
+  "versao": 1,
+  "sku": "ZH → Itália",
+  "_changelog": [
+    "1 (2026-08-04): ROSTER DERIVADO DO ZERO PARA O PAR EN → it. O arquivo anterior era o roster da Espanha (v6) inteiro, herdado com o esqueleto e nunca tocado — casas em ep-e06a.json, encaixes como «una caña», redisparos prometendo partes que este curso não tem. Preservado em _espanha-placeholder-backup/moldes-espanha-v6.json.",
+    "1 (2026-08-04): DERIVADO ANTES DOS EPISÓDIOS, e isto é lição comprada. No SKU EN→México o roster foi feito DEPOIS de 29 episódios escritos, e o custo foi retrofitar 98 steps `responde` e regravar o áudio deles para a taxa de geração sair de 20% para 49%. Aqui a ordem é a certa: escolher os moldes a partir das cenas que o destino realmente impõe, e depois escrever cada episódio já instanciando o molde da sua casa.",
+    "1 (2026-08-04): SETE OPERACIONAIS, ZERO SOCIAIS. Teto é 12+3. Entram só formas que (a) preenchem o buraco com COISA DO MUNDO e não com cálculo de conjugação, (b) têm casa com ≥2 substituições na mesma parte e (c) voltam com encaixe novo em ≥1 parte posterior. O italiano oferece uma tentação que o espanhol não oferecia — a distinção lei/tu — e ela foi RECUSADA de propósito: ver `_regras.recusados`."
+  ],
+  "_leia": "O NÚCLEO GERADOR do par EN → it. Um molde é um encaixe cujo buraco se preenche com uma COISA DO MUNDO (um café, a conta, outro quarto) — escolha, não cálculo. É o que separa este produto do phrasebook: com inventário fixo o aluno repete o que escrevemos e trava quando a cena desvia dois graus; com molde ele MONTA a frase que nunca escrevemos.",
+  "_regras": {
+    "teto": "12 moldes OPERACIONAIS + até 3 SOCIAIS = 15 no curso inteiro. Este SKU usa 7 e 0. A folga não é convite: molde novo só entra quando o corpus o ensinar com ≥2 substituições numa mesma parte.",
+    "casa": "Onde o molde é ENSINADO, com no mínimo 2 substituições na frente do aluno.",
+    "redisparos": "Onde ele volta com encaixe NOVO. LEI DE ORDEM (G9d): todo redisparo vem DEPOIS da casa na ordem canônica B01…B18 → I01…I10 → A01…A08.",
+    "previas": "Onde o molde APARECE antes da casa, como frase inteira modelada por nativo. Nunca conta como redisparo. Documental.",
+    "recusados": [
+      {
+        "forma": "lei × tu (o par de tratamento)",
+        "porque_fora": "É a diferença mais visível entre o italiano e o espanhol deste catálogo, e mesmo assim NÃO é molde: o buraco não se preenche com coisa do mundo, se preenche com uma LEITURA SOCIAL do interlocutor feita sob pressão — exatamente o cálculo que o produto promete não pedir (P1 do §5.1). O curso resolve por inventário: tudo em `lei`, que é a forma segura com estranho, e o `tu` entra só receptivo, para o aluno RECONHECER quando alguém o trata por tu. Se um dia virar molde, será com casa própria e decisão do dono."
+      },
+      {
+        "forma": "Vorrei + [substantivo]",
+        "porque_fora": "É o «Quería» do espanhol e seria o candidato natural a molde nº 1. Fica de fora pelo mesmo motivo medido no México: alcance largo (aparece em balcão, loja, recepção e bilheteria) e NENHUMA parte isolada faz duas substituições na frente do aluno. É o primeiro a entrar quando uma parte fizer duas trocas seguidas — o alcance já está pago."
+      },
+      {
+        "forma": "Ci sono + [X]?",
+        "porque_fora": "Duplica C'È no plural. Declarar os dois gastaria duas vagas do teto para uma família só. C'È entra como molde e o plural aparece nos exemplos, sem virar entrada própria."
+      }
+    ],
+    "m2": "APROVEITO não introduz molde operacional. O trabalho dele é trocar encaixes dos moldes plantados em ME VIRO.",
+    "m3": "LEIO A SALA não produz molde. A relação com moldes é auditiva — reconhecer, não montar.",
+    "ativo_de_par": "O núcleo gerador é específico do PAR (L1 × destino) e NÃO se traduz: este roster foi derivado das cenas italianas, não convertido do espanhol."
+  },
+  "moldes": [
+    {
+      "id": "POSSO",
+      "categoria": "operacional",
+      "forma": "Posso + [infinitivo]?",
+      "encaixe": "qualquer coisa que EU quero fazer",
+      "tipo": "aberto",
+      "tipoBuraco": "acao",
+      "casa": "B06",
+      "redisparos": [
+        "B10",
+        "B11",
+        "B15",
+        "B16",
+        "B18",
+        "I09"
+      ],
+      "tiles": [
+        "pagar",
+        "compras",
+        "quarto",
+        "chegar"
+      ],
+      "exemplos": [
+        "pagare con la carta",
+        "lasciare la valigia",
+        "sedermi qui",
+        "provarlo",
+        "entrare"
+      ],
+      "nota": "O de maior alcance do SKU. Cobre a categoria de improviso mais comum do viajante — «isso aqui pode?» — que existe porque as regras mudam de cidade para cidade."
+    },
+    {
+      "id": "DOV-E",
+      "categoria": "operacional",
+      "forma": "Dov'è + [il/la X]?",
+      "encaixe": "lugar conhecido",
+      "tipo": "aberto",
+      "tipoBuraco": "lugar",
+      "casa": "B07",
+      "redisparos": [
+        "B09",
+        "B17"
+      ],
+      "tiles": [
+        "chegar",
+        "transporte",
+        "saude"
+      ],
+      "exemplos": [
+        "il bagno",
+        "la stazione",
+        "il binario",
+        "la farmacia di turno",
+        "l'uscita"
+      ],
+      "nota": "Entra amarrado à escotilha de reparo (È lontano? + Me lo scrive?): o problema desta cena é a RESPOSTA, não a pergunta."
+    },
+    {
+      "id": "C-E",
+      "categoria": "operacional",
+      "forma": "C'è + [X]?",
+      "encaixe": "existência de qualquer coisa",
+      "tipo": "aberto",
+      "tipoBuraco": "coisa",
+      "casa": "B08",
+      "redisparos": [
+        "B10",
+        "B11",
+        "B16",
+        "I03"
+      ],
+      "tiles": [
+        "chegar",
+        "mesa",
+        "quarto"
+      ],
+      "exemplos": [
+        "il wifi",
+        "una farmacia qui vicino",
+        "un tavolo",
+        "una camera più silenziosa",
+        "un altro treno"
+      ],
+      "nota": "Substitui um vocabulário inteiro de perguntas por uma só e a resposta é binária — cabe na cabeça sob estresse. O plural «ci sono» aparece nos exemplos sem virar entrada própria."
+    },
+    {
+      "id": "MI-PUO",
+      "categoria": "operacional",
+      "forma": "Mi può + [infinitivo]?",
+      "encaixe": "qualquer coisa que eu quero que VOCÊ faça",
+      "tipo": "aberto",
+      "tipoBuraco": "acao",
+      "casa": "B03",
+      "redisparos": [
+        "B04",
+        "B07",
+        "B08",
+        "B10",
+        "B13",
+        "B14"
+      ],
+      "tiles": [
+        "reparo",
+        "pagar",
+        "saude"
+      ],
+      "exemplos": [
+        "ripetere più lentamente",
+        "scrivere",
+        "mostrare sulla mappa",
+        "portare il conto",
+        "consigliare qualcosa"
+      ],
+      "nota": "É o POSSO no espelho e custa meia unidade de ensino. Carrega o kit anti-pânico (Me lo può scrivere?), a ferramenta de reparo mais usada do curso."
+    },
+    {
+      "id": "QUANTO-COSTA",
+      "categoria": "operacional",
+      "forma": "Quanto costa + [X]?",
+      "encaixe": "o preço de uma coisa visível",
+      "tipo": "aberto",
+      "tipoBuraco": "coisa",
+      "casa": "B11",
+      "redisparos": [
+        "B15",
+        "B18",
+        "I10"
+      ],
+      "tiles": [
+        "mesa",
+        "compras",
+        "pagar"
+      ],
+      "exemplos": [
+        "al banco",
+        "al tavolo",
+        "questo",
+        "la camera",
+        "il biglietto"
+      ],
+      "nota": "Casa em B11 e não numa parte de compras porque é no BAR que ele paga a conta mais alta do curso: al banco e al tavolo são dois preços legais para o mesmo café, e a diferença chega a quatro vezes numa praça turística. O molde nasce onde o erro custa dinheiro."
+    },
+    {
+      "id": "SENZA",
+      "categoria": "operacional",
+      "forma": "senza + [X]",
+      "encaixe": "ingrediente ou item que sai do pedido",
+      "tipo": "aberto",
+      "tipoBuraco": "ingrediente",
+      "casa": "B12",
+      "redisparos": [
+        "B13",
+        "B17"
+      ],
+      "tiles": [
+        "mesa",
+        "dieta",
+        "saude"
+      ],
+      "exemplos": [
+        "glutine",
+        "lattosio",
+        "ghiaccio",
+        "cipolla",
+        "ricetta"
+      ],
+      "nota": "Duas sílabas, verbo nenhum, e funciona como enunciado inteiro. RESSALVA: `senza` remove uma PREFERÊNCIA e não comunica alergia — B13 troca de ferramenta de propósito (aviso fixo + cartão escrito), porque o molde não carrega gravidade."
+    },
+    {
+      "id": "MI-PORTA",
+      "categoria": "operacional",
+      "forma": "Mi porta / Mi dà + [X]?",
+      "encaixe": "o que eu quero que venha até mim",
+      "tipo": "aberto",
+      "tipoBuraco": "coisa",
+      "casa": "B14",
+      "redisparos": [
+        "B15",
+        "B16",
+        "I02",
+        "I07"
+      ],
+      "tiles": [
+        "mesa",
+        "pagar"
+      ],
+      "exemplos": [
+        "il conto",
+        "lo scontrino",
+        "un bicchiere d'acqua",
+        "il menù"
+      ],
+      "nota": "Fecha a mesa. `Lo scontrino` é o encaixe que mais importa: o recibo fiscal é obrigação legal na Itália, não cortesia, e sair sem ele é irregular."
+    },
+    {
+      "id": "A-CHE-ORA",
+      "casa": "B09",
+      "redisparos": [
+        "B10",
+        "B16",
+        "I01"
+      ],
+      "categoria": "operacional",
+      "forma": "A che ora + [verbo]?",
+      "encaixe": "qualquer coisa que abre, parte ou é servida",
+      "tipo": "aberto",
+      "tipoBuraco": "acao",
+      "tiles": [
+        "transporte",
+        "comer",
+        "quarto",
+        "chegar"
+      ],
+      "exemplos": [
+        "parte",
+        "aprite",
+        "apre la cucina",
+        "è la colazione",
+        "chiude"
+      ],
+      "nota": "O horário é a única variável que o aluno não consegue adivinhar e que reorganiza o resto do dia. Abridor fixo, verbo variável."
+    },
+    {
+      "id": "MI-PIACE",
+      "casa": "I05",
+      "redisparos": [
+        "I06"
+      ],
+      "categoria": "social",
+      "forma": "Mi piace / Mi è piaciuto + [coisa]",
+      "encaixe": "qualquer coisa sobre a qual ele tem opinião",
+      "tipo": "aberto",
+      "tipoBuraco": "coisa",
+      "tiles": [
+        "conversa",
+        "comer",
+        "cidade"
+      ],
+      "exemplos": [
+        "i mercati",
+        "moltissimo",
+        "il museo",
+        "la città",
+        "questo vino"
+      ],
+      "nota": "Sem opinião o aluno responde perguntas e nunca continua nenhuma. É o molde que faz o interlocutor recomendar em vez de só interrogar."
+    },
+    {
+      "id": "HO-FATTO",
+      "casa": "I06",
+      "redisparos": [
+        "I08"
+      ],
+      "categoria": "operacional",
+      "forma": "Ho / Sono + [particípio]",
+      "encaixe": "qualquer coisa que ele fez ontem",
+      "tipo": "aberto",
+      "tipoBuraco": "acao",
+      "tiles": [
+        "conversa",
+        "comer",
+        "cidade"
+      ],
+      "exemplos": [
+        "sono andato a Firenze",
+        "ho mangiato la bistecca",
+        "abbiamo camminato",
+        "ho comprato del formaggio",
+        "ho portato il dolce"
+      ],
+      "nota": "O passado não entra como tempo verbal, entra como três verbos que carregam qualquer dia. Tira o aluno do presente permanente."
+    }
+  ],
+  "cortados": [
+    {
+      "forma": "Mi piacerebbe + [infinitivo]",
+      "porque": "É o «I'd like» de livro didático e o acolchoamento que deixa o anglófono sem ser atendido num balcão movimentado. `Vorrei` faz o mesmo em menos sílabas e soa local. Nomeado aqui para que nenhum agente futuro o traga de volta."
+    },
+    {
+      "forma": "Congiuntivo em subordinada",
+      "porque": "Regra geral: não subordinar — uma oração, um pedido. «Vorrei che mi portasse il conto» → «Mi porta il conto?». «Cerco un posto che abbia il wifi» → «C'è il wifi?» (o molde C-E existe literalmente para absorver isto). EXCEÇÃO: votos congelados (salute, buon appetito, buon viaggio) são vocabulário com forma de subjuntivo, não subjuntivo."
+    }
+  ]
+}

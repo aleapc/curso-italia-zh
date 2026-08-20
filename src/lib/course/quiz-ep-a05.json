@@ -1,0 +1,96 @@
+{
+  "id": "q-a05",
+  "nivel": "avancado",
+  "titulo": "测验 — 另一种语言",
+  "subtitulo": "它们不是意大利语的方言",
+  "introAudioKey": "it-a05-q-i",
+  "introPt": "旅行者弄明白了意大利语为什么突然不管用了。",
+  "cenario": "两个人在对话中途切换语言。",
+  "dialogo": [
+    {
+      "audioKey": "it-a05-q01",
+      "voz": "target_it_m",
+      "es": "Uè, ma che vuo'? Vien' ccà nu poco.",
+      "pt": "喂，你想要什么？过来一下。",
+      "tts": "Uè, ma che vuo'? Vien' ccà nu poco."
+    },
+    {
+      "audioKey": "it-a05-q02",
+      "voz": "target_it_f",
+      "es": "Ciao, come xe? Tuto ben, va?",
+      "pt": "嗨，怎么样？一切都好，是吧？",
+      "tts": "Ciao, come xe? Tuto ben, va?"
+    },
+    {
+      "audioKey": "it-a05-q03",
+      "voz": "target_it_f",
+      "es": "Come si dice in dialetto?",
+      "pt": "用方言怎么说？",
+      "tts": "Come si dice in dialetto?"
+    },
+    {
+      "audioKey": "it-a05-q04",
+      "voz": "target_it_f",
+      "es": "Non è un dialetto, è una lingua. Mia nonna non parlava italiano.",
+      "pt": "这不是方言，是一门语言。我奶奶不会说意大利语。",
+      "tts": "Non è un dialetto, è una lingua. Mia nonna non parlava italiano."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "那不勒斯语和西西里语是：",
+      "opcoes": [
+        "走了样的意大利语",
+        "与托斯卡纳语并行演化的罗曼语变体，而非源自它",
+        "近期的俚语",
+        "外来的舶来品"
+      ],
+      "correta": 1,
+      "explica": "托斯卡纳语赢得了一场文学与政治上的较量。"
+    },
+    {
+      "pergunta": "意大利法律保护多少个历史性的语言少数群体？",
+      "opcoes": [
+        "两个",
+        "六个",
+        "十二个",
+        "一个都没有"
+      ],
+      "correta": 2,
+      "explica": "包括撒丁语、弗留利语、拉定语、斯洛文尼亚语、德语等等。"
+    },
+    {
+      "pergunta": "他们切换成了你听不懂的话。发生了什么？",
+      "opcoes": [
+        "你的意大利语失灵了",
+        "他们换了一门语言",
+        "他们在排挤你",
+        "他们在开玩笑"
+      ],
+      "correta": 1,
+      "explica": "对你讲意大利语，本身就是一种迁就。"
+    },
+    {
+      "pergunta": "你该不该试着念一下当地的那句话？",
+      "opcoes": [
+        "不该，那是嘲弄",
+        "该，念得糟也没关系——尝试本身就是一种赞美",
+        "只有念对了才该",
+        "只在书面上"
+      ],
+      "correta": 1,
+      "explica": "念得流利反而奇怪；尝试则被视为兴趣。"
+    },
+    {
+      "pergunta": "有人把 dialetto 纠正为 lingua。这是：",
+      "opcoes": [
+        "一种责备",
+        "在告诉你这对他们意味着什么",
+        "一个玩笑",
+        "一句地域性的侮辱"
+      ],
+      "correta": 1,
+      "explica": "两种反应都很正常。"
+    }
+  ]
+}

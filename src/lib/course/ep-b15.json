@@ -1,0 +1,269 @@
+{
+  "id": "b15",
+  "nivel": "basico",
+  "numero": 15,
+  "parte": "5C",
+  "titulo": "购物：价格、尺码、试穿、换货",
+  "subtitulo": "四个问题就能应付一家店——关于退换的那个问题，必须在付款之前问",
+  "cena": "店铺不大，老板正看着你做决定，而你也说不准在这里自己上手拿东西是不是正常。",
+  "moldura": "ganha",
+  "frasePiso": "问价格、问能不能试、问能不能换——按这个顺序，在掏卡之前问完。",
+  "moldes": [],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "it-b15-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "pt": "一家店就是四个问题的长度。多少钱、有没有我的尺码、能不能试、能不能换。"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_it_m",
+      "audioKey": "it-b15-r01",
+      "es": "Buongiorno, dica pure.",
+      "pt": "早上好，请说。",
+      "tts": "Buongiorno, dica pure.",
+      "receptivo": true,
+      "acao": "先回一句问候，再说你要什么。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "it-b15-n02",
+      "bloco": "corpo",
+      "pt": "Dica pure 的意思是“告诉我你需要什么”。先问候——在小店里，一声不吭地走进去会显得怪。"
+    },
+    {
+      "consulta": [
+        "comprar/olhar"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "it-b15-p01",
+      "promptPt": "你想随便看看，不打算马上买。热情地说出来。现在开口。",
+      "audioKey": "it-b15-t01",
+      "es": "Buongiorno, do solo un'occhiata.",
+      "pinyin": "bwon-JOR-no, doh SO-lo oo-nok-kee-A-ta",
+      "pt": "早上好，我只是随便看看。",
+      "tts": "Buongiorno, do solo un'occhiata."
+    },
+    {
+      "consulta": [
+        "pagar/preco",
+        "comprar/preco"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "molde": "QUANTO-COSTA",
+      "encaixe": "questa",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "it-b15-p02",
+      "promptPt": "这一件上面没有价签。用 B11 的句型。现在开口。",
+      "audioKey": "it-b15-t02",
+      "es": "Quanto costa questa?",
+      "pinyin": "KWAN-to KOS-ta KWES-ta",
+      "pt": "这一件多少钱？",
+      "tts": "Quanto costa questa?"
+    },
+    {
+      "consulta": [
+        "comprar/tamanho"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "molde": "C-E",
+      "encaixe": "una taglia più grande",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "it-b15-p03",
+      "promptPt": "差不多合身，但有点紧。问问有没有大一号的。现在开口。",
+      "audioKey": "it-b15-t03",
+      "es": "C'è una taglia più grande?",
+      "pinyin": "cheh OO-na TA-lya pyoo GRAN-de",
+      "pt": "有大一号的吗？",
+      "tts": "C'è una taglia più grande?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_it_m",
+      "audioKey": "it-b15-r02",
+      "receptivo": true,
+      "es": "Solo la media e la large. Vuole provarla?",
+      "pt": "只有中号和大号。您想试穿一下吗？",
+      "tts": "Solo la media e la large. Vuole provarla?"
+    },
+    {
+      "consulta": [
+        "comprar/provar",
+        "reparo/permissao"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "molde": "POSSO",
+      "encaixe": "provarla",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "it-b15-p04",
+      "promptPt": "用 B06 的句型问能不能试穿。现在开口。",
+      "audioKey": "it-b15-t04",
+      "es": "Posso provarla?",
+      "pinyin": "POS-so pro-VAR-la",
+      "pt": "我可以试穿吗？",
+      "tts": "Posso provarla?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "it-b15-n03",
+      "bloco": "capsula",
+      "pt": "现在是大家会略过的那个问题。要在付款之前问换货，而不是付完之后——每家店的答案都不一样。"
+    },
+    {
+      "consulta": [
+        "comprar/trocar"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "it-b15-p05",
+      "promptPt": "问问如果不合适能不能换。现在开口。",
+      "audioKey": "it-b15-t05",
+      "es": "Posso cambiarla se non va bene?",
+      "pinyin": "POS-so kam-bee-AR-la seh non va BEH-ne",
+      "pt": "如果不合适，我可以换吗？",
+      "tts": "Posso cambiarla se non va bene?",
+      "molde": "POSSO",
+      "encaixe": "cambiarla"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_it_m",
+      "audioKey": "it-b15-r03",
+      "es": "Entro otto giorni, con lo scontrino.",
+      "pt": "八天之内，凭小票。",
+      "tts": "Entro otto giorni, con lo scontrino."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "it-b15-n04",
+      "pt": "又是凭小票。在店里、吃饭时、坐出租车时，scontrino（小票）是让事后一切都成为可能的那样东西。"
+    },
+    {
+      "consulta": [
+        "comprar/cor"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "molde": "C-E",
+      "encaixe": "un altro colore",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "it-b15-p06",
+      "promptPt": "你喜欢款式，但不喜欢颜色。问一下。现在开口。",
+      "audioKey": "it-b15-t06",
+      "es": "C'è un altro colore?",
+      "pinyin": "cheh oon AL-tro ko-LO-re",
+      "pt": "有别的颜色吗？",
+      "tts": "C'è un altro colore?"
+    },
+    {
+      "consulta": [
+        "comprar/embrulho"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "molde": "MI-PORTA",
+      "encaixe": "una borsa",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "it-b15-p07",
+      "promptPt": "用 B14 的句型，请他们给你拿一个袋子。现在开口。",
+      "audioKey": "it-b15-t07",
+      "es": "Mi porta una borsa, per favore?",
+      "pinyin": "mee POR-ta OO-na BOR-sa per fa-VO-re",
+      "pt": "请给我拿一个袋子，好吗？",
+      "tts": "Mi porta una borsa, per favore?"
+    },
+    {
+      "consulta": [
+        "comprar/decidir"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "it-b15-p08",
+      "promptPt": "你已经决定不买了。热情地不买离开。现在开口。",
+      "audioKey": "it-b15-t08",
+      "es": "Ci penso, grazie mille.",
+      "pinyin": "chee PEN-so, GRA-tsee-eh MEEL-le",
+      "pt": "我再考虑一下，非常感谢。",
+      "tts": "Ci penso, grazie mille."
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_it_f",
+      "audioKey": "it-b15-s01",
+      "es": "Quanto costa questa? Posso provarla? Posso cambiarla se non va bene?",
+      "pinyin": "KWAN-to KOS-ta KWES-ta. POS-so pro-VAR-la. POS-so kam-bee-AR-la seh non va BEH-ne",
+      "pt": "跟读这三个能完成一次购物的问题。",
+      "tts": "Quanto costa questa? Posso provarla? Posso cambiarla se non va bene?",
+      "molde": "POSSO"
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_en_us_f",
+      "audioKey": "it-b15-n05",
+      "bloco": "recap",
+      "pt": "B15 完成。问候、问价、试穿、问换货——而 ci penso 让你可以不买就离开。"
+    }
+  ],
+  "aprofundar": {
+    "titulo": "四个问题，一张小票",
+    "secoes": [
+      {
+        "titulo": "问候是入场费",
+        "corpo": "在意大利的小店里，buongiorno 不是可有可无的客套，而是你把自己登记为“一个人”而不是“人流”的方式。说完 do solo un'occhiata，你就换来了安心浏览的权利。",
+        "exemplos": [
+          {
+            "es": "Buongiorno, do solo un'occhiata.",
+            "pt": "早上好，我只是随便看看。"
+          },
+          {
+            "es": "Ci penso, grazie mille.",
+            "pt": "我再考虑一下，非常感谢。"
+          }
+        ]
+      },
+      {
+        "titulo": "退换并非理所当然",
+        "corpo": "意大利法律保障有瑕疵商品的补救，但店家没有义务收回只是你改主意的东西。很多店会接受，在一定期限内、凭小票——这正是你为什么要在付款前就问清楚。"
+      },
+      {
+        "titulo": "Ci penso 是一个完整的退场",
+        "corpo": "它的意思是“我再考虑一下”，会被理解为一句礼貌的“不”，却又不算真的说“不”。没人会指望你解释为什么没买。"
+      },
+      {
+        "titulo": "远程购物是另一回事",
+        "corpo": "适用于欧盟网购的十四天无理由退货权，并不延伸到你当面买下的东西。在店里，规则就是店家告诉你的那套，所以你要让他们把话说清楚。"
+      }
+    ]
+  },
+  "slot": "B15",
+  "permissao": "你有权不买就走。Ci penso, grazie 在意大利是结束一段店内对话完整而正常的收尾——没人因为花时间给你拿了两个尺码就理应得到一笔生意。",
+  "permissaoAudioKey": "it-b15-n01",
+  "espelho": "凡是因为觉得走掉太失礼、而买下自己并不想要的东西的人，都懂这一部分卸下的那份压力。这跟意大利语毫无关系——它是“不想让对你友善的人失望”的小店版本。",
+  "fichasCulturais": [
+    {
+      "sinal": "你走进一家小店，老板向你问候并待在附近，而不是让你自己一个人随便看。",
+      "suaLeitura": "我被盯着，或者被逼着买。",
+      "oQueEAli": "在意大利的小店里，问候和这份关注就是服务，顾客也被期待回一句问候。被完全撇在一边，更接近于冷淡而不是尊重。",
+      "oQueVoceFaz": "说 buongiorno 和 do solo un'occhiata。这既回应了问候，又同时为自己讨来了空间。",
+      "oQueMelhora": "你得到好好看的空间，而且如果真想要什么，你已经开启了一段对话，而不是从零冷启动。",
+      "ondeNaoVale": "不适用于大型连锁店或超市，那里的店员确实会让你自己看，对着店里问候一声反倒会显得奇怪。",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "it-b15-n02"
+      ]
+    }
+  ]
+}

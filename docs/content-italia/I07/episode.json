@@ -1,0 +1,266 @@
+{
+  "id": "i07",
+  "nivel": "intermediario",
+  "numero": 25,
+  "parte": "I07",
+  "titulo": "能传到厨房的赞美，以及能让菜被换掉的那句话",
+  "subtitulo": "具体的赞美能把厨师请出来；平静、就事论事的一句话能让菜被换掉",
+  "cena": "这道菜真的很棒，前一道却是凉的，而你大约有十秒钟可以拿这两件事之一做点有用的事。",
+  "moldura": "ganha",
+  "frasePiso": "点出那样东西。一句带名词的赞美会传到厨房；一句带事实的抱怨会被处理。",
+  "decisao": "赞美时点出菜名、抱怨时点出事实，而不是说一句“都很好”然后回家写一条差评",
+  "moldes": [],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "it-i07-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "pt": "两句话，相反的任务，同一条规则：点出那样东西。含糊的赞美死在桌上，含糊的抱怨换来一句道歉而不是解决。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "it-i07-n02",
+      "bloco": "corpo",
+      "pt": "先说赞美。Tutto buono 是礼貌性的噪音。点出菜名，它就变成一条有人真的会去转达的讯息。"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_it_f",
+      "audioKey": "it-i07-t01",
+      "es": "La pasta era buonissima, complimenti al cuoco.",
+      "pinyin": "la PAS-ta EH-ra bwo-NEES-see-ma, kom-plee-MEN-tee al KWO-ko",
+      "pt": "那道意面太棒了，向厨师致意。",
+      "tts": "La pasta era buonissima, complimenti al cuoco."
+    },
+    {
+      "consulta": [
+        "conversa/elogiar",
+        "comer/pedido"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "it-i07-p01",
+      "promptPt": "点名赞美一道菜，把它送到厨房。现在说。",
+      "audioKey": "it-i07-t01",
+      "es": "La pasta era buonissima, complimenti al cuoco.",
+      "pinyin": "la PAS-ta EH-ra bwo-NEES-see-ma, kom-plee-MEN-tee al KWO-ko",
+      "pt": "那道意面太棒了，向厨师致意。"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_it_m",
+      "audioKey": "it-i07-r01",
+      "receptivo": true,
+      "acao": "留在桌前。厨师可能真的会出来，而赞美说到一半就走是这里唯一无礼的举动。",
+      "es": "Glielo dico subito. È mia madre che cucina.",
+      "pt": "我马上告诉她。掌勺的是我母亲。",
+      "tts": "Glielo dico subito. È mia madre che cucina."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "it-i07-n03",
+      "pt": "Buonissimo、ottimo、squisito。这三个里的任何一个都比“很好”更有分量，而且三个都是这里的日常用词。"
+    },
+    {
+      "consulta": [
+        "conversa/elogiar"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "it-i07-p02",
+      "promptPt": "赞美这家店，而不是这道菜。现在说。",
+      "audioKey": "it-i07-t02",
+      "es": "Si mangia benissimo qui.",
+      "pinyin": "see MAN-ja be-NEES-see-mo kwee",
+      "pt": "这里吃得真好。",
+      "tts": "Si mangia benissimo qui."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "it-i07-n04",
+      "bloco": "capsula",
+      "pt": "现在说抱怨。陈述事实，不加形容词，不道歉。Scusi，加上哪里不对，然后就别说了。"
+    },
+    {
+      "consulta": [
+        "reparo/reclamar",
+        "comer/pedido"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "it-i07-p03",
+      "promptPt": "菜端上来是凉的。只说这一句。现在说。",
+      "audioKey": "it-i07-t03",
+      "es": "Scusi, questo è freddo.",
+      "pinyin": "SKOO-zee, KWES-to eh FRED-do",
+      "pt": "不好意思，这个是凉的。",
+      "tts": "Scusi, questo è freddo."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_it_m",
+      "audioKey": "it-i07-r02",
+      "es": "Mi dispiace tantissimo, glielo cambio subito.",
+      "pt": "非常抱歉，我马上给您换。",
+      "tts": "Mi dispiace tantissimo, glielo cambio subito."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "it-i07-n05",
+      "pt": "那句奏效是因为里面有个事实。加上“真可惜”或“太抱歉打扰您了”只会让他们无从下手。"
+    },
+    {
+      "consulta": [
+        "reparo/reclamar"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "it-i07-p04",
+      "promptPt": "完全上错菜了。说出你点的是什么。现在说。",
+      "audioKey": "it-i07-t04",
+      "es": "Scusi, io avevo ordinato il pesce.",
+      "pinyin": "SKOO-zee, EE-o a-VE-vo or-dee-NA-to eel PE-she",
+      "pt": "不好意思，我点的是鱼。",
+      "tts": "Scusi, io avevo ordinato il pesce."
+    },
+    {
+      "consulta": [
+        "reparo/reclamar",
+        "comer/pedido"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "molde": "MI-PORTA",
+      "encaixe": "un altro bicchiere",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "it-i07-p05",
+      "promptPt": "杯子有个缺口。用 B14 的句型再要一个。现在说。",
+      "audioKey": "it-i07-t05",
+      "es": "Mi porta un altro bicchiere, per favore?",
+      "pinyin": "mee POR-ta oon AL-tro beek-kee-EH-re per fa-VO-re",
+      "pt": "能再给我拿一个杯子吗？",
+      "tts": "Mi porta un altro bicchiere, per favore?"
+    },
+    {
+      "consulta": [
+        "reparo/reclamar"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "it-i07-p06",
+      "promptPt": "已经四十分钟了。别指责任何人地问一句。现在说。",
+      "audioKey": "it-i07-t06",
+      "es": "Scusi, manca ancora molto?",
+      "pinyin": "SKOO-zee, MAN-ka an-KO-ra MOL-to",
+      "pt": "不好意思，还要等很久吗？",
+      "tts": "Scusi, manca ancora molto?"
+    },
+    {
+      "consulta": [
+        "conversa/agradecer"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "it-i07-p07",
+      "promptPt": "他们立刻处理了。收个尾，别让气氛尴尬。现在说。",
+      "audioKey": "it-i07-t07",
+      "es": "Grazie, gentilissimo. Nessun problema.",
+      "pinyin": "GRA-tsee-eh jen-tee-LEES-see-mo. nes-SOON pro-BLE-ma",
+      "pt": "谢谢，太客气了。完全没问题。",
+      "tts": "Grazie, gentilissimo. Nessun problema."
+    },
+    {
+      "consulta": [
+        "conversa/elogiar"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "it-i07-p08",
+      "promptPt": "说你会再来——那是最强的赞美。现在说。",
+      "audioKey": "it-i07-t08",
+      "es": "Torniamo di sicuro domani.",
+      "pinyin": "tor-NYA-mo dee see-KOO-ro do-MA-nee",
+      "pt": "我们明天一定再来。",
+      "tts": "Torniamo di sicuro domani."
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_it_f",
+      "audioKey": "it-i07-s01",
+      "es": "La pasta era buonissima, complimenti al cuoco. Scusi, questo è freddo. Grazie, gentilissimo.",
+      "pinyin": "la PAS-ta EH-ra bwo-NEES-see-ma kom-plee-MEN-tee al KWO-ko. SKOO-zee KWES-to eh FRED-do. GRA-tsee-eh jen-tee-LEES-see-mo",
+      "pt": "跟读赞美、抱怨，以及那句让气氛保持温暖的收尾。",
+      "tts": "La pasta era buonissima, complimenti al cuoco. Scusi, questo è freddo. Grazie, gentilissimo.",
+      "molde": "MI-PORTA"
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_en_us_f",
+      "audioKey": "it-i07-n06",
+      "bloco": "recap",
+      "pt": "I07 完成。点出菜名来赞美，点出事实来解决，无论哪种都温暖地收尾。"
+    }
+  ],
+  "aprofundar": {
+    "titulo": "两句话都需要一个名词",
+    "secoes": [
+      {
+        "titulo": "Complimenti al cuoco 会传出去",
+        "corpo": "这是一句固定说法，而且它就照字面办：服务员会去转达。在家庭经营的店里厨师可能会出来，这就是为什么这句赞美值得在你要账单之前说，而不是在离开的路上。",
+        "exemplos": [
+          {
+            "es": "Complimenti al cuoco!",
+            "pt": "向厨师致意！"
+          },
+          {
+            "es": "Si mangia benissimo qui.",
+            "pt": "这里吃得真好。"
+          }
+        ]
+      },
+      {
+        "titulo": "Scusi 加事实",
+        "corpo": "Questo è freddo。Avevo ordinato il pesce。Manca ancora molto。三句抱怨，没有形容词，没有关于你旅途多久的故事。句子越短，处理越快。"
+      },
+      {
+        "titulo": "为什么过度道歉会适得其反",
+        "corpo": "用道歉来给抱怨垫底，会把对方需要的那个事实埋掉。它还传递出你预期会遭到抵触，而这恰恰招来抵触。一句平实、温暖、就事论事的话会被读作正常，而非对抗。"
+      },
+      {
+        "titulo": "最强的赞美是再来",
+        "corpo": "Torniamo domani 胜过任何形容词。那些每周喂饱同一批人的店，是用回头率而不是评价来衡量自己的工作的。"
+      }
+    ]
+  },
+  "slot": "I07",
+  "permissao": "你有权把一道菜退回去。Scusi, questo è freddo 在意大利餐厅里是句正常的话，它被听作信息而非攻击，而“你把凉菜吃了、回酒店写差评”的那个版本对谁都没帮助，包括你自己。",
+  "permissaoAudioKey": "it-i07-n04",
+  "espelho": "任何人只要在家里吃了上错的菜而没吭声、事后在车里抱怨，就已经懂那个反射。这与意大利语无关——而是那个“说出来会让你变得难缠”的信念，可它恰恰完全反了。",
+  "fichasCulturais": [
+    {
+      "sinal": "你赞美了一道菜，服务员消失了，然后带着做这道菜的人回来，那人站在你桌边等着。",
+      "suaLeitura": "我惹出了一场戏，现在得表演一番热情。",
+      "oQueEAli": "在家庭经营的店里，赞美会被照字面传达，而厨师出来就是那个回应。这是一个小小的致谢仪式，不是在审查你有几分真心。",
+      "oQueVoceFaz": "重复那样具体的东西——那道菜、你注意到的那一处——然后说 grazie。二十秒就是一次完整的交流。",
+      "oQueMelhora": "你最终和刚享用其手艺的那个人有了一场真实的对话，而这几乎就是这个模块的全部意义。",
+      "ondeNaoVale": "在有专业厨师团队的大店或忙店里不适用，那里赞美止于服务员，没人会为此离开出菜口。",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "it-i07-n02"
+      ]
+    }
+  ]
+}

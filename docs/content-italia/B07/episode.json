@@ -1,0 +1,286 @@
+{
+  "id": "b07",
+  "nivel": "basico",
+  "numero": 7,
+  "parte": "2C",
+  "titulo": "Dov'è——让你迈开脚步的那个问题",
+  "subtitulo": "找到正规的出租车候车点，说出地址，让车停在你真正想下车的地方",
+  "cena": "你还没走到出口，就有人来招揽你搭车，而那个正规的候车点还在你没找到的某个地方。",
+  "moldura": "ganha",
+  "frasePiso": "用名字问出那个地方，走过去，剩下的交给计价器和地址。",
+  "moldes": [
+    "DOV-E"
+  ],
+  "clique": {
+    "contagem": [
+      "出租车候车点",
+      "出口",
+      "车站"
+    ],
+    "desconto": "没人给你需要去的每个地方配一个不同的问句。一个句型就找到了候车点、站台和出去的路。",
+    "piso": "下一次你落在一个陌生的地方，不会再为一个看不懂的指示牌四处乱转。你会用三个词问最近的人。"
+  },
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "it-b07-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "pt": "从机场到床铺，是同一个决定重复而已：先找到那个正规的东西，再说出你要去的地方。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "it-b07-n02",
+      "bloco": "molde",
+      "pt": "句型是 dov'è，加上那个地方。哪里是——然后是你要去的那个东西。"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_it_f",
+      "audioKey": "it-b07-t01",
+      "es": "Scusi, dov'è la fermata dei taxi?",
+      "pinyin": "SKOO-zee, do-VEH la fer-MA-ta day TAK-see",
+      "pt": "打扰一下，出租车候车点在哪里？",
+      "tts": "Scusi, dov'è la fermata dei taxi?"
+    },
+    {
+      "consulta": [
+        "taxi/autorizado",
+        "transporte/direcao"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "molde": "DOV-E",
+      "encaixe": "la fermata dei taxi",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "it-b07-p01",
+      "promptPt": "从招揽你搭车的人身边走过去，向工作人员问正规的候车点在哪。现在请说。",
+      "audioKey": "it-b07-t01",
+      "es": "Scusi, dov'è la fermata dei taxi?",
+      "pinyin": "SKOO-zee, do-VEH la fer-MA-ta day TAK-see",
+      "pt": "打扰一下，出租车候车点在哪里？"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_it_m",
+      "audioKey": "it-b07-r01",
+      "es": "Uscita cinque, appena fuori.",
+      "pt": "五号出口，就在外面。",
+      "tts": "Uscita cinque, appena fuori.",
+      "receptivo": true,
+      "acao": "先走到五号出口，再去找别的。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "it-b07-n03",
+      "bloco": "corpo",
+      "pt": "同一个句型，换个地方。这一句能把你从任何一栋你转晕了的楼里带出去。"
+    },
+    {
+      "consulta": [
+        "chegar/sair"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "molde": "DOV-E",
+      "encaixe": "l'uscita",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "it-b07-p02",
+      "promptPt": "你彻底找不到出口了。问一下。现在请说。",
+      "audioKey": "it-b07-t02",
+      "es": "Dov'è l'uscita?",
+      "pinyin": "do-VEH loo-SHEE-ta",
+      "pt": "出口在哪里？",
+      "tts": "Dov'è l'uscita?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "it-b07-n04",
+      "pt": "上车后，按你在 B04 里存好的样子报地址——街道、门牌号、城市。一边说一边把屏幕给司机看。"
+    },
+    {
+      "consulta": [
+        "taxi/destino",
+        "dormir/endereco"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "it-b07-p03",
+      "promptPt": "你上了出租车。报出目的地，同时把存好的地址给司机看。现在请说。",
+      "audioKey": "it-b07-t03",
+      "es": "A questo indirizzo, per favore.",
+      "pinyin": "a KWES-to een-dee-REET-tso per fa-VO-re",
+      "pt": "去这个地址，谢谢。",
+      "tts": "A questo indirizzo, per favore."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_it_m",
+      "audioKey": "it-b07-r02",
+      "es": "Va bene, sono venti minuti.",
+      "pt": "好的，二十分钟。",
+      "tts": "Va bene, sono venti minuti."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "it-b07-n05",
+      "bloco": "capsula",
+      "pt": "现在，在开始应付酒店之前，先把这趟车收好尾。让车停在你真能带着行李下来的地方。"
+    },
+    {
+      "consulta": [
+        "taxi/parar"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "it-b07-p04",
+      "promptPt": "酒店门就在眼前。告诉司机这个位置就行。现在请说。",
+      "audioKey": "it-b07-t04",
+      "es": "Qui va bene, grazie.",
+      "pinyin": "kwee va BEH-ne, GRA-tsee-eh",
+      "pt": "这里就行，谢谢。",
+      "tts": "Qui va bene, grazie."
+    },
+    {
+      "consulta": [
+        "taxi/recibo",
+        "pagar/recibo"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "it-b07-p05",
+      "promptPt": "下车前先要一张收据。现在请说。",
+      "audioKey": "it-b07-t05",
+      "es": "Mi può fare la ricevuta?",
+      "pinyin": "mee pwoh FA-re la ree-che-VOO-ta",
+      "pt": "能给我开张收据吗？",
+      "tts": "Mi può fare la ricevuta?",
+      "molde": "MI-PUO",
+      "encaixe": "fare la ricevuta"
+    },
+    {
+      "consulta": [
+        "taxi/preco",
+        "pagar/preco"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "it-b07-p06",
+      "promptPt": "出发前，问一下大概要多少钱。现在请说。",
+      "audioKey": "it-b07-t06",
+      "es": "Quanto costa più o meno?",
+      "pinyin": "KWAN-to KOS-ta pyoo o MEH-no",
+      "pt": "大概要多少钱？",
+      "tts": "Quanto costa più o meno?"
+    },
+    {
+      "consulta": [
+        "transporte/direcao"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "molde": "DOV-E",
+      "encaixe": "la stazione",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "it-b07-p07",
+      "promptPt": "你改主意决定坐火车了。问一下车站在哪。现在请说。",
+      "audioKey": "it-b07-t07",
+      "es": "Dov'è la stazione?",
+      "pinyin": "do-VEH la sta-tsee-O-ne",
+      "pt": "车站在哪里？",
+      "tts": "Dov'è la stazione?"
+    },
+    {
+      "consulta": [
+        "chegar/banheiro"
+      ],
+      "tipo": "responde",
+      "voz": "target_it_f",
+      "molde": "DOV-E",
+      "encaixe": "il bagno",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "it-b07-p08",
+      "promptPt": "同一个句型，也是最小的一个需求。问一下洗手间在哪。现在请说。",
+      "audioKey": "it-b07-t08",
+      "es": "Dov'è il bagno?",
+      "pinyin": "do-VEH eel BA-nyo",
+      "pt": "洗手间在哪里？",
+      "tts": "Dov'è il bagno?"
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_it_f",
+      "audioKey": "it-b07-s01",
+      "es": "Dov'è la fermata dei taxi? A questo indirizzo, per favore. Qui va bene, grazie.",
+      "pinyin": "do-VEH la fer-MA-ta day TAK-see. a KWES-to een-dee-REET-tso per fa-VO-re. kwee va BEH-ne GRA-tsee-eh",
+      "pt": "从候车点到地址再到停车，把这趟车整个跟读一遍。",
+      "tts": "Dov'è la fermata dei taxi? A questo indirizzo, per favore. Qui va bene, grazie.",
+      "molde": "DOV-E"
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_en_us_f",
+      "audioKey": "it-b07-n06",
+      "bloco": "recap",
+      "pt": "B07 完成。Dov'è 能找到候车点、出口、车站和洗手间。地址给屏幕看，qui va bene 结束这趟车。"
+    }
+  ],
+  "aprofundar": {
+    "titulo": "先问地方，再报地址",
+    "secoes": [
+      {
+        "titulo": "Dov'è 是 è 的缩写",
+        "corpo": "Dove è 变成 dov'è，那个重音符号告诉你重音落在末尾。它是你需要掌握的少数几个缩写之一，值得反复念出声，直到成为条件反射。",
+        "exemplos": [
+          {
+            "es": "Dov'è il bagno?",
+            "pt": "洗手间在哪里？"
+          },
+          {
+            "es": "Dov'è l'uscita?",
+            "pt": "出口在哪里？"
+          }
+        ]
+      },
+      {
+        "titulo": "正规候车点值得多花那一分钟",
+        "corpo": "从主动招揽的人身边走过、去找有标识的候车点，这不是疑神疑鬼；这正是让你坐上一辆有计价器、有收据的车的办法。这是第一个小时里唯一值得慢下来的决定。"
+      },
+      {
+        "titulo": "把地址给人看，别念出来",
+        "corpo": "意大利的门牌号跟在街名后面，而城市里的街名又不断重复。把屏幕递过去，就消除了念出声所制造的一整类错误。"
+      },
+      {
+        "titulo": "La ricevuta 为这趟车收尾",
+        "corpo": "下车前要，别下车后要。它记录了这趟车、时间和金额，是车门关上之后唯一能留下的凭证。"
+      }
+    ]
+  },
+  "slot": "B07",
+  "permissao": "你有权多花那一分钟去找正规的候车点，哪怕身后有人在喊你。从主动招揽的人身边走过、转而去问工作人员，这不是无礼——这是到达时唯一值得慢下来的决定。",
+  "permissaoAudioKey": "it-b07-n01",
+  "espelho": "让你在自己家乡机场外对一辆没有标识的车心存戒备的那个本能，正是在这里该信任的那个。渠道优先不是专为意大利保留的额外谨慎——它就是你在自己熟悉的机场早已在用的那条普通规矩。",
+  "fichasCulturais": [
+    {
+      "sinal": "有人在航站楼内、还没到出口的地方走过来，招揽你搭车进城。",
+      "suaLeitura": "挺方便的——而且别人一副热心的样子，拒绝反倒显得没礼貌。",
+      "oQueEAli": "意大利的正规出租车在航站楼外有标识的候车点运营，装计价器，并有义务开具收据。在楼内被招揽，就在这个体系之外，价格是谈出来的，而不是按计价器走的。",
+      "oQueVoceFaz": "脚步不停地说一句 no grazie，然后问工作人员 dov'è la fermata dei taxi——再坐上有标识候车点最前面的那辆车。",
+      "oQueMelhora": "你会以计价器和收据开始这趟车，而不是在你最累的时候被卷进一场你并没选择参与的讲价。",
+      "ondeNaoVale": "这不是理由让你在整趟旅途里都不信任每一位司机，也不适用于你自己提前预订的车——那种情况下，司机在楼内接你，正是约定好的安排。",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "it-b07-n01"
+      ]
+    }
+  ]
+}

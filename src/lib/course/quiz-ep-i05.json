@@ -1,0 +1,92 @@
+{
+  "id": "q-i05",
+  "nivel": "intermediario",
+  "titulo": "测验 — 每个人都会问你的五个问题",
+  "subtitulo": "一段你可以提前准备的台词",
+  "introAudioKey": "it-i05-q-i",
+  "introPt": "一位旅行者留在对话里，还带走了一条推荐。",
+  "cenario": "一个陌生人搭起了话。",
+  "dialogo": [
+    {
+      "audioKey": "it-i05-q01",
+      "voz": "target_it_m",
+      "es": "Di dove siete? È la prima volta in Italia?",
+      "pt": "你们是哪里人？这是第一次来意大利吗？"
+    },
+    {
+      "audioKey": "it-i05-q02",
+      "voz": "target_it_f",
+      "es": "Siamo di Boston. No, la seconda.",
+      "pt": "我们是波士顿人。不，第二次了。"
+    },
+    {
+      "audioKey": "it-i05-q03",
+      "voz": "target_it_f",
+      "es": "Mi piace tantissimo, soprattutto i mercati.",
+      "pt": "我非常喜欢，尤其是那些市场。"
+    },
+    {
+      "audioKey": "it-i05-q04",
+      "voz": "target_it_m",
+      "es": "Allora domani deve andare a quello di Sant'Ambrogio. Meno turisti.",
+      "pt": "那明天你一定要去圣安布罗焦（Sant'Ambrogio）那个。游客更少。"
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "为什么要提前准备好这五个答案？",
+      "opcoes": [
+        "为了听起来流利",
+        "这样你就能把对话花在倾听上，而不是在拼凑句子",
+        "为了避免出错",
+        "因为会被考"
+      ],
+      "correta": 1,
+      "explica": "收获的是注意力，而不是那几个句子。"
+    },
+    {
+      "pergunta": "mi piace tutto（我什么都喜欢）会给对话带来什么？",
+      "opcoes": [
+        "打开话题",
+        "结束它——因为没有什么可以再改进的了",
+        "听起来无礼",
+        "招来一个折扣"
+      ],
+      "correta": 1,
+      "explica": "点出具体一样东西，能换来本地人的那个版本。"
+    },
+    {
+      "pergunta": "回答之后，整个诀窍是什么？",
+      "opcoes": [
+        "谢谢他们",
+        "把同样的问题之一反问回去",
+        "离开",
+        "改用英语"
+      ],
+      "correta": 1,
+      "explica": "意大利人希望你把问题回问回来。"
+    },
+    {
+      "pergunta": "Lei 和 tu 的区别：",
+      "opcoes": [
+        "对谁都用 tu",
+        "对年长者、正在工作的人、或刚认识的人，用 Lei 都稳妥；如果对方切换，你就跟着换",
+        "Lei 只在南方用",
+        "两者完全一样"
+      ],
+      "correta": 1,
+      "explica": "以 lei 开头永远不会错。"
+    },
+    {
+      "pergunta": "你跟丢了话头。你怎么做？",
+      "opcoes": [
+        "点头微笑",
+        "说 mi sono perso，然后请对方重复一遍",
+        "礼貌地离开",
+        "照样硬答"
+      ],
+      "correta": 1,
+      "explica": "带着礼貌的微笑离开，是唯一代价高昂的做法。"
+    }
+  ]
+}

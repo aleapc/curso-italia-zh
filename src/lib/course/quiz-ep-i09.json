@@ -1,0 +1,92 @@
+{
+  "id": "q-i09",
+  "nivel": "intermediario",
+  "titulo": "测验 — 像他们那样度过下午",
+  "subtitulo": "没人写下来的节奏",
+  "introAudioKey": "it-i09-q-i",
+  "introPt": "一位旅行者找到了市场、散步和球赛。",
+  "cenario": "一个上午的市场，和一条傍晚的街道。",
+  "dialogo": [
+    {
+      "audioKey": "it-i09-q01",
+      "voz": "target_it_m",
+      "es": "Dica signora, cosa le do? Guardi che pomodori.",
+      "pt": "女士请说，给您来点什么？您看这些西红柿。"
+    },
+    {
+      "audioKey": "it-i09-q02",
+      "voz": "target_it_f",
+      "es": "Cosa c'è di buono adesso? Me ne dia due etti.",
+      "pt": "现在有什么好的？给我来二百克。"
+    },
+    {
+      "audioKey": "it-i09-q03",
+      "voz": "target_it_f",
+      "es": "Dove si fa la passeggiata la sera?",
+      "pt": "傍晚人们在哪里散步？"
+    },
+    {
+      "audioKey": "it-i09-q04",
+      "voz": "target_it_m",
+      "es": "Sul corso, verso le sette. Prima non c'è nessuno.",
+      "pt": "在主街上，七点左右。在那之前没有人。"
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "Un etto 是：",
+      "opcoes": [
+        "一公斤",
+        "一百克",
+        "一份",
+        "一欧元的量"
+      ],
+      "correta": 1,
+      "explica": "Due etti 的奶酪是一个正常、毫不尴尬的量。"
+    },
+    {
+      "pergunta": "在市场摊位上，谁来挑选货物？",
+      "opcoes": [
+        "你来挑",
+        "摊主——你指一指，让他们来挑",
+        "都可以",
+        "看地区而定"
+      ],
+      "correta": 1,
+      "explica": "自己动手挑水果是个小小的冒犯，却发出很大的信号。"
+    },
+    {
+      "pergunta": "Passeggiata（散步）大约在什么时候开始：",
+      "opcoes": [
+        "四点",
+        "六点或七点",
+        "九点",
+        "晚饭之后"
+      ],
+      "correta": 1,
+      "explica": "在错误的时间去，正是为什么有些游客以为它已经不存在了。"
+    },
+    {
+      "pergunta": "为什么问起本地球队是个好的开场？",
+      "opcoes": [
+        "它显示出你懂行",
+        "答案从来不是中立的，而且总是长篇大论",
+        "意大利人期望你这么做",
+        "它能拿到折扣"
+      ],
+      "correta": 1,
+      "explica": "在自己对足球发表任何看法之前，先问对方。"
+    },
+    {
+      "pergunta": "小镇在四点时门窗紧闭。发生了什么？",
+      "opcoes": [
+        "它今天关门了",
+        "它正处在两个繁忙时段之间",
+        "是假日",
+        "在罢工"
+      ],
+      "correta": 1,
+      "explica": "高峰在傍晚。"
+    }
+  ]
+}
